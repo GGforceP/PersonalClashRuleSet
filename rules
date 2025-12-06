@@ -1,0 +1,62 @@
+proxy-groups:
+  - name: 区域选择
+    type: select
+    proxies:
+      - 香港
+      - 美国
+      - 新加坡
+      - 台湾
+      - 日本
+      - 韩国
+      - 俄罗斯
+      - 土耳其
+      - 英国
+      - 德国
+      - 法国
+      - 奥呆利
+      - 手动切换
+      - 直连
+  - name: 手动选择
+    include-all: true
+    type: select
+  - name: 自动选择
+    type:url-test
+    include-all: true
+    interval: 300
+    tolerance: 100
+  - name: 📲 Telegram
+    type: select
+    proxies:
+      - 区域选择
+      - 香港
+      - 美国
+      - 新加坡
+      - 台湾
+      - 日本
+      - 韩国
+      - 俄罗斯
+      - 土耳其
+      - 英国
+      - 德国
+      - 法国
+      - 奥呆利
+      - 手动切换
+      - 直连
+  - name: 📹 Youtube
+    type: select
+    proxies:
+      - 区域选择
+      - 香港
+      - 美国
+      - 新加坡
+      - 台湾
+      - 日本
+      - 韩国
+      - 俄罗斯
+      - 土耳其
+      - 英国
+      - 德国
+      - 法国
+      - 奥呆利
+      - 手动切换
+      - 直连
