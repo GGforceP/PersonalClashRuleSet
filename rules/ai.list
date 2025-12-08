@@ -1,0 +1,222 @@
+# 常用AI规则
+# 由Microsoft Copilot AI整理提供🤣
+# Microsoft Copilot: https://copilot.microsoft.com
+
+# =========================================
+# OpenAI / ChatGPT
+# =========================================
+
+# 精确域名（DOMAIN）
+DOMAIN,api.openai.com
+DOMAIN,auth0.openai.com
+DOMAIN,chat.openai.com
+DOMAIN,chat.openai.com.cdn.cloudflare.net
+DOMAIN,openaicom.imgix.net
+DOMAIN,platform.openai.com
+
+# 后缀域名（DOMAIN-SUFFIX）
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,openaicom.imgix.net
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,featuregates.org
+
+
+# =========================================
+# Anthropic / Claude
+# =========================================
+
+# 精确域名
+DOMAIN,api.claude.ai
+
+# 后缀域名
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,claudemcpclient.com
+
+# =========================================
+# Google AI / Gemini / Bard
+# =========================================
+
+# 精确域名
+DOMAIN,gemini.google.com
+DOMAIN,bard.google.com
+DOMAIN,ai.google.dev
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,makersuite.google.com
+
+
+# 后缀域名
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,apis.google.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,gemini.google.com
+
+# =========================================
+# Microsoft Copilot / Bing Chat
+# =========================================
+
+# 精确域名
+DOMAIN,copilot.microsoft.com
+DOMAIN,www.bing.com
+
+# 后缀域名
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,edgeservices.bing.com
+DOMAIN-SUFFIX,api.cognitive.microsoft.com
+DOMAIN-SUFFIX,msftauth.net
+DOMAIN-SUFFIX,msauth.net
+DOMAIN-SUFFIX,msauthimages.net
+
+
+# =========================================
+# Midjourney（依赖 Discord）
+# =========================================
+
+# 精确域名
+DOMAIN,midjourney.com
+DOMAIN,cdn.midjourney.com
+
+# 后缀域名
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discordapp.com
+
+
+# =========================================
+# Stable Diffusion / Stability AI
+# =========================================
+
+# 精确域名
+DOMAIN,api.stability.ai
+
+# 后缀域名
+DOMAIN-SUFFIX,stability.ai
+DOMAIN-SUFFIX,stablediffusionapi.com
+DOMAIN-SUFFIX,stablediffusion.fr
+DOMAIN-SUFFIX,replicate.com
+
+
+# =========================================
+# HuggingFace / Gradio
+# =========================================
+
+# 精确域名
+DOMAIN,huggingface.co
+DOMAIN,hf.space
+
+# 后缀域名
+DOMAIN-SUFFIX,huggingface.io
+DOMAIN-SUFFIX,gradio.app
+
+
+# =========================================
+# RunPod / Paperspace（AI 训练）
+# =========================================
+
+# 精确域名
+DOMAIN,api.runpod.io
+
+# 后缀域名
+DOMAIN-SUFFIX,runpod.io
+DOMAIN-SUFFIX,paperspace.com
+DOMAIN-SUFFIX,gradient.run
+
+
+# =========================================
+# Cohere
+# =========================================
+
+# 精确域名
+DOMAIN,api.cohere.ai
+
+# 后缀域名
+DOMAIN-SUFFIX,cohere.ai
+DOMAIN-SUFFIX,cohere.com
+
+
+# =========================================
+# Perplexity AI
+# =========================================
+
+# 精确域名
+DOMAIN,www.perplexity.ai
+
+# 后缀域名
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,pplx.ai
+
+
+# =========================================
+# OpenRouter / Together / DeepInfra（可选）
+# =========================================
+
+# 精确域名
+DOMAIN,api.openrouter.ai
+
+# 后缀域名
+DOMAIN-SUFFIX,openrouter.ai
+DOMAIN-SUFFIX,together.ai
+DOMAIN-SUFFIX,deepinfra.com
+DOMAIN-SUFFIX,api-ninjas.com
+
+# =========================================
+# AI Services - DOMAIN-KEYWORD
+
+# OpenAI / ChatGPT
+DOMAIN-KEYWORD,openai
+DOMAIN-KEYWORD,chatgpt
+
+# Anthropic / Claude
+DOMAIN-KEYWORD,claude
+DOMAIN-KEYWORD,anthropic
+
+# Google AI / Gemini / Bard
+DOMAIN-KEYWORD,gemini
+DOMAIN-KEYWORD,bard
+DOMAIN-KEYWORD,googleai
+DOMAIN-KEYWORD,deepmind
+
+# Microsoft Copilot / Bing Chat
+DOMAIN-KEYWORD,copilot
+DOMAIN-KEYWORD,bingai
+DOMAIN-KEYWORD,cognitive
+
+# Midjourney / AI 绘图
+DOMAIN-KEYWORD,midjourney
+DOMAIN-KEYWORD,mjcdn
+
+# Stable Diffusion / Stability AI
+DOMAIN-KEYWORD,stability
+DOMAIN-KEYWORD,stablediffusion
+DOMAIN-KEYWORD,replicate
+
+# HuggingFace / Gradio
+DOMAIN-KEYWORD,huggingface
+DOMAIN-KEYWORD,gradio
+DOMAIN-KEYWORD,hfspace
+
+# RunPod / Paperspace
+DOMAIN-KEYWORD,runpod
+DOMAIN-KEYWORD,paperspace
+
+# Cohere
+DOMAIN-KEYWORD,cohere
+
+# Perplexity AI
+DOMAIN-KEYWORD,perplexity
+DOMAIN-KEYWORD,pplx
+
+# OpenRouter / Together / DeepInfra
+DOMAIN-KEYWORD,openrouter
+DOMAIN-KEYWORD,together
+DOMAIN-KEYWORD,deepinfra
