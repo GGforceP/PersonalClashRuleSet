@@ -57,6 +57,7 @@ IP-ASN,13335,no-resolve
 # Anthropic / Claude
 # -----------------------------------------
 DOMAIN,api.claude.ai
+DOMAIN,cdn.usefathom.com
 
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
