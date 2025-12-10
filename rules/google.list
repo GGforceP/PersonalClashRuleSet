@@ -1,1 +1,161 @@
+# 由Microsoft Copilot AI整理提供🤣
+# Microsoft Copilot: https://copilot.microsoft.com
+#====================================================
 
+# Google 主域名
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,googleusercontent.cn
+DOMAIN-SUFFIX,google.cn
+DOMAIN-SUFFIX,google.com.hk
+DOMAIN-SUFFIX,google.com.tw
+DOMAIN-SUFFIX,google.com.sg
+DOMAIN-SUFFIX,google.com.jp
+DOMAIN-SUFFIX,google.co
+DOMAIN-SUFFIX,google.co.uk
+DOMAIN-SUFFIX,google.co.kr
+DOMAIN-SUFFIX,google.co.in
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,gvt3.com
+
+# Google 搜索 / 地图 / 翻译 / 学术
+DOMAIN-SUFFIX,scholar.google.com
+DOMAIN-SUFFIX,maps.google.com
+DOMAIN-SUFFIX,translate.google.com
+
+# YouTube
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,youtubeeducation.com
+DOMAIN-SUFFIX,youtubekids.com
+DOMAIN-SUFFIX,youtubei.googleapis.com
+
+# Google Play
+DOMAIN-SUFFIX,play.google.com
+DOMAIN-SUFFIX,play-lh.googleusercontent.com
+DOMAIN-SUFFIX,play.googleapis.com
+DOMAIN-SUFFIX,android.clients.google.com
+DOMAIN-SUFFIX,android.com
+DOMAIN-SUFFIX,androidify.com
+DOMAIN-SUFFIX,googleplay.com
+
+# Firebase
+DOMAIN-SUFFIX,firebaseio.com
+DOMAIN-SUFFIX,firebaseapp.com
+DOMAIN-SUFFIX,firebasestorage.googleapis.com
+DOMAIN-SUFFIX,firestore.googleapis.com
+DOMAIN-SUFFIX,firebase-settings.crashlytics.com
+
+# Google Fonts / Static CDN
+DOMAIN-SUFFIX,fonts.googleapis.com
+DOMAIN-SUFFIX,fonts.gstatic.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,ssl.gstatic.com
+DOMAIN-SUFFIX,www.gstatic.com
+
+# Google FCM 推送
+DOMAIN,mtalk.google.com
+DOMAIN,alt1-mtalk.google.com
+DOMAIN,alt2-mtalk.google.com
+DOMAIN,alt3-mtalk.google.com
+DOMAIN,alt4-mtalk.google.com
+DOMAIN,alt5-mtalk.google.com
+DOMAIN,alt6-mtalk.google.com
+DOMAIN,alt7-mtalk.google.com
+DOMAIN,alt8-mtalk.google.com
+DOMAIN,alt9-mtalk.google.com
+
+# Google Cloud (GCP)
+DOMAIN-SUFFIX,cloud.google.com
+DOMAIN-SUFFIX,cloudfunctions.net
+DOMAIN-SUFFIX,cloudproxy.app
+DOMAIN-SUFFIX,withgoogle.com
+DOMAIN-SUFFIX,googleapis.cn
+DOMAIN-SUFFIX,storage.googleapis.com
+DOMAIN-SUFFIX,compute.googleapis.com
+DOMAIN-SUFFIX,run.app
+DOMAIN-SUFFIX,appspot.com
+DOMAIN-SUFFIX,appspot-preview.com
+
+# Google AI (Gemini / Bard / DeepMind)
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,ai.googleblog.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,google-research.com
+
+# Google 广告 / 分析
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,googletagservices.com
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,googleads.g.doubleclick.net
+DOMAIN-SUFFIX,admob.com
+DOMAIN-SUFFIX,adservice.google.com
+
+# Google Workspace / Gmail / Drive / Docs
+DOMAIN-SUFFIX,drive.google.com
+DOMAIN-SUFFIX,docs.google.com
+DOMAIN-SUFFIX,sheets.google.com
+DOMAIN-SUFFIX,slides.google.com
+DOMAIN-SUFFIX,forms.google.com
+DOMAIN-SUFFIX,workspace.google.com
+DOMAIN-SUFFIX,googlemail.com
+DOMAIN-SUFFIX,gmail.com
+
+# Google IPv4
+IP-CIDR,8.8.4.0/24,no-resolve
+IP-CIDR,8.8.8.0/24,no-resolve
+IP-CIDR,8.34.208.0/20,no-resolve
+IP-CIDR,8.35.192.0/20,no-resolve
+IP-CIDR,23.236.48.0/20,no-resolve
+IP-CIDR,23.251.128.0/20,no-resolve
+IP-CIDR,34.64.0.0/10,no-resolve
+IP-CIDR,34.128.0.0/10,no-resolve
+IP-CIDR,35.184.0.0/13,no-resolve
+IP-CIDR,35.192.0.0/12,no-resolve
+IP-CIDR,64.233.160.0/19,no-resolve
+IP-CIDR,66.102.0.0/20,no-resolve
+IP-CIDR,66.249.64.0/19,no-resolve
+IP-CIDR,72.14.192.0/18,no-resolve
+IP-CIDR,74.125.0.0/16,no-resolve
+IP-CIDR,108.177.8.0/21,no-resolve
+IP-CIDR,142.250.0.0/15,no-resolve
+IP-CIDR,172.217.0.0/16,no-resolve
+IP-CIDR,173.194.0.0/16,no-resolve
+IP-CIDR,209.85.128.0/17,no-resolve
+IP-CIDR,216.58.192.0/19,no-resolve
+IP-CIDR,216.239.32.0/19,no-resolve
+
+# Google IPv6
+IP-CIDR6,2001:4860::/32,no-resolve
+IP-CIDR6,2404:6800::/32,no-resolve
+IP-CIDR6,2607:f8b0::/32,no-resolve
+IP-CIDR6,2800:3f0::/32,no-resolve
+IP-CIDR6,2a00:1450::/32,no-resolve
+IP-CIDR6,2c0f:fb50::/32,no-resolve
+
+# Google ASN（OpenClash 必须使用 IP-ASN）
+IP-ASN,AS15169,no-resolve
+IP-ASN,AS139190,no-resolve
+IP-ASN,AS19527,no-resolve
+IP-ASN,AS36040,no-resolve
+
+# Google 关键词
+DOMAIN-KEYWORD,google
+DOMAIN-KEYWORD,googlesyndication
+DOMAIN-KEYWORD,googleapis
+DOMAIN-KEYWORD,gstatic
+DOMAIN-KEYWORD,youtube
+DOMAIN-KEYWORD,firebase
