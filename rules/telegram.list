@@ -1,1 +1,81 @@
+# 由Microsoft Copilot AI整理提供🤣
+# Microsoft Copilot: https://copilot.microsoft.com
 
+# Telegram 主域名
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,telesco.pe
+DOMAIN-SUFFIX,tg.dev
+DOMAIN-SUFFIX,stel.com
+DOMAIN-SUFFIX,tx.me
+
+# Telegram API / CDN
+DOMAIN-SUFFIX,cdn-telegram.org
+DOMAIN-SUFFIX,cdn-telegram.net
+DOMAIN-SUFFIX,cdn-telegram.com
+DOMAIN-SUFFIX,telegram-cdn.org
+DOMAIN-SUFFIX,telegram-cdn.net
+DOMAIN-SUFFIX,telegram-cdn.com
+
+# Telegram Web
+DOMAIN-SUFFIX,web.telegram.org
+DOMAIN-SUFFIX,webk.telegram.org
+DOMAIN-SUFFIX,webz.telegram.org
+DOMAIN-SUFFIX,webk.app
+
+# Telegram Bot API
+DOMAIN-SUFFIX,api.telegram.org
+DOMAIN-SUFFIX,botapi.telegram.org
+
+# Telegram 反封锁域名
+DOMAIN-SUFFIX,telegram.dog
+DOMAIN-SUFFIX,telegram.space
+DOMAIN-SUFFIX,telegramdownload.com
+
+# Telegram 第三方客户端生态
+DOMAIN-SUFFIX,nekogram.app
+DOMAIN-SUFFIX,nicegram.app
+DOMAIN-SUFFIX,nicegram.io
+DOMAIN-SUFFIX,nicegram.org
+DOMAIN-SUFFIX,unigram.app
+DOMAIN-SUFFIX,imemessenger.app
+DOMAIN-SUFFIX,swiftgram.app
+DOMAIN-SUFFIX,forkgram.org
+DOMAIN-SUFFIX,telega.one
+DOMAIN-SUFFIX,ime.io
+DOMAIN-SUFFIX,mbrx.app
+DOMAIN-SUFFIX,plusmessenger.org
+
+# Telegram 生态服务
+DOMAIN-SUFFIX,graph.org
+DOMAIN-SUFFIX,comments.app
+DOMAIN-SUFFIX,contest.com
+DOMAIN-SUFFIX,quiz.directory
+DOMAIN-SUFFIX,usercontent.dev
+
+# Telegram IPv4
+IP-CIDR,91.108.0.0/16,no-resolve
+IP-CIDR,91.105.192.0/23,no-resolve
+IP-CIDR,109.239.140.0/24,no-resolve
+IP-CIDR,149.154.160.0/20,no-resolve
+IP-CIDR,185.76.151.0/24,no-resolve
+IP-CIDR,95.161.64.0/20,no-resolve
+
+# Telegram IPv6
+IP-CIDR6,2001:67c:4e8::/48,no-resolve
+IP-CIDR6,2001:b28:f23c::/47,no-resolve
+IP-CIDR6,2001:b28:f23d::/48,no-resolve
+IP-CIDR6,2001:b28:f23f::/48,no-resolve
+IP-CIDR6,2a0a:f280::/32,no-resolve
+
+# Telegram ASN（OpenClash 必须使用 IP-ASN）
+IP-ASN,AS62041,no-resolve
+IP-ASN,AS211157,no-resolve
+IP-ASN,AS44907,no-resolve
+
+# Telegram 关键词
+DOMAIN-KEYWORD,telegram
+DOMAIN-KEYWORD,tg
