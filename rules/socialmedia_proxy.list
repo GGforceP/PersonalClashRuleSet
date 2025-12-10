@@ -1,0 +1,502 @@
+# ============================================
+# Social Media Proxy List（social-proxy.list）
+# 由Microsoft Copilot AI整理提供🤣
+# Microsoft Copilot: https://copilot.microsoft.com
+# ============================================
+
+
+# ============================================
+# Facebook（官方域名）
+# ============================================
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbcdn.com
+DOMAIN-SUFFIX,facebook.net
+DOMAIN-SUFFIX,fb.me
+DOMAIN-SUFFIX,fb.gg
+DOMAIN-SUFFIX,fb.watch
+DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,metaverse.com
+DOMAIN-SUFFIX,oculus.com
+DOMAIN-SUFFIX,workplace.com
+DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+
+
+# ============================================
+# Facebook API / 静态资源
+# ============================================
+DOMAIN-SUFFIX,graph.facebook.com
+DOMAIN-SUFFIX,api.facebook.com
+DOMAIN-SUFFIX,staticxx.facebook.com
+DOMAIN-SUFFIX,static.facebook.com
+DOMAIN-SUFFIX,connect.facebook.net
+DOMAIN-SUFFIX,edge-chat.facebook.com
+
+
+# ============================================
+# Facebook / Meta CDN（Akamai / Fastly / 自家 CDN）
+# ============================================
+
+# Akamai CDN（常见）
+DOMAIN,fbcdn-a.akamaihd.net
+DOMAIN,fbcdn-video-a.akamaihd.net
+DOMAIN,fbcdn-profile-a.akamaihd.net
+DOMAIN,fbcdn-dragon-a.akamaihd.net
+DOMAIN,fbcdn-sphotos-a.akamaihd.net
+
+# Akamai 子域（Meta 常用）
+DOMAIN-SUFFIX,akamaihd.net
+DOMAIN-SUFFIX,akamaihd-staging.net
+
+# Meta 自家 CDN
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbcdn.com
+DOMAIN-SUFFIX,fbcdn-photos-e-a.akamaihd.net
+DOMAIN-SUFFIX,fbcdn-photos-f-a.akamaihd.net
+
+# Instagram / Threads 共用 CDN
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,igcdn.com
+DOMAIN-SUFFIX,cdnthreads.com
+
+# Facebook 视频 CDN
+DOMAIN-SUFFIX,video.xx.fbcdn.net
+DOMAIN-SUFFIX,video.fdel1-1.fna.fbcdn.net
+DOMAIN-SUFFIX,video.fdel2-1.fna.fbcdn.net
+
+# Facebook 图片 CDN
+DOMAIN-SUFFIX,scontent.xx.fbcdn.net
+DOMAIN-SUFFIX,scontent.fdel1-1.fna.fbcdn.net
+DOMAIN-SUFFIX,scontent.fdel2-1.fna.fbcdn.net
+
+# WhatsApp / Messenger CDN
+DOMAIN-SUFFIX,whatsapp-cdn-shv-01.fbcdn.net
+DOMAIN-SUFFIX,whatsapp-cdn-shv-02.fbcdn.net
+
+
+# ============================================
+# Facebook Business
+# ============================================
+DOMAIN-SUFFIX,facebookmail.com
+DOMAIN-SUFFIX,facebookbrand.com
+DOMAIN-SUFFIX,facebookbusiness.com
+DOMAIN-SUFFIX,facebookenterprise.com
+DOMAIN-SUFFIX,facebookrecruiting.com
+DOMAIN-SUFFIX,fbworkmail.com
+DOMAIN-SUFFIX,fbwork.com
+
+
+# ============================================
+# Messenger
+# ============================================
+DOMAIN-SUFFIX,m.me
+DOMAIN-SUFFIX,msngr.com
+DOMAIN-SUFFIX,fbmessenger.com
+
+
+# ============================================
+# WhatsApp
+# ============================================
+DOMAIN-SUFFIX,wa.me
+DOMAIN-SUFFIX,whatsapp.biz
+DOMAIN-SUFFIX,whatsapp.info
+DOMAIN-SUFFIX,whatsapp.tv
+
+
+# ============================================
+# Facebook typo（非色情）
+# ============================================
+DOMAIN-SUFFIX,facebok.com
+DOMAIN-SUFFIX,faceboik.com
+DOMAIN-SUFFIX,facebokk.com
+DOMAIN-SUFFIX,faceboox.com
+DOMAIN-SUFFIX,facebool.com
+DOMAIN-SUFFIX,facebooc.com
+DOMAIN-SUFFIX,faceb00k.com
+DOMAIN-SUFFIX,facebo0k.com
+DOMAIN-SUFFIX,facebock.com
+DOMAIN-SUFFIX,faceboik.net
+DOMAIN-SUFFIX,facebokk.net
+DOMAIN-SUFFIX,facebooc.net
+DOMAIN-SUFFIX,faceb00k.net
+DOMAIN-SUFFIX,facebo0k.net
+DOMAIN-SUFFIX,facebok.net
+DOMAIN-SUFFIX,facebokk.org
+DOMAIN-SUFFIX,faceboik.org
+DOMAIN-SUFFIX,facebooc.org
+DOMAIN-SUFFIX,faceb00k.org
+DOMAIN-SUFFIX,facebo0k.org
+
+
+# ============================================
+# Instagram（官方域名）
+# ============================================
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,instagr.am
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,igcdn.com
+DOMAIN-SUFFIX,ig.me
+
+
+# ============================================
+# Instagram API / Graph API
+# ============================================
+DOMAIN-SUFFIX,i.instagram.com
+DOMAIN-SUFFIX,graph.instagram.com
+DOMAIN-SUFFIX,bgraph.instagram.com
+DOMAIN-SUFFIX,api.instagram.com
+
+
+# ============================================
+# Instagram CDN（Meta 自家 CDN）
+# ============================================
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,igcdn.com
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbcdn.com
+
+
+# ============================================
+# Instagram Akamai CDN（参考 666OS 风格）
+# ============================================
+DOMAIN-SUFFIX,instagram.fna.fbcdn.net
+DOMAIN-SUFFIX,scontent.cdninstagram.com
+DOMAIN-SUFFIX,scontent.xx.fbcdn.net
+DOMAIN-SUFFIX,scontent.fdel1-1.fna.fbcdn.net
+DOMAIN-SUFFIX,scontent.fdel2-1.fna.fbcdn.net
+DOMAIN-SUFFIX,video.xx.fbcdn.net
+DOMAIN-SUFFIX,video.fdel1-1.fna.fbcdn.net
+DOMAIN-SUFFIX,video.fdel2-1.fna.fbcdn.net
+
+
+# ============================================
+# Instagram 静态资源
+# ============================================
+DOMAIN-SUFFIX,static.cdninstagram.com
+DOMAIN-SUFFIX,static.instagram.com
+DOMAIN-SUFFIX,staticxx.facebook.com
+
+
+# ============================================
+# Threads（Meta）
+# ============================================
+DOMAIN-SUFFIX,threads.net
+DOMAIN-SUFFIX,threads.com
+DOMAIN-SUFFIX,cdnthreads.com
+DOMAIN-SUFFIX,graph.threads.net
+
+
+# ============================================
+# Instagram typo（非色情）
+# ============================================
+DOMAIN-SUFFIX,instgram.com
+DOMAIN-SUFFIX,instagran.com
+DOMAIN-SUFFIX,instagrm.com
+DOMAIN-SUFFIX,instagaram.com
+DOMAIN-SUFFIX,instagrann.com
+DOMAIN-SUFFIX,instagrram.com
+DOMAIN-SUFFIX,instagtram.com
+DOMAIN-SUFFIX,instagrma.com
+DOMAIN-SUFFIX,instagrame.com
+DOMAIN-SUFFIX,instagarm.com
+
+
+# ============================================
+# Instagram 第三方工具（下载 / 分析）
+# ============================================
+DOMAIN-SUFFIX,igram.io
+DOMAIN-SUFFIX,ingramer.com
+DOMAIN-SUFFIX,instasave.io
+DOMAIN-SUFFIX,instadp.io
+DOMAIN-SUFFIX,instafollowers.co
+DOMAIN-SUFFIX,instafollowers.io
+DOMAIN-SUFFIX,instaview.me
+DOMAIN-SUFFIX,insta-stories.online
+DOMAIN-SUFFIX,storiesig.net
+DOMAIN-SUFFIX,storysaver.net
+DOMAIN-SUFFIX,instaoffline.net
+DOMAIN-SUFFIX,insta-downloader.net
+DOMAIN-SUFFIX,insta-downloader.co
+DOMAIN-SUFFIX,insta-downloader.org
+
+
+# ============================================
+# Instagram Business / Marketing
+# ============================================
+DOMAIN-SUFFIX,instagram-brand.com
+DOMAIN-SUFFIX,instagram-business.com
+DOMAIN-SUFFIX,instagram-press.com
+DOMAIN-SUFFIX,igads.io
+DOMAIN-SUFFIX,instaads.net
+DOMAIN-SUFFIX,instaads.io
+DOMAIN-SUFFIX,instaads.co
+
+
+# ============================================
+# Instagram 兜底关键字
+# ============================================
+DOMAIN-KEYWORD,instagram
+DOMAIN-KEYWORD,insta
+DOMAIN-KEYWORD,igcdn
+
+
+# ============================================
+# TikTok（官方域名）
+# ============================================
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,tiktokapi.com
+DOMAIN-SUFFIX,tiktokd.net
+
+# ByteDance（国际版）
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,ibyteimg.com
+DOMAIN-SUFFIX,bytefcdn-oversea.com
+
+# TikTok CDN（Akamai / Fastly / CloudFront）
+DOMAIN-SUFFIX,ttwstatic.com
+DOMAIN-SUFFIX,ttlivecdn.com
+DOMAIN-SUFFIX,ttlivecdn-us.com
+DOMAIN-SUFFIX,ttlivecdn-eu.com
+DOMAIN-SUFFIX,ttlivecdn-asia.com
+DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,fastly.net
+
+# TikTok 静态资源
+DOMAIN-SUFFIX,p16-tiktokcdn-com.akamaized.net
+DOMAIN-SUFFIX,p19-tiktokcdn-com.akamaized.net
+DOMAIN-SUFFIX,p21-tiktokcdn-com.akamaized.net
+
+# TikTok 业务域名
+DOMAIN-SUFFIX,tiktokshop.com
+DOMAIN-SUFFIX,tiktokforbusiness.com
+DOMAIN-SUFFIX,tiktokads.com
+
+# TikTok 兜底关键字
+DOMAIN-KEYWORD,tiktok
+DOMAIN-KEYWORD,byted
+DOMAIN-KEYWORD,byteimg
+DOMAIN-KEYWORD,ibyted
+
+
+# ============================================
+# Twitter / X（官方域名）
+# ============================================
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,t.co
+
+# Twitter CDN / 静态资源
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,abs.twimg.com
+DOMAIN-SUFFIX,video.twimg.com
+DOMAIN-SUFFIX,pbs.twimg.com
+DOMAIN-SUFFIX,ton.twimg.com
+
+# Twitter API
+DOMAIN-SUFFIX,api.twitter.com
+DOMAIN-SUFFIX,api.x.com
+
+# Twitter 业务域名
+DOMAIN-SUFFIX,twitterinc.com
+DOMAIN-SUFFIX,twitter.biz
+DOMAIN-SUFFIX,twitter.jp
+
+# Twitter 工具 / 分析
+DOMAIN-SUFFIX,tweetdeck.com
+DOMAIN-SUFFIX,tweetdeck.twitter.com
+DOMAIN-SUFFIX,tweetdeck.x.com
+
+# Twitter 兜底关键字
+DOMAIN-KEYWORD,twimg
+DOMAIN-KEYWORD,twitter
+DOMAIN-KEYWORD,xcdn
+
+
+# ============================================
+# Telegram（官方域名）
+# ============================================
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
+
+# Telegram CDN（Akamai / Cloudflare）
+DOMAIN-SUFFIX,cdn-telegram.org
+DOMAIN-SUFFIX,cdn-telegram.net
+DOMAIN-SUFFIX,cdn-telegram.com
+DOMAIN-SUFFIX,telegram-cdn.org
+DOMAIN-SUFFIX,telegram-cdn.net
+DOMAIN-SUFFIX,telegram-cdn.com
+
+# Telegram API
+DOMAIN-SUFFIX,api.telegram.org
+
+# Telegram 静态资源
+DOMAIN-SUFFIX,static.telegram.org
+DOMAIN-SUFFIX,static-cdn.telegram.org
+
+# Telegram 业务域名
+DOMAIN-SUFFIX,telegram.dog
+DOMAIN-SUFFIX,telegram.space
+
+# Telegram 兜底关键字
+DOMAIN-KEYWORD,telegram
+DOMAIN-KEYWORD,tgcdn
+DOMAIN-KEYWORD,tme
+
+
+# ============================================
+# YouTube（官方域名）
+# ============================================
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,yt.be
+
+# YouTube 静态资源
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,i.ytimg.com
+DOMAIN-SUFFIX,s.ytimg.com
+
+# YouTube 视频 CDN（Googlevideo）
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,redirector.googlevideo.com
+DOMAIN-SUFFIX,manifest.googlevideo.com
+
+# YouTube Akamai / Fastly / CloudFront
+DOMAIN-SUFFIX,yt3.ggpht.com
+DOMAIN-SUFFIX,yt4.ggpht.com
+DOMAIN-SUFFIX,yt5.ggpht.com
+DOMAIN-SUFFIX,ggpht.com
+
+# YouTube API
+DOMAIN-SUFFIX,youtubei.googleapis.com
+DOMAIN-SUFFIX,youtube.googleapis.com
+
+# YouTube 业务域名
+DOMAIN-SUFFIX,youtubeeducation.com
+DOMAIN-SUFFIX,youtubekids.com
+DOMAIN-SUFFIX,youtubegaming.com
+DOMAIN-SUFFIX,youtube-nocookie.com
+
+# YouTube 兜底关键字
+DOMAIN-KEYWORD,youtube
+DOMAIN-KEYWORD,googlevideo
+DOMAIN-KEYWORD,ytimg
+DOMAIN-KEYWORD,ggpht
+
+
+# ============================================
+# Reddit
+# ============================================
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redd.it
+DOMAIN-SUFFIX,redditmedia.com
+DOMAIN-SUFFIX,redditstatic.com
+
+
+# ============================================
+# Snapchat
+# ============================================
+DOMAIN-SUFFIX,snapchat.com
+DOMAIN-SUFFIX,snapcdn.com
+DOMAIN-SUFFIX,snapkit.com
+
+
+# ============================================
+# Pinterest
+# ============================================
+DOMAIN-SUFFIX,pinterest.com
+DOMAIN-SUFFIX,pinimg.com
+
+
+# ============================================
+# LinkedIn
+# ============================================
+DOMAIN-SUFFIX,linkedin.com
+DOMAIN-SUFFIX,licdn.com
+
+
+# ============================================
+# VK（俄罗斯）
+# ============================================
+DOMAIN-SUFFIX,vk.com
+DOMAIN-SUFFIX,vkuseraudio.net
+DOMAIN-SUFFIX,vkuservideo.net
+
+
+# ============================================
+# LINE（日本）
+# ============================================
+DOMAIN-SUFFIX,line.me
+DOMAIN-SUFFIX,line-apps.com
+DOMAIN-SUFFIX,line-scdn.net
+
+
+# ============================================
+# OK.ru（俄语社交）
+# ============================================
+DOMAIN-SUFFIX,ok.ru
+DOMAIN-SUFFIX,odnoklassniki.ru
+
+
+# ============================================
+# Mastodon / Misskey / Fediverse
+# ============================================
+DOMAIN-SUFFIX,mastodon.social
+DOMAIN-SUFFIX,misskey.io
+DOMAIN-SUFFIX,activitypub.dev
+
+
+# ============================================
+# Patreon
+# ============================================
+DOMAIN-SUFFIX,patreon.com
+
+
+# ============================================
+# OnlyFans（官方，不含色情）
+# ============================================
+DOMAIN-SUFFIX,onlyfans.com
+
+
+# ============================================
+# Vimeo / SoundCloud / Clubhouse
+# ============================================
+DOMAIN-SUFFIX,vimeo.com
+DOMAIN-SUFFIX,soundcloud.com
+DOMAIN-SUFFIX,clubhouse.com
+
+
+# ============================================
+# 兜底关键词（社交平台）
+# ============================================
+DOMAIN-KEYWORD,facebook
+DOMAIN-KEYWORD,fb
+DOMAIN-KEYWORD,tiktok
+DOMAIN-KEYWORD,threads
+DOMAIN-KEYWORD,instgram
+DOMAIN-KEYWORD,whatsapp
+DOMAIN-KEYWORD,twitter
+DOMAIN-KEYWORD,telegram
+
+
+# ============================================
+# IP 段（非色情）
+# ============================================
+IP-CIDR,31.13.0.0/16,no-resolve
+IP-CIDR,66.220.144.0/20,no-resolve
+IP-CIDR,69.63.176.0/20,no-resolve
+IP-CIDR,69.171.224.0/19,no-resolve
+IP-CIDR,74.119.76.0/22,no-resolve
+IP-CIDR,173.252.64.0/18,no-resolve
+IP-CIDR,157.240.0.0/16,no-resolve
+IP-CIDR,185.60.216.0/22,no-resolve
+IP-CIDR,204.15.20.0/22,no-resolve
