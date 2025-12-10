@@ -1,0 +1,135 @@
+# ============================================
+# Download Direct List
+# 由Microsoft Copilot AI整理提供🤣
+# Microsoft Copilot: https://copilot.microsoft.com
+# ============================================
+
+# -------------------------
+# 下载协议（必须直连）
+# -------------------------
+PROTOCOL,BitTorrent
+PROTOCOL,Thunder
+PROTOCOL,Flashget
+PROTOCOL,QQDownload
+
+# -------------------------
+# 下载常用端口（必须直连）
+# -------------------------
+# BT / DHT / PEX / uTP
+DST-PORT,6881
+DST-PORT,6882
+DST-PORT,6883
+DST-PORT,6884
+DST-PORT,6885
+DST-PORT,6886
+DST-PORT,6887
+DST-PORT,6888
+DST-PORT,6889
+DST-PORT,6969
+DST-PORT,51413
+DST-PORT,51414
+DST-PORT,57321
+DST-PORT,16881
+
+# eD2k / eMule
+DST-PORT,4662
+DST-PORT,4672
+
+# FTP
+DST-PORT,20
+DST-PORT,21
+
+# -------------------------
+# BT / PT Tracker（必须直连）
+# -------------------------
+DOMAIN-SUFFIX,tracker
+DOMAIN-KEYWORD,announce
+DOMAIN-KEYWORD,peer
+DOMAIN-KEYWORD,seed
+DOMAIN-KEYWORD,leech
+
+# 常见公共 Tracker
+DOMAIN-SUFFIX,tracker.opentrackr.org
+DOMAIN-SUFFIX,tracker.openbittorrent.com
+DOMAIN-SUFFIX,tracker.leechers-paradise.org
+DOMAIN-SUFFIX,tracker.internetwarriors.net
+DOMAIN-SUFFIX,tracker.torrent.eu.org
+DOMAIN-SUFFIX,tracker.zer0day.to
+DOMAIN-SUFFIX,tracker.moeking.me
+DOMAIN-SUFFIX,tracker1.bt.moack.co.kr
+DOMAIN-SUFFIX,tracker2.bt.moack.co.kr
+DOMAIN-SUFFIX,tracker3.bt.moack.co.kr
+DOMAIN-SUFFIX,tracker4.bt.moack.co.kr
+
+# -------------------------
+# PT 站点（必须直连）
+# -------------------------
+DOMAIN-SUFFIX,hdchina.org
+DOMAIN-SUFFIX,hdhome.org
+DOMAIN-SUFFIX,hdbits.org
+DOMAIN-SUFFIX,ourbits.club
+DOMAIN-SUFFIX,m-team.cc
+DOMAIN-SUFFIX,pttime.org
+DOMAIN-SUFFIX,hdsky.me
+DOMAIN-SUFFIX,leaguehd.com
+DOMAIN-SUFFIX,pt.sjtu.edu.cn
+DOMAIN-SUFFIX,tjupt.org
+DOMAIN-SUFFIX,nanyangpt.com
+DOMAIN-SUFFIX,byr.pt
+DOMAIN-SUFFIX,nypt.net
+DOMAIN-SUFFIX,pt.btschool.club
+
+# -------------------------
+# 迅雷（Thunder）相关域名
+# -------------------------
+DOMAIN-SUFFIX,xunlei.com
+DOMAIN-SUFFIX,sandai.net
+DOMAIN-SUFFIX,thunderurl.com
+DOMAIN-SUFFIX,xlpan.com
+DOMAIN-SUFFIX,xl7.xunlei.com
+DOMAIN-SUFFIX,static-xl9-ssl.xunlei.com
+
+# -------------------------
+# 下载工具（qBittorrent / Transmission / Aria2）
+# -------------------------
+# qBittorrent
+DOMAIN-SUFFIX,qbittorrent.org
+
+# Transmission
+DOMAIN-SUFFIX,transmissionbt.com
+
+# Aria2
+DOMAIN-SUFFIX,aria2.github.io
+DOMAIN-SUFFIX,aria2c.com
+
+# 其他下载工具
+DOMAIN-SUFFIX,utorrent.com
+DOMAIN-SUFFIX,bittorrent.com
+DOMAIN-SUFFIX,deluge-torrent.org
+DOMAIN-SUFFIX,bitcomet.com
+DOMAIN-SUFFIX,bitlord.com
+DOMAIN-SUFFIX,free-download-manager.org
+
+# -------------------------
+# 下载加速 / 直链解析服务
+# -------------------------
+DOMAIN-SUFFIX,real-debrid.com
+DOMAIN-SUFFIX,alldebrid.com
+DOMAIN-SUFFIX,premiumize.me
+DOMAIN-SUFFIX,debrid-link.com
+
+# -------------------------
+# 下载相关关键词（兜底）
+# -------------------------
+DOMAIN-KEYWORD,bt
+DOMAIN-KEYWORD,torrent
+DOMAIN-KEYWORD,download
+DOMAIN-KEYWORD,seed
+DOMAIN-KEYWORD,peer
+DOMAIN-KEYWORD,announce
+DOMAIN-KEYWORD,magnet
+DOMAIN-KEYWORD,tracker
+
+# ============================================
+# END
+# ============================================
