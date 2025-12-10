@@ -1,0 +1,153 @@
+# ============================================
+# Emby / Jellyfin / Plex 全面规则（emby.list）
+# 由Microsoft Copilot AI整理提供🤣
+# Microsoft Copilot: https://copilot.microsoft.com
+# ============================================
+
+# -------------------------
+# Emby 官方域名
+# -------------------------
+DOMAIN-SUFFIX,emby.media
+DOMAIN-SUFFIX,embyapp.com
+DOMAIN-SUFFIX,embyserver.com
+
+# -------------------------
+# Jellyfin 官方域名（兼容）
+# -------------------------
+DOMAIN-SUFFIX,jellyfin.org
+DOMAIN-SUFFIX,jellyfin.xeton.dev
+DOMAIN-SUFFIX,servers.xeton.dev
+
+# -------------------------
+# Plex 官方域名（可选）
+# -------------------------
+DOMAIN-SUFFIX,plex.tv
+DOMAIN-SUFFIX,plex.direct
+
+# -------------------------
+# Emby 公益服 / 商业服
+# -------------------------
+DOMAIN,emby.jingzhe.pro
+DOMAIN,emby.nebula-media.org
+DOMAIN,emby-cdn1.nebula-media.org
+DOMAIN,emby.yomo.lol
+DOMAIN,emby.revival.baby
+DOMAIN,emby.my
+
+DOMAIN,pub1.emby.wtf
+DOMAIN,pub2.emby.wtf
+DOMAIN,pub3.emby.wtf
+DOMAIN,pub1.term.wtf
+DOMAIN,pub2.term.wtf
+DOMAIN,pub3.term.wtf
+DOMAIN,pub1cf.emby.wtf
+DOMAIN,pub2cf.emby.wtf
+DOMAIN,pub3cf.emby.wtf
+DOMAIN,pub1back.emby.wtf
+DOMAIN,pub2back.emby.wtf
+DOMAIN,pub3back.emby.wtf
+
+# -------------------------
+# Emby 公益服（扩展补充）
+# -------------------------
+DOMAIN-SUFFIX,embyplus.org
+DOMAIN-SUFFIX,embyplus.club
+DOMAIN-SUFFIX,embymv.me
+DOMAIN-SUFFIX,embymv.link
+DOMAIN-SUFFIX,embymv.tk
+DOMAIN-SUFFIX,emby77.org
+DOMAIN-SUFFIX,emby77.cf
+DOMAIN-SUFFIX,embyclub.com
+DOMAIN-SUFFIX,embyserver.ga
+DOMAIN-SUFFIX,embytv.cf
+DOMAIN-SUFFIX,loseremby.org
+DOMAIN-SUFFIX,mjjemby.org
+DOMAIN-SUFFIX,gfwemby.org
+DOMAIN-SUFFIX,acemby.org
+DOMAIN-SUFFIX,lyrebirdemby.com
+DOMAIN-SUFFIX,magpie.cyou
+DOMAIN-SUFFIX,magpiecdn.tech
+DOMAIN-SUFFIX,nebula-media.org
+DOMAIN-SUFFIX,starcat.eu.org
+DOMAIN-SUFFIX,staryuki.com
+DOMAIN-SUFFIX,carryz.net
+DOMAIN-SUFFIX,goodisp.org
+DOMAIN-SUFFIX,hovervan.org
+DOMAIN-SUFFIX,ouonet.org
+DOMAIN-SUFFIX,cinema.facmata.net
+DOMAIN-SUFFIX,shrekmedia.org
+DOMAIN-SUFFIX,reddust.link
+
+# -------------------------
+# Emby 反代 / CDN（Cloudflare / G-Core / OVH / Oracle）
+# -------------------------
+DOMAIN-SUFFIX,cf.sfcj.org
+DOMAIN-SUFFIX,cf-cdn1.nebula-media.org
+DOMAIN-SUFFIX,cf.odysseyplus.site
+
+# Cloudflare NS（常见 Emby 反代）
+DOMAIN-SUFFIX,cf-ns.com
+DOMAIN-SUFFIX,cf-ns.net
+DOMAIN-SUFFIX,cf-ns.tech
+DOMAIN-SUFFIX,cf-ns.cloud
+DOMAIN-SUFFIX,cf-ns.us
+DOMAIN-SUFFIX,cf-ns.uk
+DOMAIN-SUFFIX,cf-ns.jp
+DOMAIN-SUFFIX,cf-ns.sg
+DOMAIN-SUFFIX,cf-ns.au
+DOMAIN-SUFFIX,cf-ns.de
+DOMAIN-SUFFIX,cf-ns.fr
+DOMAIN-SUFFIX,cf-ns.it
+DOMAIN-SUFFIX,cf-ns.es
+DOMAIN-SUFFIX,cf-ns.se
+DOMAIN-SUFFIX,cf-ns.no
+DOMAIN-SUFFIX,cf-ns.fi
+DOMAIN-SUFFIX,cf-ns.pl
+DOMAIN-SUFFIX,cf-ns.br
+DOMAIN-SUFFIX,cf-ns.mx
+DOMAIN-SUFFIX,cf-ns.ru
+
+# -------------------------
+# Emby 相关 API / 服务
+# -------------------------
+DOMAIN-SUFFIX,trakt.tv
+DOMAIN,api.trakt.tv
+
+# -------------------------
+# Emby 相关资源站 / 影视镜像
+# -------------------------
+DOMAIN-SUFFIX,bangumi.ca
+DOMAIN-SUFFIX,pilipili.club
+DOMAIN-SUFFIX,pilipiliultra.com
+DOMAIN-SUFFIX,pilipiliultra.top
+DOMAIN-SUFFIX,nivod4.tv
+DOMAIN-SUFFIX,nanflix.net
+DOMAIN-SUFFIX,notnetflix.cos.cat
+DOMAIN-SUFFIX,stream.ntrrr.top
+DOMAIN-SUFFIX,stream.synn.cc
+
+# -------------------------
+# Emby 相关工具 / 面板
+# -------------------------
+DOMAIN-SUFFIX,xeton.dev
+DOMAIN-SUFFIX,worldline.space
+DOMAIN-SUFFIX,studyfun.live
+
+# -------------------------
+# Emby 关键词（兜底）
+# -------------------------
+DOMAIN-KEYWORD,emby
+DOMAIN-KEYWORD,emby.wtf
+DOMAIN-KEYWORD,lilyemby
+
+# -------------------------
+# Emby 相关 IP
+# -------------------------
+IP-CIDR,152.53.67.239/32,no-resolve
+IP-CIDR,168.119.137.205/32,no-resolve
+IP-CIDR,188.172.228.49/32,no-resolve
+IP-CIDR,195.128.100.146/32,no-resolve
+IP-CIDR,195.128.102.208/32,no-resolve
+IP-CIDR,195.201.86.86/32,no-resolve
+IP-CIDR,202.61.247.129/32,no-resolve
+IP-CIDR,202.61.255.248/32,no-resolve
