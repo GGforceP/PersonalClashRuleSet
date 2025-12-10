@@ -3,220 +3,287 @@
 # Microsoft Copilot: https://copilot.microsoft.com
 
 # =========================================
-# OpenAI / ChatGPT
+# AI Services Rule List (DOMAIN + SUFFIX + KEYWORD + IP-CIDR + IP-ASN)
 # =========================================
 
-# 精确域名（DOMAIN）
+# -----------------------------------------
+# OpenAI / ChatGPT
+# -----------------------------------------
+DOMAIN,api.openai.com
+DOMAIN,chat.openai.com
+DOMAIN,platform.openai.com
 DOMAIN,api.openai.com
 DOMAIN,auth0.openai.com
-DOMAIN,chat.openai.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
+DOMAIN,openaiapi-site.azureedge.net
 DOMAIN,openaicom.imgix.net
-DOMAIN,platform.openai.com
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
 
-# 后缀域名（DOMAIN-SUFFIX）
 DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
-DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-DOMAIN-SUFFIX,openaicom.imgix.net
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,azureedge.net
+DOMAIN-SUFFIX,openaicom.imgix.net
+DOMAIN-SUFFIX,blob.core.windows.net
+DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
 
+DOMAIN-KEYWORD,openai
+DOMAIN-KEYWORD,chatgpt
+DOMAIN-KEYWORD,openai-proxy
+DOMAIN-KEYWORD,azureedge
+DOMAIN-KEYWORD,openaiapi
+DOMAIN-KEYWORD,openaicom
 
-# =========================================
+# Cloudflare / Azure (OpenAI)
+IP-CIDR,104.16.0.0/12,no-resolve
+IP-CIDR,172.64.0.0/13,no-resolve
+IP-CIDR,141.101.64.0/18,no-resolve
+IP-CIDR,13.107.0.0/16,no-resolve
+IP-CIDR,20.33.0.0/16,no-resolve
+IP-CIDR,20.38.0.0/16,no-resolve
+IP-CIDR,20.150.0.0/15,no-resolve
+
+IP-ASN,209242,no-resolve
+IP-ASN,395747,no-resolve
+IP-ASN,20940,no-resolve
+IP-ASN,20473,no-resolve
+IP-ASN,13335,no-resolve
+# -----------------------------------------
 # Anthropic / Claude
-# =========================================
-
-# 精确域名
+# -----------------------------------------
 DOMAIN,api.claude.ai
 
-# 后缀域名
 DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claudemcpclient.com
 
-# =========================================
-# Google AI / Gemini / Bard
-# =========================================
+DOMAIN-KEYWORD,claude
+DOMAIN-KEYWORD,anthropic
 
-# 精确域名
+# Cloudflare
+IP-CIDR,104.16.0.0/12,no-resolve
+IP-CIDR,172.64.0.0/13,no-resolve
+
+IP-ASN,13335,no-resolve
+
+
+# -----------------------------------------
+# Google AI / Gemini / Bard
+# -----------------------------------------
 DOMAIN,gemini.google.com
 DOMAIN,bard.google.com
-DOMAIN,ai.google.dev
-DOMAIN,alkalimakersuite-pa.clients6.google.com
-DOMAIN,makersuite.google.com
 
-
-# 后缀域名
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,ai.google.dev
-DOMAIN-SUFFIX,apis.google.com
 DOMAIN-SUFFIX,deepmind.com
-DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,gemini.google
 DOMAIN-SUFFIX,gemini.google.com
 
-# =========================================
-# Microsoft Copilot / Bing Chat
-# =========================================
+DOMAIN-KEYWORD,gemini
+DOMAIN-KEYWORD,bard
+DOMAIN-KEYWORD,googleai
+DOMAIN-KEYWORD,deepmind
 
-# 精确域名
+# Google AS15169
+IP-CIDR,8.8.4.0/24,no-resolve
+IP-CIDR,8.8.8.0/24,no-resolve
+IP-CIDR,142.250.0.0/15,no-resolve
+IP-CIDR,172.217.0.0/16,no-resolve
+IP-CIDR,216.58.0.0/15,no-resolve
+IP-CIDR,64.233.160.0/19,no-resolve
+IP-CIDR,66.102.0.0/20,no-resolve
+IP-CIDR,74.125.0.0/16,no-resolve
+
+IP-ASN,15169,no-resolve
+IP-ASN,396982,no-resolve
+IP-ASN,19527,no-resolve
+
+
+# -----------------------------------------
+# Microsoft Copilot / Bing Chat
+# -----------------------------------------
 DOMAIN,copilot.microsoft.com
 DOMAIN,www.bing.com
+DOMAIN,api.githubcopilot.com
+DOMAIN,copilot.github.com
+DOMAIN,cocopilot.org
 
-# 后缀域名
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,edgeservices.bing.com
 DOMAIN-SUFFIX,api.cognitive.microsoft.com
 DOMAIN-SUFFIX,msftauth.net
 DOMAIN-SUFFIX,msauth.net
 DOMAIN-SUFFIX,msauthimages.net
+DOMAIN-SUFFIX,cocopilot.org
+
+DOMAIN-KEYWORD,copilot
+DOMAIN-KEYWORD,bingai
+DOMAIN-KEYWORD,cognitive
+
+# Microsoft AS8075
+IP-CIDR,13.64.0.0/11,no-resolve
+IP-CIDR,20.0.0.0/11,no-resolve
+IP-CIDR,40.64.0.0/10,no-resolve
+IP-CIDR,52.96.0.0/12,no-resolve
+
+IP-ASN,8075,no-resolve
+IP-ASN,8068,no-resolve
+IP-ASN,12076,no-resolve
 
 
-# =========================================
+# -----------------------------------------
 # Midjourney（依赖 Discord）
-# =========================================
-
-# 精确域名
+# -----------------------------------------
 DOMAIN,midjourney.com
 DOMAIN,cdn.midjourney.com
 
-# 后缀域名
 DOMAIN-SUFFIX,discord.com
 DOMAIN-SUFFIX,discordapp.com
 
+DOMAIN-KEYWORD,midjourney
+DOMAIN-KEYWORD,mjcdn
 
-# =========================================
+# Discord / Cloudflare
+IP-CIDR,162.159.128.0/17,no-resolve
+IP-CIDR,104.16.0.0/12,no-resolve
+
+IP-ASN,13335,no-resolve
+
+
+# -----------------------------------------
 # Stable Diffusion / Stability AI
-# =========================================
-
-# 精确域名
+# -----------------------------------------
 DOMAIN,api.stability.ai
 
-# 后缀域名
 DOMAIN-SUFFIX,stability.ai
 DOMAIN-SUFFIX,stablediffusionapi.com
 DOMAIN-SUFFIX,stablediffusion.fr
 DOMAIN-SUFFIX,replicate.com
 
+DOMAIN-KEYWORD,stability
+DOMAIN-KEYWORD,stablediffusion
+DOMAIN-KEYWORD,replicate
 
-# =========================================
+# AWS
+IP-CIDR,3.0.0.0/8,no-resolve
+IP-CIDR,13.0.0.0/8,no-resolve
+IP-CIDR,18.0.0.0/8,no-resolve
+IP-CIDR,52.0.0.0/8,no-resolve
+
+IP-ASN,16509,no-resolve
+IP-ASN,14618,no-resolve
+
+
+# -----------------------------------------
 # HuggingFace / Gradio
-# =========================================
-
-# 精确域名
+# -----------------------------------------
 DOMAIN,huggingface.co
 DOMAIN,hf.space
 
-# 后缀域名
 DOMAIN-SUFFIX,huggingface.io
 DOMAIN-SUFFIX,gradio.app
 
+DOMAIN-KEYWORD,huggingface
+DOMAIN-KEYWORD,gradio
+DOMAIN-KEYWORD,hfspace
 
-# =========================================
-# RunPod / Paperspace（AI 训练）
-# =========================================
+# AWS
+IP-ASN,16509,no-resolve
 
-# 精确域名
+
+# -----------------------------------------
+# RunPod / Paperspace
+# -----------------------------------------
 DOMAIN,api.runpod.io
 
-# 后缀域名
 DOMAIN-SUFFIX,runpod.io
 DOMAIN-SUFFIX,paperspace.com
 DOMAIN-SUFFIX,gradient.run
 
+DOMAIN-KEYWORD,runpod
+DOMAIN-KEYWORD,paperspace
 
-# =========================================
+# AWS + DigitalOcean
+IP-ASN,16509,no-resolve
+IP-ASN,14061,no-resolve
+
+
+# -----------------------------------------
 # Cohere
-# =========================================
-
-# 精确域名
+# -----------------------------------------
 DOMAIN,api.cohere.ai
 
-# 后缀域名
 DOMAIN-SUFFIX,cohere.ai
 DOMAIN-SUFFIX,cohere.com
 
+DOMAIN-KEYWORD,cohere
 
-# =========================================
+
+# -----------------------------------------
 # Perplexity AI
-# =========================================
-
-# 精确域名
+# -----------------------------------------
 DOMAIN,www.perplexity.ai
 
-# 后缀域名
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,pplx.ai
 
+DOMAIN-KEYWORD,perplexity
+DOMAIN-KEYWORD,pplx
 
-# =========================================
-# OpenRouter / Together / DeepInfra（可选）
-# =========================================
+# AWS
+IP-ASN,16509,no-resolve
 
-# 精确域名
+
+# -----------------------------------------
+# OpenRouter / Together / DeepInfra
+# -----------------------------------------
 DOMAIN,api.openrouter.ai
 
-# 后缀域名
 DOMAIN-SUFFIX,openrouter.ai
 DOMAIN-SUFFIX,together.ai
 DOMAIN-SUFFIX,deepinfra.com
 DOMAIN-SUFFIX,api-ninjas.com
 
-# =========================================
-# AI Services - DOMAIN-KEYWORD
-
-# OpenAI / ChatGPT
-DOMAIN-KEYWORD,openai
-DOMAIN-KEYWORD,chatgpt
-
-# Anthropic / Claude
-DOMAIN-KEYWORD,claude
-DOMAIN-KEYWORD,anthropic
-
-# Google AI / Gemini / Bard
-DOMAIN-KEYWORD,gemini
-DOMAIN-KEYWORD,bard
-DOMAIN-KEYWORD,googleai
-DOMAIN-KEYWORD,deepmind
-
-# Microsoft Copilot / Bing Chat
-DOMAIN-KEYWORD,copilot
-DOMAIN-KEYWORD,bingai
-DOMAIN-KEYWORD,cognitive
-
-# Midjourney / AI 绘图
-DOMAIN-KEYWORD,midjourney
-DOMAIN-KEYWORD,mjcdn
-
-# Stable Diffusion / Stability AI
-DOMAIN-KEYWORD,stability
-DOMAIN-KEYWORD,stablediffusion
-DOMAIN-KEYWORD,replicate
-
-# HuggingFace / Gradio
-DOMAIN-KEYWORD,huggingface
-DOMAIN-KEYWORD,gradio
-DOMAIN-KEYWORD,hfspace
-
-# RunPod / Paperspace
-DOMAIN-KEYWORD,runpod
-DOMAIN-KEYWORD,paperspace
-
-# Cohere
-DOMAIN-KEYWORD,cohere
-
-# Perplexity AI
-DOMAIN-KEYWORD,perplexity
-DOMAIN-KEYWORD,pplx
-
-# OpenRouter / Together / DeepInfra
 DOMAIN-KEYWORD,openrouter
 DOMAIN-KEYWORD,together
 DOMAIN-KEYWORD,deepinfra
+
+# Cloudflare + AWS
+IP-ASN,13335,no-resolve
+IP-ASN,16509,no-resolve
+
+# =========================================
+# xAI / Grok
+# =========================================
+
+# 精确域名
+DOMAIN,grok.x.ai
+DOMAIN,api.x.ai
+DOMAIN,chat.x.ai
+DOMAIN,cdn.x.ai
+
+# 后缀域名
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.x.ai
+DOMAIN-SUFFIX,cdn.x.ai
+
+# 关键词
+DOMAIN-KEYWORD,grok
+DOMAIN-KEYWORD,xai
+DOMAIN-KEYWORD,x.ai
+
+# IP-ASN（xAI 使用 Cloudflare）
+IP-ASN,13335,no-resolve
+
+# 可选增强（Cloudflare 常用段）
+# IP-CIDR,104.16.0.0/12,no-resolve
+# IP-CIDR,172.64.0.0/13,no-resolve
+
