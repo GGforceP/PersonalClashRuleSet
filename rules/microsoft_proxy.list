@@ -39,9 +39,11 @@ DOMAIN-SUFFIX,azurefd.net
 
 # Microsoft OneDrive / SharePoint（国际版）
 DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,1drv.ms
 DOMAIN-SUFFIX,sharepoint.com
 DOMAIN-SUFFIX,sharepointonline.com
-DOMAIN-SUFFIX,1drv.ms
+DOMAIN-SUFFIX,files.1drv.com
+DOMAIN-SUFFIX,public-files.1drv.com
 
 # Microsoft Teams（国际版）
 DOMAIN-SUFFIX,teams.microsoft.com
