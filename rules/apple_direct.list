@@ -1,0 +1,83 @@
+# Apple 国内可访问服务（直连）
+# 由Microsoft Copilot AI整理提供🤣
+# Microsoft Copilot: https://copilot.microsoft.com
+# =========================================
+
+# Apple 主域名（国内可直连）
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apple.cn
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,apple.com.cn
+DOMAIN-SUFFIX,ls.apple.com
+
+# Apple 中国区系统服务
+DOMAIN,api.smoot.apple.cn
+DOMAIN,setup.icloud.com
+DOMAIN-SUFFIX,smoot.apple.cn
+DOMAIN-SUFFIX,cn-ssl.ls.apple.com
+DOMAIN-SUFFIX,cn.apple.com
+DOMAIN-SUFFIX,cn.ls.apple.com
+DOMAIN-SUFFIX,gspe19-cn-ssl.ls.apple.com
+DOMAIN-SUFFIX,lcdn-locator.apple.com
+DOMAIN-SUFFIX,lcdn-registration.apple.com
+DOMAIN,mesu.apple.com
+
+# Apple CDN（国内 Akamai / 中国联通）
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,akadns.net
+DOMAIN-SUFFIX,akamaiedge.net
+DOMAIN-SUFFIX,edgesuite.net
+DOMAIN-SUFFIX,edgekey.net
+
+# Apple 软件更新（国内可直连）
+DOMAIN-SUFFIX,swcdn.apple.com
+DOMAIN-SUFFIX,swdownload.apple.com
+DOMAIN-SUFFIX,swquery.apple.com
+DOMAIN-SUFFIX,swscan.apple.com
+DOMAIN-SUFFIX,store.apple.com
+
+# Apple 网络连通性检测（必须直连）
+DOMAIN,captive.apple.com
+DOMAIN-SUFFIX,apple.com
+
+# Apple 设备激活（国内可直连）
+DOMAIN-SUFFIX,gs.apple.com
+DOMAIN-SUFFIX,gs-loc.apple.com
+
+# Apple 推送通知（APNs）
+DOMAIN-SUFFIX,push.apple.com
+DOMAIN-SUFFIX,push-apple.com.akadns.net
+
+# Apple 地图（中国区）
+DOMAIN-SUFFIX,apple-mapkit.com
+DOMAIN-SUFFIX,apple-dns.net
+
+# Apple 证书验证（必须直连）
+DOMAIN-SUFFIX,ocsp.apple.com
+DOMAIN-SUFFIX,ocsp2.apple.com
+DOMAIN-SUFFIX,certs.apple.com
+
+# Apple 账号服务（中国区）
+DOMAIN,configuration.apple.com
+DOMAIN-SUFFIX,appleid.apple.com
+DOMAIN-SUFFIX,appleid.cdn-apple.com
+DOMAIN-SUFFIX,apple-dns.cn
+DOMAIN-SUFFIX,apzones.com
+
+# Apple 诊断与日志
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,analytics.icloud.com
+
+# Apple 课堂、教育、企业服务
+DOMAIN-SUFFIX,apple.com.cn
+DOMAIN-SUFFIX,education.apple.com
+DOMAIN-SUFFIX,developer.apple.com
+
+# Apple 常用 IP 段（国内可直连）
+IP-ASN,714,no-resolve        # Apple Inc.
+IP-ASN,6185,no-resolve       # Apple Services
+IP-ASN,6188,no-resolve       # Apple CDN
+IP-ASN,20940,no-resolve      # Akamai（Apple 国内 CDN）
