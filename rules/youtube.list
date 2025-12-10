@@ -1,1 +1,77 @@
+# 由Microsoft Copilot AI整理提供🤣
+# Microsoft Copilot: https://copilot.microsoft.com
+#=================================================
+
+# YouTube 主域名
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,youtubeeducation.com
+DOMAIN-SUFFIX,youtubekids.com
+DOMAIN-SUFFIX,youtubegaming.com
+DOMAIN-SUFFIX,youtubei.googleapis.com
+
+# YouTube TV / Music / Studio
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtube.googleapis.com
+DOMAIN-SUFFIX,youtubei.googleapis.com
+DOMAIN-SUFFIX,yt3.ggpht.com
+DOMAIN-SUFFIX,yt4.ggpht.com
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,ytstatic.com
+DOMAIN-SUFFIX,yt.be
+
+# YouTube CDN（视频流媒体）
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,ytimg.l.google.com
+
+# YouTube 静态资源
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,ytimg.l.google.com
+DOMAIN-SUFFIX,ytstatic.com
+
+# YouTube 广告（可选，建议代理）
+DOMAIN-SUFFIX,googleads.g.doubleclick.net
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,googletagservices.com
+DOMAIN-SUFFIX,googletagmanager.com
+
+# YouTube API / 后端服务
+DOMAIN-SUFFIX,youtubei.googleapis.com
+DOMAIN-SUFFIX,yt3.ggpht.com
+DOMAIN-SUFFIX,yt4.ggpht.com
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,googleapis.com
+
+# YouTube IPv4（Google 视频 CDN）
+IP-CIDR,74.125.0.0/16,no-resolve
+IP-CIDR,142.250.0.0/15,no-resolve
+IP-CIDR,172.217.0.0/16,no-resolve
+IP-CIDR,173.194.0.0/16,no-resolve
+IP-CIDR,209.85.128.0/17,no-resolve
+IP-CIDR,216.58.192.0/19,no-resolve
+IP-CIDR,216.239.32.0/19,no-resolve
+
+# YouTube IPv6（Google 视频 CDN）
+IP-CIDR6,2001:4860::/32,no-resolve
+IP-CIDR6,2404:6800::/32,no-resolve
+IP-CIDR6,2607:f8b0::/32,no-resolve
+IP-CIDR6,2800:3f0::/32,no-resolve
+IP-CIDR6,2a00:1450::/32,no-resolve
+IP-CIDR6,2c0f:fb50::/32,no-resolve
+
+# YouTube ASN（OpenClash 必须使用 IP-ASN）
+IP-ASN,AS15169,no-resolve   # Google LLC（YouTube 主体）
+IP-ASN,AS36040,no-resolve   # Google Video CDN
+IP-ASN,AS19527,no-resolve   # Google Global Cache (GGC)
+IP-ASN,AS139190,no-resolve  # Google Asia CDN
+
+# YouTube 关键词（兜底）
+DOMAIN-KEYWORD,youtube
+DOMAIN-KEYWORD,googlevideo
+DOMAIN-KEYWORD,ytimg
+DOMAIN-KEYWORD,ggpht
 
