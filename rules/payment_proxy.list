@@ -1,0 +1,192 @@
+# ============================================
+# Payment Proxy List（Overseas Payment Platforms）
+# 仅包含需要代理的海外支付平台
+# ============================================
+
+
+# ============================================
+# PayPal（官方域名）
+# ============================================
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypalobjects.com
+DOMAIN-SUFFIX,paypal-mktg.com
+DOMAIN-SUFFIX,paypal-dns.com
+DOMAIN-SUFFIX,paypalinc.com
+DOMAIN-SUFFIX,paypal.jp
+DOMAIN-SUFFIX,paypal.co.uk
+DOMAIN-SUFFIX,paypal.com.au
+DOMAIN-SUFFIX,paypal.de
+DOMAIN-SUFFIX,paypal.fr
+DOMAIN-SUFFIX,paypal.ca
+
+# PayPal API / CDN
+DOMAIN-SUFFIX,api.paypal.com
+DOMAIN-SUFFIX,api-m.paypal.com
+DOMAIN-SUFFIX,api-3t.paypal.com
+DOMAIN-SUFFIX,ipnpb.paypal.com
+DOMAIN-SUFFIX,ipnpb.sandbox.paypal.com
+DOMAIN-SUFFIX,objects.paypal.com
+
+# PayPal 静态资源
+DOMAIN-SUFFIX,secure.paypal.com
+DOMAIN-SUFFIX,www.paypalobjects.com
+
+# PayPal typo（非色情）
+DOMAIN-SUFFIX,paypol.com
+DOMAIN-SUFFIX,paypall.com
+DOMAIN-SUFFIX,paypa1.com
+
+
+# ============================================
+# Stripe（官方域名）
+# ============================================
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,stripe.network
+DOMAIN-SUFFIX,stripe.dev
+DOMAIN-SUFFIX,stripepayments.com
+
+# Stripe API / CDN
+DOMAIN-SUFFIX,api.stripe.com
+DOMAIN-SUFFIX,js.stripe.com
+DOMAIN-SUFFIX,m.stripe.network
+
+# Stripe 业务域名
+DOMAIN-SUFFIX,stripe.shop
+DOMAIN-SUFFIX,stripe-terminal.com
+
+# Stripe typo
+DOMAIN-SUFFIX,str1pe.com
+DOMAIN-SUFFIX,stipe.com
+
+
+# ============================================
+# Visa（官方域名）
+# ============================================
+DOMAIN-SUFFIX,visa.com
+DOMAIN-SUFFIX,visa.co.jp
+DOMAIN-SUFFIX,visa.co.uk
+DOMAIN-SUFFIX,visa.com.au
+
+# Visa API / 服务
+DOMAIN-SUFFIX,secure.visa.com
+DOMAIN-SUFFIX,api.visa.com
+
+# Visa 业务域名
+DOMAIN-SUFFIX,visaeurope.com
+DOMAIN-SUFFIX,visamiddleeast.com
+
+
+# ============================================
+# Mastercard（官方域名）
+# ============================================
+DOMAIN-SUFFIX,mastercard.com
+DOMAIN-SUFFIX,mastercard.co.uk
+DOMAIN-SUFFIX,mastercard.com.au
+DOMAIN-SUFFIX,mastercard.ca
+
+# Mastercard API
+DOMAIN-SUFFIX,api.mastercard.com
+
+# Mastercard 业务域名
+DOMAIN-SUFFIX,mastercardservices.com
+DOMAIN-SUFFIX,mastercardconnect.com
+
+
+# ============================================
+# Apple Pay（国际版）
+# ============================================
+DOMAIN-SUFFIX,apple-pay-gateway.apple.com
+DOMAIN-SUFFIX,apple-pay-gateway-nc-pod1.apple.com
+DOMAIN-SUFFIX,apple-pay-gateway-nc-pod2.apple.com
+DOMAIN-SUFFIX,apple-pay-gateway-cert.apple.com
+
+
+# ============================================
+# Google Pay（国际版）
+# ============================================
+DOMAIN-SUFFIX,pay.google.com
+DOMAIN-SUFFIX,googlewallet.com
+DOMAIN-SUFFIX,googlepay.com
+
+# Google Pay API
+DOMAIN-SUFFIX,payments.google.com
+DOMAIN-SUFFIX,api.pay.google.com
+
+
+# ============================================
+# Square（Block）
+# ============================================
+DOMAIN-SUFFIX,squareup.com
+DOMAIN-SUFFIX,square.com
+DOMAIN-SUFFIX,squarecdn.com
+
+# Square API
+DOMAIN-SUFFIX,connect.squareup.com
+
+
+# ============================================
+# Wise（原 TransferWise）
+# ============================================
+DOMAIN-SUFFIX,wise.com
+DOMAIN-SUFFIX,transferwise.com
+
+# Wise API
+DOMAIN-SUFFIX,api.transferwise.com
+DOMAIN-SUFFIX,api.wise.com
+
+
+# ============================================
+# Revolut
+# ============================================
+DOMAIN-SUFFIX,revolut.com
+DOMAIN-SUFFIX,revolut.net
+
+# Revolut API
+DOMAIN-SUFFIX,api.revolut.com
+
+
+# ============================================
+# Skrill
+# ============================================
+DOMAIN-SUFFIX,skrill.com
+DOMAIN-SUFFIX,skrill.net
+
+# Skrill API
+DOMAIN-SUFFIX,api.skrill.com
+
+
+# ============================================
+# Payoneer
+# ============================================
+DOMAIN-SUFFIX,payoneer.com
+DOMAIN-SUFFIX,myaccount.payoneer.com
+
+# Payoneer API
+DOMAIN-SUFFIX,api.payoneer.com
+
+
+# ============================================
+# Alipay Global（国际版）
+# ============================================
+DOMAIN-SUFFIX,global.alipay.com
+DOMAIN-SUFFIX,intl.alipay.com
+
+# ============================================
+# WeChat Pay Global（国际版）
+# ============================================
+DOMAIN-SUFFIX,globalpay.wechat.com
+
+# ============================================
+# 兜底关键字（支付平台）
+# ============================================
+DOMAIN-KEYWORD,paypal
+DOMAIN-KEYWORD,stripe
+DOMAIN-KEYWORD,visa
+DOMAIN-KEYWORD,mastercard
+DOMAIN-KEYWORD,googlepay
+DOMAIN-KEYWORD,applepay
+DOMAIN-KEYWORD,squareup
+DOMAIN-KEYWORD,wise
+DOMAIN-KEYWORD,revolut
+DOMAIN-KEYWORD,skrill
+DOMAIN-KEYWORD,payoneer
