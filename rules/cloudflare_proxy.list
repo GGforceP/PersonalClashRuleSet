@@ -1,0 +1,141 @@
+# ============================================
+# Cloudflare Proxy List
+# 由Microsoft Copilot AI整理提供🤣
+# Microsoft Copilot: https://copilot.microsoft.com
+# ============================================
+
+# -------------------------
+# Cloudflare 主域名
+# -------------------------
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudflare.net
+DOMAIN-SUFFIX,cloudflare-dns.com
+DOMAIN-SUFFIX,cloudflareclient.com
+DOMAIN-SUFFIX,cloudflareinsights.com
+
+# -------------------------
+# Cloudflare CDN / DNS
+# -------------------------
+DOMAIN-SUFFIX,cf-ipfs.com
+DOMAIN-SUFFIX,cf-ns.com
+DOMAIN-SUFFIX,cf-ns.net
+DOMAIN-SUFFIX,cf-ns.tech
+DOMAIN-SUFFIX,cf-ns.cloud
+DOMAIN-SUFFIX,cf-ns.uk
+DOMAIN-SUFFIX,cf-ns.us
+DOMAIN-SUFFIX,cf-ns.ca
+DOMAIN-SUFFIX,cf-ns.in
+DOMAIN-SUFFIX,cf-ns.jp
+DOMAIN-SUFFIX,cf-ns.sg
+DOMAIN-SUFFIX,cf-ns.au
+DOMAIN-SUFFIX,cf-ns.de
+DOMAIN-SUFFIX,cf-ns.fr
+DOMAIN-SUFFIX,cf-ns.it
+DOMAIN-SUFFIX,cf-ns.es
+DOMAIN-SUFFIX,cf-ns.se
+DOMAIN-SUFFIX,cf-ns.no
+DOMAIN-SUFFIX,cf-ns.fi
+DOMAIN-SUFFIX,cf-ns.pl
+DOMAIN-SUFFIX,cf-ns.br
+DOMAIN-SUFFIX,cf-ns.mx
+DOMAIN-SUFFIX,cf-ns.ru
+DOMAIN-SUFFIX,cf-ns.cn
+
+# -------------------------
+# Cloudflare Workers
+# -------------------------
+DOMAIN-SUFFIX,workers.dev
+DOMAIN-SUFFIX,workers.cloudflare.com
+
+# -------------------------
+# Cloudflare Pages
+# -------------------------
+DOMAIN-SUFFIX,pages.dev
+DOMAIN-SUFFIX,cloudflarepages.com
+
+# -------------------------
+# Cloudflare R2（对象存储）
+# -------------------------
+DOMAIN-SUFFIX,r2.dev
+DOMAIN-SUFFIX,r2.cloudflarestorage.com
+DOMAIN-SUFFIX,cloudflarestorage.com
+
+# -------------------------
+# Cloudflare Stream（视频）
+# -------------------------
+DOMAIN-SUFFIX,cloudflarestream.com
+DOMAIN-SUFFIX,videodelivery.net
+
+# -------------------------
+# Cloudflare Turnstile（验证码）
+# -------------------------
+DOMAIN-SUFFIX,turnstile.workers.dev
+DOMAIN-SUFFIX,challenge.cloudflare.com
+DOMAIN-SUFFIX,turnstile.cloudflare.com
+
+# -------------------------
+# Cloudflare Zero Trust / WARP
+# -------------------------
+DOMAIN-SUFFIX,cloudflareaccess.com
+DOMAIN-SUFFIX,cloudflaregateway.com
+DOMAIN-SUFFIX,cloudflarewarp.com
+DOMAIN-SUFFIX,warp.plus
+DOMAIN-SUFFIX,warp.cloudflare.com
+
+# -------------------------
+# Cloudflare API
+# -------------------------
+DOMAIN-SUFFIX,api.cloudflare.com
+DOMAIN-SUFFIX,api.cloudflareclient.com
+DOMAIN-SUFFIX,api.cloudflare-dns.com
+
+# -------------------------
+# Cloudflare Radar
+# -------------------------
+DOMAIN-SUFFIX,radar.cloudflare.com
+
+# -------------------------
+# Cloudflare IPv4（官方）
+# -------------------------
+IP-CIDR,103.21.244.0/22,no-resolve
+IP-CIDR,103.22.200.0/22,no-resolve
+IP-CIDR,103.31.4.0/22,no-resolve
+IP-CIDR,104.16.0.0/13,no-resolve
+IP-CIDR,104.24.0.0/14,no-resolve
+IP-CIDR,108.162.192.0/18,no-resolve
+IP-CIDR,131.0.72.0/22,no-resolve
+IP-CIDR,141.101.64.0/18,no-resolve
+IP-CIDR,162.158.0.0/15,no-resolve
+IP-CIDR,172.64.0.0/13,no-resolve
+IP-CIDR,173.245.48.0/20,no-resolve
+IP-CIDR,188.114.96.0/20,no-resolve
+IP-CIDR,190.93.240.0/20,no-resolve
+IP-CIDR,197.234.240.0/22,no-resolve
+IP-CIDR,198.41.128.0/17,no-resolve
+
+# -------------------------
+# Cloudflare IPv6（官方）
+# -------------------------
+IP-CIDR6,2400:cb00::/32,no-resolve
+IP-CIDR6,2606:4700::/32,no-resolve
+IP-CIDR6,2803:f800::/32,no-resolve
+IP-CIDR6,2c0f:f248::/32,no-resolve
+IP-CIDR6,2a06:98c0::/29,no-resolve
+
+# -------------------------
+# Cloudflare ASN
+# -------------------------
+IP-ASN,AS13335,no-resolve
+
+# -------------------------
+# Cloudflare 关键词（兜底）
+# -------------------------
+DOMAIN-KEYWORD,cloudflare
+DOMAIN-KEYWORD,cf-ns
+DOMAIN-KEYWORD,workers
+DOMAIN-KEYWORD,pages
+DOMAIN-KEYWORD,r2
+
+# ============================================
+# END
+# ============================================
