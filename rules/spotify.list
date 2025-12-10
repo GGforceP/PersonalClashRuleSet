@@ -1,0 +1,127 @@
+# ============================================
+# Spotify Proxy List（spotify-only.list）
+# 由Microsoft Copilot AI整理提供🤣
+# ============================================
+
+
+# ============================================
+# Spotify（官方域名）
+# ============================================
+DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,spotifycdn.com
+DOMAIN-SUFFIX,spotifycdn.net
+DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,spoti.fi
+
+
+# ============================================
+# Spotify API / Web API
+# ============================================
+DOMAIN-SUFFIX,api.spotify.com
+DOMAIN-SUFFIX,apresolve.spotify.com
+DOMAIN-SUFFIX,api-partner.spotify.com
+
+
+# ============================================
+# Spotify CDN（Akamai / Fastly / CloudFront）
+# ============================================
+DOMAIN-SUFFIX,spotify.map.fastly.net
+DOMAIN-SUFFIX,spotify.map.fastlylb.net
+DOMAIN-SUFFIX,spotify.map.fastlydns.net
+DOMAIN-SUFFIX,spotify.map.fastly-terr1.net
+DOMAIN-SUFFIX,spotify.map.fastly-terr2.net
+DOMAIN-SUFFIX,spotify.map.fastly-terr3.net
+
+DOMAIN-SUFFIX,spotify.map.akamaized.net
+DOMAIN-SUFFIX,spotify.akamaized.net
+
+DOMAIN-SUFFIX,spotify.cloudfront.net
+
+
+# ============================================
+# Spotify 音频 CDN（Audio Delivery）
+# ============================================
+DOMAIN-SUFFIX,audio-ak.spotify.com
+DOMAIN-SUFFIX,audio-akp.spotify.com
+DOMAIN-SUFFIX,audio-ak.spotifycdn.com
+DOMAIN-SUFFIX,audio-fa.scdn.co
+DOMAIN-SUFFIX,audio4-ak.spotify.com
+DOMAIN-SUFFIX,audio4-ak.spotifycdn.com
+
+
+# ============================================
+# Spotify 图片 CDN（Album / Artist / Cover）
+# ============================================
+DOMAIN-SUFFIX,i.scdn.co
+DOMAIN-SUFFIX,image-cdn-fa.spotifycdn.com
+DOMAIN-SUFFIX,image-cdn-ak.spotifycdn.com
+DOMAIN-SUFFIX,image-cdn.spotify.com
+
+
+# ============================================
+# Spotify 客户端服务（Desktop / Mobile）
+# ============================================
+DOMAIN-SUFFIX,ap.spotify.com
+DOMAIN-SUFFIX,spclient.wg.spotify.com
+DOMAIN-SUFFIX,spclient.spotify.com
+DOMAIN-SUFFIX,spclient.wg.spotify.net
+DOMAIN-SUFFIX,spclient.wg.spotifycdn.com
+
+# Spotify 登录 / 授权
+DOMAIN-SUFFIX,accounts.spotify.com
+DOMAIN-SUFFIX,login5.spotify.com
+DOMAIN-SUFFIX,login.spotify.com
+
+
+# ============================================
+# Spotify 广告服务（Ads）
+# ============================================
+DOMAIN-SUFFIX,ads-fa.spotify.com
+DOMAIN-SUFFIX,ads-ak.spotify.com
+DOMAIN-SUFFIX,ads-akp.spotify.com
+DOMAIN-SUFFIX,adstudio.spotify.com
+
+
+# ============================================
+# Spotify 业务域名（Charts / Artists / Tools）
+# ============================================
+DOMAIN-SUFFIX,charts.spotify.com
+DOMAIN-SUFFIX,artists.spotify.com
+DOMAIN-SUFFIX,developer.spotify.com
+DOMAIN-SUFFIX,open.spotify.com
+DOMAIN-SUFFIX,community.spotify.com
+DOMAIN-SUFFIX,newsroom.spotify.com
+
+
+# ============================================
+# Spotify 第三方工具（歌词 / 播放器 / 分析）
+# ============================================
+DOMAIN-SUFFIX,lyricstranslate.com
+DOMAIN-SUFFIX,musixmatch.com
+DOMAIN-SUFFIX,genius.com
+DOMAIN-SUFFIX,spotlistr.com
+DOMAIN-SUFFIX,statsforspotify.com
+DOMAIN-SUFFIX,spotifydown.com
+DOMAIN-SUFFIX,spotifydown.net
+DOMAIN-SUFFIX,spotifydown.org
+DOMAIN-SUFFIX,spotifydl.com
+DOMAIN-SUFFIX,spotdl.com
+
+
+# ============================================
+# Spotify typo（非色情）
+# ============================================
+DOMAIN-SUFFIX,spotfy.com
+DOMAIN-SUFFIX,spotiffy.com
+DOMAIN-SUFFIX,spottify.com
+DOMAIN-SUFFIX,spotifiy.com
+DOMAIN-SUFFIX,spotifly.com
+
+
+# ============================================
+# Spotify 兜底关键字
+# ============================================
+DOMAIN-KEYWORD,spotify
+DOMAIN-KEYWORD,scdn
+DOMAIN-KEYWORD,spclient
+DOMAIN-KEYWORD,spotdl
