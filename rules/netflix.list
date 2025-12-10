@@ -1,0 +1,70 @@
+# 由Microsoft Copilot AI整理提供🤣
+# Microsoft Copilot: https://copilot.microsoft.com
+#=================================================
+
+# Netflix 主域名
+DOMAIN-SUFFIX,netflix.com
+DOMAIN-SUFFIX,netflix.net
+DOMAIN-SUFFIX,nflxso.net
+DOMAIN-SUFFIX,nflxvideo.net
+DOMAIN-SUFFIX,nflxext.com
+DOMAIN-SUFFIX,nflximg.com
+DOMAIN-SUFFIX,nflximg.net
+
+# Netflix DNS 测试域名
+DOMAIN-SUFFIX,netflixdnstest0.com
+DOMAIN-SUFFIX,netflixdnstest1.com
+DOMAIN-SUFFIX,netflixdnstest2.com
+DOMAIN-SUFFIX,netflixdnstest3.com
+DOMAIN-SUFFIX,netflixdnstest4.com
+DOMAIN-SUFFIX,netflixdnstest5.com
+DOMAIN-SUFFIX,netflixdnstest6.com
+DOMAIN-SUFFIX,netflixdnstest7.com
+DOMAIN-SUFFIX,netflixdnstest8.com
+DOMAIN-SUFFIX,netflixdnstest9.com
+
+# Netflix CDN / 平台域名
+DOMAIN-SUFFIX,edgesuite.net
+DOMAIN-SUFFIX,akamaihd.net
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,online-metrix.net
+DOMAIN-SUFFIX,zendesk.com
+
+# Netflix Studio / Content Hub
+DOMAIN-SUFFIX,netflixstudios.com
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,okta.com
+DOMAIN-SUFFIX,oktacdn.com
+DOMAIN-SUFFIX,oktapreview.com
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,fullstory.com
+DOMAIN,backlot-api.prod.netflix.net
+DOMAIN,contenthub.netflixstudios.com
+DOMAIN,meechum.netflix.com
+
+# Netflix IPv4
+IP-CIDR,23.246.0.0/18,no-resolve
+IP-CIDR,37.77.184.0/21,no-resolve
+IP-CIDR,45.57.0.0/17,no-resolve
+IP-CIDR,64.120.128.0/17,no-resolve
+IP-CIDR,66.197.128.0/17,no-resolve
+IP-CIDR,108.175.32.0/20,no-resolve
+IP-CIDR,192.173.64.0/18,no-resolve
+IP-CIDR,198.38.96.0/19,no-resolve
+IP-CIDR,198.45.48.0/20,no-resolve
+
+# Netflix 官方 Aspera 上传 IPv4
+IP-CIDR,23.23.189.144/28,no-resolve
+IP-CIDR,34.195.253.0/25,no-resolve
+
+# Netflix IPv6
+IP-CIDR6,2a00:86c0:2044::/46,no-resolve
+
+# Netflix ASN
+IP-ASN,AS2906,no-resolve
+
+# Netflix 关键词
+DOMAIN-KEYWORD,netflix
+DOMAIN-KEYWORD,nflx
+DOMAIN-KEYWORD,nflxvideo
