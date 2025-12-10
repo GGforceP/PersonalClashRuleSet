@@ -1,0 +1,132 @@
+
+# 由Microsoft Copilot AI整理提供🤣
+# Microsoft Copilot: https://copilot.microsoft.com
+
+# Microsoft 主域名（国际服务）
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,office365.com
+DOMAIN-SUFFIX,onenote.com
+DOMAIN-SUFFIX,skype.com
+DOMAIN-SUFFIX,xbox.com
+DOMAIN-SUFFIX,xboxlive.com
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,visualstudio.com
+DOMAIN-SUFFIX,windows.com
+DOMAIN-SUFFIX,windowsupdate.com
+DOMAIN-SUFFIX,aka.ms
+DOMAIN-SUFFIX,msedge.net
+DOMAIN-SUFFIX,msauth.net
+DOMAIN-SUFFIX,msauthimages.net
+DOMAIN-SUFFIX,msftauth.net
+DOMAIN-SUFFIX,msftauthimages.net
+DOMAIN-SUFFIX,msftidentity.com
+DOMAIN-SUFFIX,passport.net
+
+# Microsoft Bing / Copilot / AI
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,bingapis.com
+DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,copilot.microsoft.com.cn
+DOMAIN-SUFFIX,assets.msn.com
+DOMAIN-SUFFIX,api.cognitive.microsoft.com
+DOMAIN-SUFFIX,customvision.ai
+DOMAIN-SUFFIX,azureedge.net
+DOMAIN-SUFFIX,azurefd.net
+
+# Microsoft OneDrive / SharePoint（国际版）
+DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,sharepoint.com
+DOMAIN-SUFFIX,sharepointonline.com
+DOMAIN-SUFFIX,1drv.ms
+
+# Microsoft Teams（国际版）
+DOMAIN-SUFFIX,teams.microsoft.com
+DOMAIN-SUFFIX,teams.cdn.office.net
+DOMAIN-SUFFIX,skypeassets.com
+
+# Microsoft Store / Xbox
+DOMAIN-SUFFIX,storeedgefd.dsx.mp.microsoft.com
+DOMAIN-SUFFIX,xboxservices.com
+DOMAIN-SUFFIX,xboxlive.com
+DOMAIN-SUFFIX,xboxab.com
+DOMAIN-SUFFIX,gamepass.com
+
+# Microsoft Azure（国际版）
+DOMAIN-SUFFIX,azure.com
+DOMAIN-SUFFIX,azureedge.net
+DOMAIN-SUFFIX,azurefd.net
+DOMAIN-SUFFIX,azure-api.net
+DOMAIN-SUFFIX,cloudapp.net
+DOMAIN-SUFFIX,trafficmanager.net
+DOMAIN-SUFFIX,windows.net
+DOMAIN-SUFFIX,blob.core.windows.net
+DOMAIN-SUFFIX,search.windows.net
+DOMAIN-SUFFIX,dev.azure.com
+
+# Microsoft CDN / 静态资源
+DOMAIN-SUFFIX,msftcdn.com
+DOMAIN-SUFFIX,msocdn.com
+DOMAIN-SUFFIX,officecdn.microsoft.com
+DOMAIN-SUFFIX,officecdn.microsoft.com.edgesuite.net
+
+# Microsoft 账号登录（必须代理）
+DOMAIN-SUFFIX,login.live.com
+DOMAIN-SUFFIX,login.microsoftonline.com
+DOMAIN-SUFFIX,login.microsoft.com
+DOMAIN-SUFFIX,account.microsoft.com
+
+# Microsoft Edge 服务
+DOMAIN-SUFFIX,edge.microsoft.com
+DOMAIN-SUFFIX,edgeservices.microsoft.com
+DOMAIN-SUFFIX,edgekey.net
+
+# GitHub（属于 Microsoft）
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,githubassets.com
+
+# Microsoft IPv4（国际服务）
+IP-CIDR,13.64.0.0/11,no-resolve
+IP-CIDR,20.0.0.0/11,no-resolve
+IP-CIDR,20.33.0.0/16,no-resolve
+IP-CIDR,20.34.0.0/15,no-resolve
+IP-CIDR,20.36.0.0/14,no-resolve
+IP-CIDR,20.40.0.0/13,no-resolve
+IP-CIDR,20.48.0.0/12,no-resolve
+IP-CIDR,20.64.0.0/10,no-resolve
+IP-CIDR,40.64.0.0/10,no-resolve
+IP-CIDR,51.4.0.0/14,no-resolve
+IP-CIDR,51.8.0.0/16,no-resolve
+IP-CIDR,51.10.0.0/15,no-resolve
+IP-CIDR,51.103.0.0/16,no-resolve
+IP-CIDR,51.104.0.0/14,no-resolve
+IP-CIDR,52.96.0.0/12,no-resolve
+IP-CIDR,52.112.0.0/14,no-resolve
+IP-CIDR,52.120.0.0/14,no-resolve
+IP-CIDR,52.125.0.0/16,no-resolve
+IP-CIDR,52.126.0.0/15,no-resolve
+IP-CIDR,52.128.0.0/9,no-resolve
+
+# Microsoft IPv6（国际服务）
+IP-CIDR6,2603::/18,no-resolve
+IP-CIDR6,2a01:111::/32,no-resolve
+IP-CIDR6,2a01:110::/29,no-resolve
+
+# Microsoft ASN（OpenClash 必须使用 IP-ASN）
+IP-ASN,AS8075,no-resolve      # Microsoft Corporation
+IP-ASN,AS8068,no-resolve      # Microsoft Azure
+IP-ASN,AS12076,no-resolve     # Microsoft Online
+IP-ASN,AS200020,no-resolve    # GitHub (Microsoft)
+
+# Microsoft 关键词（兜底）
+DOMAIN-KEYWORD,microsoft
+DOMAIN-KEYWORD,office
+DOMAIN-KEYWORD,live
+DOMAIN-KEYWORD,windows
+DOMAIN-KEYWORD,msauth
+DOMAIN-KEYWORD,msft
+DOMAIN-KEYWORD,azure
