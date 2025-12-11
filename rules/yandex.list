@@ -1,0 +1,105 @@
+# Yandex (Need Proxy)
+
+# Main Domains
+DOMAIN-SUFFIX,yandex.com
+DOMAIN-SUFFIX,yandex.ru
+DOMAIN-SUFFIX,yandex.net
+DOMAIN-SUFFIX,yandex.ua
+DOMAIN-SUFFIX,yandex.by
+DOMAIN-SUFFIX,yandex.kz
+DOMAIN-SUFFIX,yandex.uz
+DOMAIN-SUFFIX,yandex.com.tr
+
+# Yandex Search
+DOMAIN-SUFFIX,yandex.com.tr
+DOMAIN-SUFFIX,yandex.com.ge
+DOMAIN-SUFFIX,yandex.com.am
+DOMAIN-SUFFIX,yandex.com.az
+
+# Yandex Mail
+DOMAIN-SUFFIX,yandexmail.net
+DOMAIN-SUFFIX,yandex-team.ru
+DOMAIN-SUFFIX,ya.ru
+
+# Yandex Disk (Cloud Storage)
+DOMAIN-SUFFIX,yandexdisk.net
+DOMAIN-SUFFIX,ydstatic.com
+DOMAIN-SUFFIX,storage.yandexcloud.net
+
+# Yandex Cloud
+DOMAIN-SUFFIX,yandexcloud.net
+DOMAIN-SUFFIX,cloud.yandex.net
+DOMAIN-SUFFIX,cloud-api.yandex.net
+
+# Yandex Maps
+DOMAIN-SUFFIX,yandexmaps.com
+DOMAIN-SUFFIX,yandexmapkit.com
+DOMAIN-SUFFIX,api-maps.yandex.net
+
+# Yandex Music
+DOMAIN-SUFFIX,yandexmusic.com
+DOMAIN-SUFFIX,music.yandex.ru
+DOMAIN-SUFFIX,music.yandex.net
+
+# Yandex Translate
+DOMAIN-SUFFIX,translate.yandex.com
+DOMAIN-SUFFIX,translate.yandex.net
+
+# Yandex Browser Services
+DOMAIN-SUFFIX,yastatic.net
+DOMAIN-SUFFIX,yandex.st
+DOMAIN-SUFFIX,yandexadexchange.net
+
+# Yandex CDN / Static
+DOMAIN-SUFFIX,yandexcdn.net
+DOMAIN-SUFFIX,yandexcloud.net
+DOMAIN-SUFFIX,yandexcloud.net.cdn.cloudflare.net
+DOMAIN-SUFFIX,yastat.net
+
+# Yandex API
+DOMAIN-SUFFIX,api.yandex.com
+DOMAIN-SUFFIX,api.yandex.net
+DOMAIN-SUFFIX,api.browser.yandex.com
+
+# Yandex Advertising / Analytics
+DOMAIN-SUFFIX,yandexadexchange.net
+DOMAIN-SUFFIX,yandexadpartner.com
+DOMAIN-SUFFIX,metrika.yandex.ru
+DOMAIN-SUFFIX,mc.yandex.ru
+
+# Yandex Passport (Login)
+DOMAIN-SUFFIX,passport.yandex.com
+DOMAIN-SUFFIX,passport.yandex.ru
+DOMAIN-SUFFIX,oauth.yandex.com
+DOMAIN-SUFFIX,oauth.yandex.ru
+
+# Yandex Video / Media
+DOMAIN-SUFFIX,video.yandex.ru
+DOMAIN-SUFFIX,video-cdn.yandex.net
+
+# Yandex Market
+DOMAIN-SUFFIX,market.yandex.ru
+DOMAIN-SUFFIX,market.yandex.net
+
+# Yandex Taxi / Ride Services
+DOMAIN-SUFFIX,taxi.yandex.ru
+DOMAIN-SUFFIX,taxi.yandex.net
+
+# Yandex News
+DOMAIN-SUFFIX,news.yandex.ru
+DOMAIN-SUFFIX,news.yandex.net
+
+# Yandex Weather
+DOMAIN-SUFFIX,pogoda.yandex.ru
+DOMAIN-SUFFIX,pogoda.yandex.net
+
+# Yandex Images
+DOMAIN-SUFFIX,yandeximg.com
+DOMAIN-SUFFIX,yandeximages.net
+
+# Yandex Misc
+DOMAIN-SUFFIX,yandex360.ru
+DOMAIN-SUFFIX,yandexdataschool.com
+DOMAIN-SUFFIX,yandex.net.ru
+DOMAIN-SUFFIX,yandexcloud.ru
+DOMAIN-SUFFIX,yandexcloud.com
