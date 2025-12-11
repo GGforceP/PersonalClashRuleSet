@@ -1,0 +1,124 @@
+# BanAD (Ad Block List)
+# 由Microsoft Copilot AI整理提供🤣
+# Microsoft Copilot: https://copilot.microsoft.com
+
+# Common AD Networks
+DOMAIN-SUFFIX,admob.com
+DOMAIN-SUFFIX,adnxs.com
+DOMAIN-SUFFIX,adsafeprotected.com
+DOMAIN-SUFFIX,adservice.google.com
+DOMAIN-SUFFIX,adservice.google.com.hk
+DOMAIN-SUFFIX,adservice.google.com.tw
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,googleadsserving.cn
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,googletagservices.com
+
+# Facebook Ads / Tracking
+DOMAIN-SUFFIX,facebookads.com
+DOMAIN-SUFFIX,fbcdn-ads.com
+DOMAIN-SUFFIX,fbads.com
+DOMAIN-SUFFIX,facebookpixel.com
+
+# TikTok / ByteDance Ads
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,bytedance.com
+DOMAIN-SUFFIX,bytedapm.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com.cn
+
+# Tencent Ads
+DOMAIN-SUFFIX,ad.qq.com
+DOMAIN-SUFFIX,adsmind.gdtimg.com
+DOMAIN-SUFFIX,gdt.qq.com
+DOMAIN-SUFFIX,beacon.qq.com
+DOMAIN-SUFFIX,bugly.qq.com
+
+# Alibaba / UC / Youku Ads
+DOMAIN-SUFFIX,adashx.m.taobao.com
+DOMAIN-SUFFIX,adashx.ut.taobao.com
+DOMAIN-SUFFIX,adashbc.ut.taobao.com
+DOMAIN-SUFFIX,ads.uc.cn
+DOMAIN-SUFFIX,adash.man.aliyuncs.com
+DOMAIN-SUFFIX,ykimg.com.ad
+DOMAIN-SUFFIX,atm.youku.com
+
+# Baidu Ads
+DOMAIN-SUFFIX,baidustatic.com
+DOMAIN-SUFFIX,baiduads.com
+DOMAIN-SUFFIX,baidutv.com
+DOMAIN-SUFFIX,union.baidu.com
+DOMAIN-SUFFIX,cpro.baidu.com
+DOMAIN-SUFFIX,pos.baidu.com
+
+# Xiaomi Ads
+DOMAIN-SUFFIX,ad.xiaomi.com
+DOMAIN-SUFFIX,ad.mi.com
+DOMAIN-SUFFIX,tracking.miui.com
+DOMAIN-SUFFIX,tracking.intl.miui.com
+
+# Huawei Ads
+DOMAIN-SUFFIX,ads.huawei.com
+DOMAIN-SUFFIX,adscloud.huawei.com
+DOMAIN-SUFFIX,metrics1.data.hicloud.com
+DOMAIN-SUFFIX,metrics2.data.hicloud.com
+
+# Oppo / Vivo Ads
+DOMAIN-SUFFIX,adsfs.oppo.com
+DOMAIN-SUFFIX,adsfs.vivo.com
+DOMAIN-SUFFIX,adsdk.vivo.com
+DOMAIN-SUFFIX,adsdk.oppo.com
+
+# Common Mobile SDK Ads
+DOMAIN-SUFFIX,applovin.com
+DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,adjust.com
+DOMAIN-SUFFIX,ironsrc.com
+DOMAIN-SUFFIX,unityads.unity3d.com
+DOMAIN-SUFFIX,chartboost.com
+DOMAIN-SUFFIX,tapjoy.com
+DOMAIN-SUFFIX,kochava.com
+
+# Video Platform Ads
+DOMAIN-SUFFIX,ads.youtube.com
+DOMAIN-SUFFIX,ads-twitter.com
+DOMAIN-SUFFIX,ads.tiktok.com
+DOMAIN-SUFFIX,ads-api.twitter.com
+DOMAIN-SUFFIX,ads-api.tiktok.com
+
+# Tracking / Analytics
+DOMAIN-SUFFIX,umeng.com
+DOMAIN-SUFFIX,umengcloud.com
+DOMAIN-SUFFIX,umtrack.com
+DOMAIN-SUFFIX,umenglog.com
+DOMAIN-SUFFIX,cnzz.com
+DOMAIN-SUFFIX,cnzz.net
+DOMAIN-SUFFIX,51.la
+DOMAIN-SUFFIX,mathtag.com
+DOMAIN-SUFFIX,scorecardresearch.com
+
+# Game Ads
+DOMAIN-SUFFIX,ads.supercell.com
+DOMAIN-SUFFIX,ads.gameloft.com
+DOMAIN-SUFFIX,ads.nexon.com
+DOMAIN-SUFFIX,ads.pubmatic.com
+
+# Misc AD Domains
+DOMAIN-SUFFIX,adcolony.com
+DOMAIN-SUFFIX,serving-sys.com
+DOMAIN-SUFFIX,moatads.com
+DOMAIN-SUFFIX,criteo.com
+DOMAIN-SUFFIX,criteo.net
+DOMAIN-SUFFIX,taboola.com
+DOMAIN-SUFFIX,outbrain.com
+
+# AD Keywords
+DOMAIN-KEYWORD,adservice
+DOMAIN-KEYWORD,adsystem
+DOMAIN-KEYWORD,advert
+DOMAIN-KEYWORD,tracking
+DOMAIN-KEYWORD,analytics
+DOMAIN-KEYWORD,metrics
