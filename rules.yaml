@@ -555,7 +555,7 @@ rules:
   - "RULE-SET,spotify,流媒体服务"
   - "RULE-SET,steam_direct,全球直连"
   - "RULE-SET,steam_proxy,steam社区"
-  - "RULE-SET,telegram,国外社交媒体"
+  - "RULE-SET,telegram,Telegram"
   - "RULE-SET,yandex,国外社交媒体"
   - "RULE-SET,youtube,流媒体服务"
   - "RULE-SET,ChinaMedia,全球直连"
