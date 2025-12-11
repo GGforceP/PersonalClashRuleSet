@@ -1,0 +1,74 @@
+# Google China Direct (Enhanced)
+
+# Google China Official
+DOMAIN-SUFFIX,265.com
+
+# Google Push (FCM)
+DOMAIN-SUFFIX,mtalk.google.com
+DOMAIN-SUFFIX,alt1-mtalk.google.com
+DOMAIN-SUFFIX,alt2-mtalk.google.com
+DOMAIN-SUFFIX,alt3-mtalk.google.com
+DOMAIN-SUFFIX,alt4-mtalk.google.com
+DOMAIN-SUFFIX,alt5-mtalk.google.com
+DOMAIN-SUFFIX,alt6-mtalk.google.com
+DOMAIN-SUFFIX,alt7-mtalk.google.com
+DOMAIN-SUFFIX,alt8-mtalk.google.com
+
+# Google Download (China CDN)
+DOMAIN-SUFFIX,dl.google.com
+DOMAIN-SUFFIX,dl.l.google.com
+DOMAIN-SUFFIX,cache.pack.google.com
+
+# Google PKI / Certificate
+DOMAIN-SUFFIX,crl.pki.goog
+DOMAIN-SUFFIX,ocsp.pki.goog
+
+# Google Safe Browsing (China CDN)
+DOMAIN-SUFFIX,safebrowsing-cache.google.com
+
+# Google Analytics (部分中国可直连)
+DOMAIN-SUFFIX,ssl-google-analytics.l.google.com
+DOMAIN-SUFFIX,app-measurement.com
+
+# Google Tag Manager (China CDN)
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,googletagservices.com
+DOMAIN-SUFFIX,www-googletagmanager.l.google.com
+DOMAIN-SUFFIX,gtm.oasisfeng.com
+
+# Google Toolbar / Tools
+DOMAIN-SUFFIX,toolbarqueries.google.com
+DOMAIN-SUFFIX,tools.google.com
+DOMAIN-SUFFIX,tools.l.google.com
+
+# Google Ads (部分可直连)
+DOMAIN-SUFFIX,clickserve.dartsearch.net
+
+# Firebase / Crashlytics
+DOMAIN-SUFFIX,settings.crashlytics.com
+
+# ===== Additional China-Accessible Google Domains =====
+
+# Google Fonts (部分国内 CDN 可直连)
+DOMAIN-SUFFIX,fonts.gstatic.com
+DOMAIN-SUFFIX,fonts.googleapis.com
+
+# Google Static Resources (部分中国 CDN 可直连)
+DOMAIN-SUFFIX,ajax.googleapis.com
+DOMAIN-SUFFIX,apis.google.com
+
+# Google Public DNS (仅域名可直连，IP 不可直连)
+DOMAIN-SUFFIX,dns.google
+
+# Google China CDN (部分国内节点可直连)
+DOMAIN-SUFFIX,gstatic.cn
+DOMAIN-SUFFIX,google.cn
+DOMAIN-SUFFIX,googleapis.cn
+
+# Google Play（仅部分资源可直连）
+DOMAIN-SUFFIX,play-lh.googleusercontent.com
+DOMAIN-SUFFIX,play.googleapis.com
+
+# YouTube 静态资源（部分国内 CDN 可直连）
+DOMAIN-SUFFIX,i.ytimg.com
+DOMAIN-SUFFIX,s.ytimg.com
