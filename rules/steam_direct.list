@@ -1,0 +1,67 @@
+# ============================================
+# Steam Direct List（国内可直连）
+# 由Microsoft Copilot AI整理提供🤣
+# Microsoft Copilot: https://copilot.microsoft.com
+# ============================================
+
+
+# ============================================
+# Steam 中国区（完美世界运营）
+# ============================================
+DOMAIN-SUFFIX,steamchina.com
+DOMAIN-SUFFIX,steamchina.com.cn
+DOMAIN-SUFFIX,steamcontent.com.cn
+DOMAIN-SUFFIX,steampowered.com.cn
+DOMAIN-SUFFIX,steamstatic.com.cn
+DOMAIN-SUFFIX,steamusercontent.com.cn
+DOMAIN-SUFFIX,steamcdn-a.akamaihd.net.cn
+
+
+# ============================================
+# Steam 下载 CDN（国内可直连）
+# ============================================
+DOMAIN-SUFFIX,steamcontent.com
+DOMAIN-SUFFIX,steamcontent.net
+DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
+DOMAIN-SUFFIX,steamserver.net
+DOMAIN-SUFFIX,steamstat.us
+
+
+# ============================================
+# Steam 客户端更新 / 内容分发（国内可直连）
+# ============================================
+DOMAIN-SUFFIX,cm.steampowered.com
+DOMAIN-SUFFIX,cm2.steampowered.com
+DOMAIN-SUFFIX,cm3.steampowered.com
+
+DOMAIN-SUFFIX,steampipe.steamcontent.com
+DOMAIN-SUFFIX,steampipe.steamcontent.net
+DOMAIN-SUFFIX,steampipe.steamcontent.com.cn
+DOMAIN-SUFFIX,steampipe.steamcontent.net.cn
+
+
+# ============================================
+# Steam 静态资源（国内可直连）
+# ============================================
+DOMAIN-SUFFIX,steamstatic.com
+DOMAIN-SUFFIX,steamusercontent.com
+DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
+DOMAIN-SUFFIX,steamcommunity.com.edgesuite.net
+
+
+# ============================================
+# Steam 完美世界联运（国内可直连）
+# ============================================
+DOMAIN-SUFFIX,wmsj.cn
+DOMAIN-SUFFIX,wmsjsteam.com
+DOMAIN-SUFFIX,csgo.wmsj.cn
+DOMAIN-SUFFIX,dota2.wmsj.cn
+
+
+# ============================================
+# Steam IP 段（国内可直连）
+# ============================================
+IP-CIDR,103.10.124.0/23,no-resolve
+IP-CIDR,103.28.54.0/23,no-resolve
+IP-CIDR,45.121.184.0/22,no-resolve
+IP-CIDR,45.121.186.0/23,no-resolve
