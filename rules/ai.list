@@ -124,6 +124,7 @@ DOMAIN-SUFFIX,msftauth.net
 DOMAIN-SUFFIX,msauth.net
 DOMAIN-SUFFIX,msauthimages.net
 DOMAIN-SUFFIX,cocopilot.org
+DOMAIN-SUFFIX,copilot.cloud.microsoft
 
 DOMAIN-KEYWORD,copilot
 DOMAIN-KEYWORD,bingai
