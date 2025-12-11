@@ -1,0 +1,50 @@
+# Local Area Network (LAN)
+# 由Microsoft Copilot AI整理提供🤣
+# Microsoft Copilot: https://copilot.microsoft.com
+
+# RFC1918 Private Networks
+IP-CIDR,10.0.0.0/8,no-resolve
+IP-CIDR,172.16.0.0/12,no-resolve
+IP-CIDR,192.168.0.0/16,no-resolve
+
+# Link-Local Addresses
+IP-CIDR,169.254.0.0/16,no-resolve
+
+# Loopback
+IP-CIDR,127.0.0.0/8,no-resolve
+
+# IPv6 Local
+IP-CIDR,::1/128,no-resolve
+IP-CIDR,fc00::/7,no-resolve
+IP-CIDR,fe80::/10,no-resolve
+
+# Multicast
+IP-CIDR,224.0.0.0/4,no-resolve
+IP-CIDR,ff00::/8,no-resolve
+
+# Broadcast
+IP-CIDR,255.255.255.255/32,no-resolve
+
+# Common Virtual Network Segments
+IP-CIDR,100.64.0.0/10,no-resolve        # CGNAT
+IP-CIDR,198.18.0.0/15,no-resolve        # Benchmarking
+IP-CIDR,192.0.0.0/24,no-resolve         # IETF Protocol Assignments
+IP-CIDR,192.0.2.0/24,no-resolve         # TEST-NET-1
+IP-CIDR,198.51.100.0/24,no-resolve      # TEST-NET-2
+IP-CIDR,203.0.113.0/24,no-resolve       # TEST-NET-3
+
+# Docker / Kubernetes / Container Networks
+IP-CIDR,172.17.0.0/16,no-resolve        # Docker default bridge
+IP-CIDR,172.18.0.0/16,no-resolve
+IP-CIDR,172.19.0.0/16,no-resolve
+IP-CIDR,172.20.0.0/14,no-resolve
+IP-CIDR,192.168.122.0/24,no-resolve     # KVM/QEMU default
+IP-CIDR,10.244.0.0/16,no-resolve        # K8s flannel
+IP-CIDR,10.96.0.0/12,no-resolve         # K8s service CIDR
+
+# Local Hostnames
+DOMAIN-SUFFIX,local
+DOMAIN-SUFFIX,lan
+DOMAIN-SUFFIX,home
+DOMAIN-SUFFIX,router
+DOMAIN-SUFFIX,localdomain
