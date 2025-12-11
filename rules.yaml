@@ -14,7 +14,7 @@ proxy-groups:
       - 德国
       - 法国
       - 奥呆利
-      - 手动切换
+      - 手动选择
       - 直连
   - name: 手动选择
     include-all: true
@@ -24,7 +24,7 @@ proxy-groups:
     include-all: true
     interval: 300
     tolerance: 100
-  - name: 📲 Telegram
+  - name: Telegram
     type: select
     proxies:
       - 区域选择
@@ -40,9 +40,9 @@ proxy-groups:
       - 德国
       - 法国
       - 奥呆利
-      - 手动切换
+      - 手动选择
       - 直连
-  - name: 📹 Youtube
+  - name: 常用AI
     type: select
     proxies:
       - 区域选择
@@ -58,5 +58,514 @@ proxy-groups:
       - 德国
       - 法国
       - 奥呆利
-      - 手动切换
+      - 手动选择
       - 直连
+  - name: YouTube
+    type: select
+    proxies:
+      - 区域选择
+      - 香港
+      - 美国
+      - 新加坡
+      - 台湾
+      - 日本
+      - 韩国
+      - 俄罗斯
+      - 土耳其
+      - 英国
+      - 德国
+      - 法国
+      - 奥呆利
+      - 手动选择
+      - 直连
+  - name: 流媒体服务
+    type: select
+    proxies:
+      - 区域选择
+      - 香港
+      - 美国
+      - 新加坡
+      - 台湾
+      - 日本
+      - 韩国
+      - 俄罗斯
+      - 土耳其
+      - 英国
+      - 德国
+      - 法国
+      - 奥呆利
+      - 手动选择
+      - 直连
+  - name: 国外社交媒体
+    type: select
+    proxies:
+      - 区域选择
+      - 香港
+      - 美国
+      - 新加坡
+      - 台湾
+      - 日本
+      - 韩国
+      - 俄罗斯
+      - 土耳其
+      - 英国
+      - 德国
+      - 法国
+      - 奥呆利
+      - 手动选择
+      - 直连
+  - name: 国内媒体
+    type: select
+    proxies:
+      - 区域选择
+      - 香港
+      - 美国
+      - 新加坡
+      - 台湾
+      - 日本
+      - 韩国
+      - 俄罗斯
+      - 土耳其
+      - 英国
+      - 德国
+      - 法国
+      - 奥呆利
+      - 手动选择
+      - 直连
+  - name: 微软服务-代理
+    type: select
+    proxies:
+      - 区域选择
+      - 香港
+      - 美国
+      - 新加坡
+      - 台湾
+      - 日本
+      - 韩国
+      - 俄罗斯
+      - 土耳其
+      - 英国
+      - 德国
+      - 法国
+      - 奥呆利
+      - 手动选择
+      - 直连
+  - name: 微软服务-直连
+    type: select
+    proxies:
+      - 区域选择
+      - 香港
+      - 美国
+      - 新加坡
+      - 台湾
+      - 日本
+      - 韩国
+      - 俄罗斯
+      - 土耳其
+      - 英国
+      - 德国
+      - 法国
+      - 奥呆利
+      - 手动选择
+      - 直连
+  - name: Steam社区
+    type: select
+    proxies:
+      - 区域选择
+      - 香港
+      - 美国
+      - 新加坡
+      - 台湾
+      - 日本
+      - 韩国
+      - 俄罗斯
+      - 土耳其
+      - 英国
+      - 德国
+      - 法国
+      - 奥呆利
+      - 手动选择
+      - 直连
+  - name: 全球直连
+    type: select
+    proxies:
+      - 区域选择
+      - 香港
+      - 美国
+      - 新加坡
+      - 台湾
+      - 日本
+      - 韩国
+      - 俄罗斯
+      - 土耳其
+      - 英国
+      - 德国
+      - 法国
+      - 奥呆利
+      - 手动选择
+      - 直连
+  - name: FuckADs
+    type: select
+    proxies:
+      - REJECT
+  - name: 其他分流
+    type: select
+    proxies:
+      - 区域选择
+      - 香港
+      - 美国
+      - 新加坡
+      - 台湾
+      - 日本
+      - 韩国
+      - 俄罗斯
+      - 土耳其
+      - 英国
+      - 德国
+      - 法国
+      - 奥呆利
+      - 手动选择
+      - 直连
+  - name: 香港
+    include-all: true
+    filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong
+    type: url-test
+    interval: 300
+    tolerance: 100
+  - name: 美国
+    include-all: true
+    filter: (?i)美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States
+    type: url-test
+    interval: 300
+    tolerance: 100
+  - name: 新加坡
+    include-all: true
+    filter: (?i)新加坡|坡|狮城|SG|Singapore
+    type: url-test
+    interval: 300
+    tolerance: 100
+  - name: 台湾
+    include-all: true
+    filter: (?i)台|新北|彰化|TW|Taiwan
+    type: url-test
+    interval: 300
+    tolerance: 100
+  - name: 日本
+    filter: (?i)日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan
+    type: url-test
+    interval: 300
+    tolerance: 100
+  - name: 韩国节点
+    include-all: true
+    filter: (?i)KR|Korea|KOR|首尔|韩|韓
+    type: url-test
+    interval: 300
+    tolerance: 100
+  - name: 俄罗斯
+    filter: (?i)俄罗斯|俄|RU|Russia|俄国|罗斯
+    type: url-test
+    interval: 300
+    tolerance: 100
+  - name: 土耳其
+    filter: (?i)TR|土耳其|Turkey|Türkiye|Turkye|土
+    type: url-test
+    interval: 300
+    tolerance: 100
+  - name: 英国
+    filter: (?i)英国|曼彻斯特|UK|英
+    type: url-test
+    interval: 300
+    tolerance: 100
+- name: 德国
+    filter: (?i)德国|慕尼黑|GE|德|Germany
+    type: url-test
+    interval: 300
+    tolerance: 100
+  - name: 法国
+    filter: (?i)法|法国|巴黎|France|FR
+    type: url-test
+    interval: 300
+    tolerance: 100
+  - name: 奥呆利
+    filter: (?i)奥|澳大利亚|Austria|AUS|AU
+    type: url-test
+    interval: 300
+    tolerance: 100
+  - name: GLOBAL
+    include-all: true
+    type: select
+    proxies:
+      - 区域选择
+      - 香港
+      - 美国
+      - 新加坡
+      - 台湾
+      - 日本
+      - 韩国
+      - 俄罗斯
+      - 土耳其
+      - 英国
+      - 德国
+      - 法国
+      - 奥呆利
+      - 手动选择
+      - 自动选择
+      - 直连
+
+rule-providers:
+  LAN:
+    url: https://raw.githubusercontent.com/GGforceP/PersonalClashRuleSet/main/rules/LAN.list
+    path: ./ruleset/LAN.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Pinterest:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/Pinterest.list
+    path: ./ruleset/Pinterest.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+adult_content_proxy.list:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/adult_content_proxy.list
+    path: ./ruleset/adult_content_proxy.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+ai:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/ai.list
+    path: ./ruleset/ai.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+apple:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/apple.list
+    path: ./ruleset/apple.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+apple_direct:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/apple_direct.list
+    path: ./ruleset/apple_direct.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+cloudflare_proxy:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/cloudflare_proxy.list
+    path: ./ruleset/cloudflare_proxy.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+download:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/download_direct.list
+    path: ./ruleset/download_direct.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+emby_all:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/emby_all.list
+    path: ./ruleset/emby_all.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+fuck_ADs:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/fuck_ADs.list
+    path: ./ruleset/fuck_ADs.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+game_platform_dircet:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/game_platform_dircet.list
+    path: ./ruleset/game_platform_dircet.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+google:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/google.list
+    path: ./ruleset/google.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+google_direct:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/google_direct.list
+    path: ./ruleset/google_direct.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+microsoft_direct:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/microsoft_direct.list
+    path: ./ruleset/microsoft_direct.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+microsoft_proxy:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/microsoft_proxy.list
+    path: ./ruleset/microsoft_proxy.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+multimedia_proxy:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/multimedia_proxy.list
+    path: ./ruleset/multimedia_proxy.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+netflix:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/netflix.list
+    path: ./ruleset/netflix.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+payment_proxy:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/payment_proxy.list
+    path: ./ruleset/payment_proxy.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+pixiv:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/pixiv.list
+    path: ./ruleset/pixiv.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+socialmedia_proxy:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/socialmedia_proxy.list
+    path: ./ruleset/socialmedia_proxy.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+spotify:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/spotify.list
+    path: ./ruleset/spotify.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+steam_direct:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/steam_direct.list
+    path: ./ruleset/steam_direct.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+steam_proxy:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/steam_proxy.list
+    path: ./ruleset/steam_proxy.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+telegram:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/telegram.list
+    path: ./ruleset/telegram.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+yandex:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/yandex.list
+    path: ./ruleset/yandex.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+youtube:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/youtube.list
+    path: ./ruleset/youtube.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ChinaMedia:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaMedia.list
+    path: ./ruleset/ChinaMedia.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ProxyGFWlist:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ProxyGFWlist.list
+    path: ./ruleset/ProxyGFWlist.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ChinaDomain:
+    url: https://github.com/ACL4SSR/ACL4SSR/raw/refs/heads/master/Clash/ChinaDomain.list
+    path: ./ruleset/ChinaDomain.list
+    behavior: domain
+    interval: 86400
+    format: text
+    type: http
+  ChinaCompanyIp:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaCompanyIp.list
+    path: ./ruleset/ChinaCompanyIp.list
+    behavior: ipcidr
+    interval: 86400
+    format: text
+    type: http
+ChinaIp:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaIp.list
+    path: ./ruleset/ChinaIp.list
+    behavior: ipcidr
+    interval: 86400
+    format: text
+    type: http
+    
+rules:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
