@@ -116,9 +116,6 @@ DOMAIN,publicassets.cdn-apple.com
 
 # 关键词兜底
 DOMAIN-KEYWORD,applemusic
-DOMAIN-KEYWORD,appletv
-DOMAIN-KEYWORD,appleone
 DOMAIN-KEYWORD,applepay
 DOMAIN-KEYWORD,applepodcasts
 DOMAIN-KEYWORD,itunesradio
-DOMAIN-KEYWORD,appleintelligence
