@@ -1,0 +1,63 @@
+# Pinterest (Need Proxy)
+# 由Microsoft Copilot AI整理提供🤣
+# Microsoft Copilot: https://copilot.microsoft.com
+
+# Main
+DOMAIN-SUFFIX,pinterest.com
+DOMAIN-SUFFIX,www.pinterest.com
+DOMAIN-SUFFIX,pinterest.co.uk
+DOMAIN-SUFFIX,pinterest.ca
+DOMAIN-SUFFIX,pinterest.de
+DOMAIN-SUFFIX,pinterest.fr
+DOMAIN-SUFFIX,pinterest.jp
+
+# API
+DOMAIN-SUFFIX,api.pinterest.com
+DOMAIN-SUFFIX,api.pinterest.com.au
+DOMAIN-SUFFIX,api.pinterest.co.uk
+
+# Login / OAuth
+DOMAIN-SUFFIX,accounts.pinterest.com
+DOMAIN-SUFFIX,auth.pinterest.com
+
+# Static / CDN
+DOMAIN-SUFFIX,pinimg.com
+DOMAIN-SUFFIX,i.pinimg.com
+DOMAIN-SUFFIX,v.pinimg.com
+DOMAIN-SUFFIX,s.pinimg.com
+DOMAIN-SUFFIX,assets.pinterest.com
+DOMAIN-SUFFIX,assets.pinterest.net
+
+# Video CDN
+DOMAIN-SUFFIX,vsco.co
+DOMAIN-SUFFIX,video.pinimg.com
+
+# Pinterest Ads / Tracking
+DOMAIN-SUFFIX,log.pinterest.com
+DOMAIN-SUFFIX,ads.pinterest.com
+DOMAIN-SUFFIX,analytics.pinterest.com
+DOMAIN-SUFFIX,ct.pinterest.com
+
+# Pinterest Widgets / Embeds
+DOMAIN-SUFFIX,pinterestwidgets.com
+DOMAIN-SUFFIX,pinterest.cl
+DOMAIN-SUFFIX,pinterest.pt
+
+# Pinterest Short Links
+DOMAIN-SUFFIX,pin.it
+DOMAIN-SUFFIX,pinterest.at
+DOMAIN-SUFFIX,pinterest.ch
+
+# Pinterest Image Optimization
+DOMAIN-SUFFIX,pimg.twimg.com
+DOMAIN-SUFFIX,pimg-cdn.com
+
+# Pinterest Business
+DOMAIN-SUFFIX,business.pinterest.com
+DOMAIN-SUFFIX,help.pinterest.com
+
+# Pinterest Misc
+DOMAIN-SUFFIX,pinterestmail.com
+DOMAIN-SUFFIX,pinterestengine.com
+DOMAIN-SUFFIX,pinterestboard.com
+DOMAIN-SUFFIX,pinterestbrowser.com
