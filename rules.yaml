@@ -237,6 +237,26 @@ proxy-groups:
       - 手动选择
       - 自动选择
       - 直连
+  - name: 漏网之鱼
+    include-all: true
+    type: select
+    proxies:
+      - 区域选择
+      - 香港
+      - 美国
+      - 新加坡
+      - 台湾
+      - 日本
+      - 韩国
+      - 俄罗斯
+      - 土耳其
+      - 英国
+      - 德国
+      - 法国
+      - 奥呆利
+      - 手动选择
+      - 自动选择
+      - 直连
   - name: 香港
     include-all: true
     filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong
@@ -302,26 +322,6 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 100
-  - name: GLOBAL
-    include-all: true
-    type: select
-    proxies:
-      - 区域选择
-      - 香港
-      - 美国
-      - 新加坡
-      - 台湾
-      - 日本
-      - 韩国
-      - 俄罗斯
-      - 土耳其
-      - 英国
-      - 德国
-      - 法国
-      - 奥呆利
-      - 手动选择
-      - 自动选择
-      - 直连
 
 rule-providers:
   LAN:
