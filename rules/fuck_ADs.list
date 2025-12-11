@@ -1,22 +1,19 @@
-# BanAD (Ad Block List)
+# FuukAD Full (Ads + Tracking + ProgramAD)
 # 由Microsoft Copilot AI整理提供🤣
 # Microsoft Copilot: https://copilot.microsoft.com
 
-# Common AD Networks
+# Google Ads
 DOMAIN-SUFFIX,admob.com
-DOMAIN-SUFFIX,adnxs.com
-DOMAIN-SUFFIX,adsafeprotected.com
 DOMAIN-SUFFIX,adservice.google.com
 DOMAIN-SUFFIX,adservice.google.com.hk
 DOMAIN-SUFFIX,adservice.google.com.tw
 DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,googlesyndication.com
-DOMAIN-SUFFIX,googleadsserving.cn
 DOMAIN-SUFFIX,googleadservices.com
 DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,googletagservices.com
 
-# Facebook Ads / Tracking
+# Facebook Ads
 DOMAIN-SUFFIX,facebookads.com
 DOMAIN-SUFFIX,fbcdn-ads.com
 DOMAIN-SUFFIX,fbads.com
@@ -36,6 +33,29 @@ DOMAIN-SUFFIX,adsmind.gdtimg.com
 DOMAIN-SUFFIX,gdt.qq.com
 DOMAIN-SUFFIX,beacon.qq.com
 DOMAIN-SUFFIX,bugly.qq.com
+DOMAIN-SUFFIX,oth.eve.mdt.qq.com
+DOMAIN-SUFFIX,oth.str.mdt.qq.com
+DOMAIN-SUFFIX,oth.update.mdt.qq.com
+
+# Tencent Program AD
+DOMAIN-SUFFIX,pmir.3g.qq.com
+DOMAIN-SUFFIX,pmir.qq.com
+DOMAIN-SUFFIX,pmir-dl.qq.com
+
+# Baidu Ads
+DOMAIN-SUFFIX,cpro.baidu.com
+DOMAIN-SUFFIX,pos.baidu.com
+DOMAIN-SUFFIX,baiduads.com
+DOMAIN-SUFFIX,baidustatic.com
+DOMAIN-SUFFIX,hm.baidu.com
+DOMAIN-SUFFIX,hmma.baidu.com
+DOMAIN-SUFFIX,api.tuisong.baidu.com
+
+# 360 Ads
+DOMAIN-SUFFIX,softupdate.360.cn
+DOMAIN-SUFFIX,update.360safe.com
+DOMAIN-SUFFIX,down.360safe.com
+DOMAIN-SUFFIX,stat.360safe.com
 
 # Alibaba / UC / Youku Ads
 DOMAIN-SUFFIX,adashx.m.taobao.com
@@ -43,16 +63,7 @@ DOMAIN-SUFFIX,adashx.ut.taobao.com
 DOMAIN-SUFFIX,adashbc.ut.taobao.com
 DOMAIN-SUFFIX,ads.uc.cn
 DOMAIN-SUFFIX,adash.man.aliyuncs.com
-DOMAIN-SUFFIX,ykimg.com.ad
 DOMAIN-SUFFIX,atm.youku.com
-
-# Baidu Ads
-DOMAIN-SUFFIX,baidustatic.com
-DOMAIN-SUFFIX,baiduads.com
-DOMAIN-SUFFIX,baidutv.com
-DOMAIN-SUFFIX,union.baidu.com
-DOMAIN-SUFFIX,cpro.baidu.com
-DOMAIN-SUFFIX,pos.baidu.com
 
 # Xiaomi Ads
 DOMAIN-SUFFIX,ad.xiaomi.com
@@ -106,14 +117,31 @@ DOMAIN-SUFFIX,ads.gameloft.com
 DOMAIN-SUFFIX,ads.nexon.com
 DOMAIN-SUFFIX,ads.pubmatic.com
 
-# Misc AD Domains
-DOMAIN-SUFFIX,adcolony.com
-DOMAIN-SUFFIX,serving-sys.com
-DOMAIN-SUFFIX,moatads.com
-DOMAIN-SUFFIX,criteo.com
-DOMAIN-SUFFIX,criteo.net
-DOMAIN-SUFFIX,taboola.com
-DOMAIN-SUFFIX,outbrain.com
+# Xunlei / NetEase Ads
+DOMAIN-SUFFIX,ad.xunlei.com
+DOMAIN-SUFFIX,adsp.xunlei.com
+DOMAIN-SUFFIX,analytics.xunlei.com
+DOMAIN-SUFFIX,ad.163.com
+DOMAIN-SUFFIX,analytics.163.com
+DOMAIN-SUFFIX,iadmat.nosdn.127.net
+DOMAIN-SUFFIX,iadmusicmat.music.126.net
+
+# WPS / Kingsoft Ads
+DOMAIN-SUFFIX,ad.wps.cn
+DOMAIN-SUFFIX,ad-stat.ksosoft.com
+DOMAIN-SUFFIX,update.wps.cn
+
+# Windows Telemetry
+DOMAIN-SUFFIX,telemetry.microsoft.com
+DOMAIN-SUFFIX,settings-win.data.microsoft.com
+DOMAIN-SUFFIX,watson.telemetry.microsoft.com
+DOMAIN-SUFFIX,watson.ppe.telemetry.microsoft.com
+DOMAIN-SUFFIX,watson.microsoft.com
+DOMAIN-SUFFIX,feedback.microsoft.com
+
+# Adobe Tracking
+DOMAIN-SUFFIX,adobedtm.com
+DOMAIN-SUFFIX,adobestats.com
 
 # AD Keywords
 DOMAIN-KEYWORD,adservice
@@ -122,3 +150,4 @@ DOMAIN-KEYWORD,advert
 DOMAIN-KEYWORD,tracking
 DOMAIN-KEYWORD,analytics
 DOMAIN-KEYWORD,metrics
+DOMAIN-KEYWORD,telemetry
