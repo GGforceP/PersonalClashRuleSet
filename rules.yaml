@@ -41,6 +41,7 @@ proxy-groups:
       - 法国
       - 奥呆利
       - 手动选择
+      - 自动选择
       - 直连
   - name: 常用AI
     type: select
@@ -59,6 +60,7 @@ proxy-groups:
       - 法国
       - 奥呆利
       - 手动选择
+      - 自动选择
       - 直连
   - name: YouTube
     type: select
@@ -77,6 +79,7 @@ proxy-groups:
       - 法国
       - 奥呆利
       - 手动选择
+      - 自动选择
       - 直连
   - name: 流媒体服务
     type: select
@@ -95,6 +98,7 @@ proxy-groups:
       - 法国
       - 奥呆利
       - 手动选择
+      - 自动选择
       - 直连
   - name: 国外社交媒体
     type: select
@@ -113,6 +117,7 @@ proxy-groups:
       - 法国
       - 奥呆利
       - 手动选择
+      - 自动选择
       - 直连
   - name: 国内媒体
     type: select
@@ -131,6 +136,7 @@ proxy-groups:
       - 法国
       - 奥呆利
       - 手动选择
+      - 自动选择
       - 直连
   - name: 微软服务-代理
     type: select
@@ -149,6 +155,7 @@ proxy-groups:
       - 法国
       - 奥呆利
       - 手动选择
+      - 自动选择
       - 直连
   - name: 微软服务-直连
     type: select
@@ -167,6 +174,7 @@ proxy-groups:
       - 法国
       - 奥呆利
       - 手动选择
+      - 自动选择
       - 直连
   - name: Steam社区
     type: select
@@ -185,6 +193,7 @@ proxy-groups:
       - 法国
       - 奥呆利
       - 手动选择
+      - 自动选择
       - 直连
   - name: 全球直连
     type: select
@@ -203,6 +212,7 @@ proxy-groups:
       - 法国
       - 奥呆利
       - 手动选择
+      - 自动选择
       - 直连
   - name: FuckADs
     type: select
@@ -225,6 +235,7 @@ proxy-groups:
       - 法国
       - 奥呆利
       - 手动选择
+      - 自动选择
       - 直连
   - name: 香港
     include-all: true
