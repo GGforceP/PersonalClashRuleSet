@@ -327,7 +327,7 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-adult_content_proxy.list:
+adult_content_proxy:
     url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/adult_content_proxy.list
     path: ./ruleset/adult_content_proxy.list
     behavior: classical
@@ -532,40 +532,34 @@ ChinaIp:
     type: http
     
 rules:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  - "RULE-SET,LAN,直连"
+  - "RULE-SET,Pinterest,"
+  - "RULE-SET,adult_content_proxy,"
+  - "RULE-SET,ai,"
+  - "RULE-SET,apple,"
+  - "RULE-SET,apple_direct,"
+  - "RULE-SET,cloudflare_proxy,"
+  - "RULE-SET,download,"
+  - "RULE-SET,emby_all,"
+  - "RULE-SET,fuck_ADs,"
+  - "RULE-SET,game_platform_dircet,"
+  - "RULE-SET,google,"
+  - "RULE-SET,google_direct,"
+  - "RULE-SET,microsoft_direct,"
+  - "RULE-SET,microsoft_proxy,"
+  - "RULE-SET,multimedia_proxy,"
+  - "RULE-SET,netflix,"
+  - "RULE-SET,payment_proxy,"
+  - "RULE-SET,pixiv,"
+  - "RULE-SET,socialmedia_proxy,"
+  - "RULE-SET,spotify,"
+  - "RULE-SET,steam_direct,"
+  - "RULE-SET,steam_proxy,"
+  - "RULE-SET,telegram,"
+  - "RULE-SET,yandex,"
+  - "RULE-SET,youtube,"
+  - "RULE-SET,ChinaMedia,"
+  - "RULE-SET,ProxyGFWlist,"
+  - "RULE-SET,ChinaDomain,"
+  - "RULE-SET,ChinaCompanyIp,"
+  - "RULE-SET,ChinaIp,"
