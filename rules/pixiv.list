@@ -1,0 +1,71 @@
+# Pixiv (Need Proxy)
+# 由Microsoft Copilot AI整理提供🤣
+# Microsoft Copilot: https://copilot.microsoft.com
+
+# Main
+DOMAIN-SUFFIX,pixiv.net
+DOMAIN-SUFFIX,www.pixiv.net
+DOMAIN-SUFFIX,accounts.pixiv.net
+DOMAIN-SUFFIX,oauth.secure.pixiv.net
+
+# API
+DOMAIN-SUFFIX,app-api.pixiv.net
+DOMAIN-SUFFIX,public-api.secure.pixiv.net
+DOMAIN-SUFFIX,api.pixiv.net
+
+# Image CDN
+DOMAIN-SUFFIX,pximg.net
+DOMAIN-SUFFIX,i.pximg.net
+DOMAIN-SUFFIX,s.pximg.net
+DOMAIN-SUFFIX,fanbox.pximg.net
+DOMAIN-SUFFIX,booth.pximg.net
+
+# Pixiv Sketch
+DOMAIN-SUFFIX,pixivsketch.net
+DOMAIN-SUFFIX,sketch.pixiv.net
+DOMAIN-SUFFIX,sketch-api.pixiv.net
+
+# Pixiv Fanbox
+DOMAIN-SUFFIX,fanbox.cc
+DOMAIN-SUFFIX,pixivfanbox.net
+DOMAIN-SUFFIX,fanbox-api.pixiv.net
+
+# Pixiv Booth
+DOMAIN-SUFFIX,booth.pm
+DOMAIN-SUFFIX,booth-api.pixiv.net
+
+# Pixiv Novel
+DOMAIN-SUFFIX,novel.pixiv.net
+
+# Pixivision
+DOMAIN-SUFFIX,pixivision.net
+
+# Pixiv Ads / Tracking
+DOMAIN-SUFFIX,ad.pixiv.org
+DOMAIN-SUFFIX,track.pixiv.net
+
+# Pixiv Static / CDN
+DOMAIN-SUFFIX,pximg.net
+DOMAIN-SUFFIX,pixiv-static.com
+DOMAIN-SUFFIX,pixiv-cdn.com
+DOMAIN-SUFFIX,pixiv-cat.net
+
+# Pixiv Live / Streaming
+DOMAIN-SUFFIX,live.pixiv.dev
+DOMAIN-SUFFIX,live-api.pixiv.dev
+
+# Pixiv Payment / Billing
+DOMAIN-SUFFIX,payments.pixiv.net
+DOMAIN-SUFFIX,billing.pixiv.net
+
+# Pixiv OAuth / Login
+DOMAIN-SUFFIX,secure.pixiv.net
+DOMAIN-SUFFIX,accounts.pixiv.net
+
+# Pixiv Misc
+DOMAIN-SUFFIX,pixiv.help
+DOMAIN-SUFFIX,pixiv.org
+DOMAIN-SUFFIX,pixiv.co.jp
+DOMAIN-SUFFIX,pixiv.me
+DOMAIN-SUFFIX,pixiv.cat
+DOMAIN-SUFFIX,pixiv.dev
