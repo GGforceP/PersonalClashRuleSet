@@ -1,0 +1,198 @@
+# ProxyMedia (Global Streaming Services)
+# 由Microsoft Copilot AI整理提供🤣
+# Microsoft Copilot: https://copilot.microsoft.com
+
+# ============================================
+# ABC / Disney
+# ============================================
+DOMAIN-SUFFIX,edgedatg.com
+DOMAIN-SUFFIX,go.com
+DOMAIN-SUFFIX,disneyplus.com
+DOMAIN-SUFFIX,bamgrid.com
+DOMAIN-SUFFIX,disney-plus.net
+DOMAIN-SUFFIX,disneystreaming.com
+
+# ============================================
+# AbemaTV
+# ============================================
+DOMAIN-KEYWORD,abematv
+DOMAIN-SUFFIX,abema.io
+DOMAIN-SUFFIX,abema.tv
+DOMAIN-SUFFIX,abema-tv.com
+DOMAIN-SUFFIX,ameba.jp
+DOMAIN-SUFFIX,hayabusa.io
+DOMAIN-SUFFIX,hayabusa.media
+
+# ============================================
+# All4 (Channel 4 UK)
+# ============================================
+DOMAIN-SUFFIX,c4assets.com
+DOMAIN-SUFFIX,channel4.com
+
+# ============================================
+# Amazon Prime Video
+# ============================================
+DOMAIN-KEYWORD,avoddashs
+DOMAIN-SUFFIX,amazonvideo.com
+DOMAIN-SUFFIX,media-amazon.com
+DOMAIN-SUFFIX,aiv-cdn.net
+DOMAIN-SUFFIX,aiv-delivery.net
+DOMAIN-SUFFIX,pv-cdn.net
+DOMAIN-SUFFIX,aboutamazon.com
+
+# ============================================
+# Apple TV / Apple News
+# ============================================
+DOMAIN-SUFFIX,tv.apple.com
+DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN,np-edge.itunes.apple.com
+DOMAIN,play-edge.itunes.apple.com
+
+# ============================================
+# BBC iPlayer
+# ============================================
+DOMAIN-SUFFIX,bbc.co.uk
+DOMAIN-SUFFIX,bbc.com
+DOMAIN-SUFFIX,bbci.co.uk
+DOMAIN-SUFFIX,bbc.net.uk
+DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net
+DOMAIN-KEYWORD,bbcfmt
+DOMAIN-KEYWORD,uk-live
+
+# ============================================
+# Bahamut (巴哈姆特动画疯)
+# ============================================
+DOMAIN-SUFFIX,bahamut.com.tw
+DOMAIN-SUFFIX,gamer.com.tw
+DOMAIN,bahamut.akamaized.net
+DOMAIN,gamer-cds.cdn.hinet.net
+DOMAIN,gamer2-cds.cdn.hinet.net
+
+# ============================================
+# DAZN
+# ============================================
+DOMAIN-SUFFIX,dazn.com
+DOMAIN-SUFFIX,dazndn.com
+DOMAIN-SUFFIX,dazn-api.com
+DOMAIN-SUFFIX,indazn.com
+DOMAIN-SUFFIX,indaznlab.com
+DOMAIN-KEYWORD,voddazn
+
+# ============================================
+# Deezer
+# ============================================
+DOMAIN-SUFFIX,deezer.com
+DOMAIN-SUFFIX,dzcdn.net
+
+# ============================================
+# Discovery+
+# ============================================
+DOMAIN-SUFFIX,discovery.com
+DOMAIN-SUFFIX,disco-api.com
+DOMAIN-SUFFIX,uplynk.com
+
+# ============================================
+# HBO / Max
+# ============================================
+DOMAIN-SUFFIX,hbo.com
+DOMAIN-SUFFIX,hbomax.com
+DOMAIN-SUFFIX,max.com
+DOMAIN-SUFFIX,hbogo.com
+DOMAIN-SUFFIX,hbogoasia.com
+
+# ============================================
+# Hulu
+# ============================================
+DOMAIN-SUFFIX,hulu.com
+DOMAIN-SUFFIX,huluim.com
+DOMAIN-SUFFIX,hulustream.com
+
+# ============================================
+# Netflix
+# ============================================
+DOMAIN-SUFFIX,netflix.com
+DOMAIN-SUFFIX,netflix.net
+DOMAIN-SUFFIX,nflximg.com
+DOMAIN-SUFFIX,nflxvideo.net
+DOMAIN-SUFFIX,nflxso.net
+DOMAIN-SUFFIX,nflxext.com
+
+# ============================================
+# Paramount+
+# ============================================
+DOMAIN-SUFFIX,paramountplus.com
+DOMAIN-SUFFIX,cbsi.com
+DOMAIN-SUFFIX,cbsaavideo.com
+
+# ============================================
+# Peacock
+# ============================================
+DOMAIN-SUFFIX,peacocktv.com
+DOMAIN-SUFFIX,peacocktv.com.edgekey.net
+
+# ============================================
+# Viki
+# ============================================
+DOMAIN-SUFFIX,viki.com
+DOMAIN-SUFFIX,viki.io
+DOMAIN-SUFFIX,vikiplatform.com
+
+# ============================================
+# F1TV
+# ============================================
+DOMAIN-SUFFIX,f1tv.com
+DOMAIN-SUFFIX,formula1.com
+
+# ============================================
+# Crunchyroll
+# ============================================
+DOMAIN-SUFFIX,crunchyroll.com
+DOMAIN-SUFFIX,crunchyrollsvc.com
+DOMAIN-SUFFIX,vrv.co
+
+# ============================================
+# Spotify (媒体类)
+# ============================================
+DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,spotifycdn.com
+DOMAIN-SUFFIX,scdn.co
+
+# ============================================
+# YouTube / YouTube Music
+# ============================================
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,youtube-nocookie.com
+
+# ============================================
+# Twitch
+# ============================================
+DOMAIN-SUFFIX,twitch.tv
+DOMAIN-SUFFIX,ttvnw.net
+DOMAIN-SUFFIX,jtvnw.net
+
+# ============================================
+# TikTok (国际版媒体)
+# ============================================
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,byteoversea.com
+
+# ============================================
+# SoundCloud
+# ============================================
+DOMAIN-SUFFIX,soundcloud.com
+DOMAIN-SUFFIX,sndcdn.com
+
+# ============================================
+# Pandora
+# ============================================
+DOMAIN-SUFFIX,pandora.com
+
+# ============================================
+# Vimeo
+# ============================================
+DOMAIN-SUFFIX,vimeo.com
+DOMAIN-SUFFIX,vimeocdn.com
