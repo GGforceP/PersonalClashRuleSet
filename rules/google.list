@@ -61,17 +61,17 @@ DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,ssl.gstatic.com
 DOMAIN-SUFFIX,www.gstatic.com
 
-# Google FCM 推送
-DOMAIN,mtalk.google.com
-DOMAIN,alt1-mtalk.google.com
-DOMAIN,alt2-mtalk.google.com
-DOMAIN,alt3-mtalk.google.com
-DOMAIN,alt4-mtalk.google.com
-DOMAIN,alt5-mtalk.google.com
-DOMAIN,alt6-mtalk.google.com
-DOMAIN,alt7-mtalk.google.com
-DOMAIN,alt8-mtalk.google.com
-DOMAIN,alt9-mtalk.google.com
+# Google FCM 推送（可直连，已移至直连区）
+#DOMAIN,mtalk.google.com
+#DOMAIN,alt1-mtalk.google.com
+#DOMAIN,alt2-mtalk.google.com
+#DOMAIN,alt3-mtalk.google.com
+#DOMAIN,alt4-mtalk.google.com
+#DOMAIN,alt5-mtalk.google.com
+#DOMAIN,alt6-mtalk.google.com
+#DOMAIN,alt7-mtalk.google.com
+#DOMAIN,alt8-mtalk.google.com
+#DOMAIN,alt9-mtalk.google.com
 
 # Google Cloud (GCP)
 DOMAIN-SUFFIX,cloud.google.com
@@ -158,4 +158,3 @@ DOMAIN-KEYWORD,googlesyndication
 DOMAIN-KEYWORD,googleapis
 DOMAIN-KEYWORD,gstatic
 DOMAIN-KEYWORD,youtube
-DOMAIN-KEYWORD,firebase
