@@ -75,6 +75,24 @@ DOMAIN-SUFFIX,steamstatic.com.edgesuite.net
 DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net
 DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
 
+# Steam Classical CDN (Need Proxy)
+DOMAIN-SUFFIX,steamcontent.com
+DOMAIN-SUFFIX,steamcontent.net
+DOMAIN-SUFFIX,steamcontent.com.edgesuite.net
+DOMAIN-SUFFIX,steamcontent.com.akamaized.net
+DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
+DOMAIN-SUFFIX,steamcdn-a.akamaihd.net.edgesuite.net
+DOMAIN-SUFFIX,steamcdn-a.akamaihd.net.globalredir.akadns.net
+DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net
+DOMAIN-SUFFIX,steamusercontent.com.edgesuite.net
+DOMAIN-SUFFIX,steamusercontent.com.akamaized.net
+DOMAIN-SUFFIX,steamstatic.com.edgesuite.net
+DOMAIN-SUFFIX,steamstatic.com.akamaized.net
+DOMAIN-SUFFIX,ugc.steampowered.com.edgesuite.net
+DOMAIN-SUFFIX,ugc.steampowered.com.akamaized.net
+DOMAIN-SUFFIX,ugc.steamcontent.com
+DOMAIN-SUFFIX,ugc.steamusercontent.com
+
 # Steam IP Ranges（部分海外节点）
 IP-CIDR,208.64.200.0/22,no-resolve
 IP-CIDR,208.64.202.0/23,no-resolve
