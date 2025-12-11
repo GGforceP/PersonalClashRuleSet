@@ -321,202 +321,202 @@ rule-providers:
     format: text
     type: http
   Pinterest:
-    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/Pinterest.list
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/Pinterest.list
     path: ./ruleset/Pinterest.list
     behavior: classical
     interval: 86400
     format: text
     type: http
 adult_content_proxy:
-    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/adult_content_proxy.list
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/adult_content_proxy.list
     path: ./ruleset/adult_content_proxy.list
     behavior: classical
     interval: 86400
     format: text
     type: http
 ai:
-    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/ai.list
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/ai.list
     path: ./ruleset/ai.list
     behavior: classical
     interval: 86400
     format: text
     type: http
 apple:
-    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/apple.list
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/apple.list
     path: ./ruleset/apple.list
     behavior: classical
     interval: 86400
     format: text
     type: http
 apple_direct:
-    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/apple_direct.list
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/apple_direct.list
     path: ./ruleset/apple_direct.list
     behavior: classical
     interval: 86400
     format: text
     type: http
 cloudflare_proxy:
-    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/cloudflare_proxy.list
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/cloudflare_proxy.list
     path: ./ruleset/cloudflare_proxy.list
     behavior: classical
     interval: 86400
     format: text
     type: http
 download:
-    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/download_direct.list
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/download_direct.list
     path: ./ruleset/download_direct.list
     behavior: classical
     interval: 86400
     format: text
     type: http
 emby_all:
-    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/emby_all.list
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/emby_all.list
     path: ./ruleset/emby_all.list
     behavior: classical
     interval: 86400
     format: text
     type: http
 fuck_ADs:
-    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/fuck_ADs.list
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/fuck_ADs.list
     path: ./ruleset/fuck_ADs.list
     behavior: classical
     interval: 86400
     format: text
     type: http
 game_platform_dircet:
-    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/game_platform_dircet.list
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/game_platform_dircet.list
     path: ./ruleset/game_platform_dircet.list
     behavior: classical
     interval: 86400
     format: text
     type: http
 google:
-    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/google.list
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/google.list
     path: ./ruleset/google.list
     behavior: classical
     interval: 86400
     format: text
     type: http
 google_direct:
-    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/google_direct.list
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/google_direct.list
     path: ./ruleset/google_direct.list
     behavior: classical
     interval: 86400
     format: text
     type: http
 microsoft_direct:
-    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/microsoft_direct.list
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/microsoft_direct.list
     path: ./ruleset/microsoft_direct.list
     behavior: classical
     interval: 86400
     format: text
     type: http
 microsoft_proxy:
-    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/microsoft_proxy.list
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/microsoft_proxy.list
     path: ./ruleset/microsoft_proxy.list
     behavior: classical
     interval: 86400
     format: text
     type: http
 multimedia_proxy:
-    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/multimedia_proxy.list
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/multimedia_proxy.list
     path: ./ruleset/multimedia_proxy.list
     behavior: classical
     interval: 86400
     format: text
     type: http
 netflix:
-    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/netflix.list
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/netflix.list
     path: ./ruleset/netflix.list
     behavior: classical
     interval: 86400
     format: text
     type: http
 payment_proxy:
-    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/payment_proxy.list
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/payment_proxy.list
     path: ./ruleset/payment_proxy.list
     behavior: classical
     interval: 86400
     format: text
     type: http
 pixiv:
-    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/pixiv.list
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/pixiv.list
     path: ./ruleset/pixiv.list
     behavior: classical
     interval: 86400
     format: text
     type: http
 socialmedia_proxy:
-    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/socialmedia_proxy.list
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/socialmedia_proxy.list
     path: ./ruleset/socialmedia_proxy.list
     behavior: classical
     interval: 86400
     format: text
     type: http
 spotify:
-    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/spotify.list
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/spotify.list
     path: ./ruleset/spotify.list
     behavior: classical
     interval: 86400
     format: text
     type: http
 steam_direct:
-    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/steam_direct.list
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/steam_direct.list
     path: ./ruleset/steam_direct.list
     behavior: classical
     interval: 86400
     format: text
     type: http
 steam_proxy:
-    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/steam_proxy.list
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/steam_proxy.list
     path: ./ruleset/steam_proxy.list
     behavior: classical
     interval: 86400
     format: text
     type: http
 telegram:
-    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/telegram.list
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/telegram.list
     path: ./ruleset/telegram.list
     behavior: classical
     interval: 86400
     format: text
     type: http
 yandex:
-    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/yandex.list
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/yandex.list
     path: ./ruleset/yandex.list
     behavior: classical
     interval: 86400
     format: text
     type: http
 youtube:
-    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/rules/youtube.list
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/youtube.list
     path: ./ruleset/youtube.list
     behavior: classical
     interval: 86400
     format: text
     type: http
-  ChinaMedia:
+ChinaMedia:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaMedia.list
     path: ./ruleset/ChinaMedia.list
     behavior: classical
     interval: 86400
     format: text
     type: http
-  ProxyGFWlist:
+ProxyGFWlist:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ProxyGFWlist.list
     path: ./ruleset/ProxyGFWlist.list
     behavior: classical
     interval: 86400
     format: text
     type: http
-  ChinaDomain:
-    url: https://github.com/ACL4SSR/ACL4SSR/raw/refs/heads/master/Clash/ChinaDomain.list
+ChinaDomain:
+    url: https://github.com/ACL4SSR/ACL4SSR/raw/master/Clash/ChinaDomain.list
     path: ./ruleset/ChinaDomain.list
     behavior: domain
     interval: 86400
     format: text
     type: http
-  ChinaCompanyIp:
+ChinaCompanyIp:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaCompanyIp.list
     path: ./ruleset/ChinaCompanyIp.list
     behavior: ipcidr
@@ -533,33 +533,35 @@ ChinaIp:
     
 rules:
   - "RULE-SET,LAN,直连"
-  - "RULE-SET,Pinterest,"
-  - "RULE-SET,adult_content_proxy,"
-  - "RULE-SET,ai,"
-  - "RULE-SET,apple,"
-  - "RULE-SET,apple_direct,"
-  - "RULE-SET,cloudflare_proxy,"
-  - "RULE-SET,download,"
-  - "RULE-SET,emby_all,"
-  - "RULE-SET,fuck_ADs,"
-  - "RULE-SET,game_platform_dircet,"
-  - "RULE-SET,google,"
-  - "RULE-SET,google_direct,"
-  - "RULE-SET,microsoft_direct,"
-  - "RULE-SET,microsoft_proxy,"
-  - "RULE-SET,multimedia_proxy,"
-  - "RULE-SET,netflix,"
-  - "RULE-SET,payment_proxy,"
-  - "RULE-SET,pixiv,"
-  - "RULE-SET,socialmedia_proxy,"
-  - "RULE-SET,spotify,"
-  - "RULE-SET,steam_direct,"
-  - "RULE-SET,steam_proxy,"
-  - "RULE-SET,telegram,"
-  - "RULE-SET,yandex,"
-  - "RULE-SET,youtube,"
-  - "RULE-SET,ChinaMedia,"
-  - "RULE-SET,ProxyGFWlist,"
-  - "RULE-SET,ChinaDomain,"
-  - "RULE-SET,ChinaCompanyIp,"
-  - "RULE-SET,ChinaIp,"
+  - "RULE-SET,Pinterest,国外社交媒体"
+  - "RULE-SET,adult_content_proxy,国外社交媒体"
+  - "RULE-SET,ai,常用AI"
+  - "RULE-SET,apple,国外社交媒体"
+  - "RULE-SET,apple_direct,全球直连"
+  - "RULE-SET,cloudflare_proxy,其他分流"
+  - "RULE-SET,download,全球直连"
+  - "RULE-SET,emby_all,流媒体服务"
+  - "RULE-SET,fuck_ADs,FuckADs"
+  - "RULE-SET,game_platform_dircet,全球直连"
+  - "RULE-SET,google,国外社交媒体"
+  - "RULE-SET,google_direct,全球直连"
+  - "RULE-SET,microsoft_direct,微软服务-直连"
+  - "RULE-SET,microsoft_proxy,微软服务-代理"
+  - "RULE-SET,multimedia_proxy,流媒体服务"
+  - "RULE-SET,netflix,流媒体服务"
+  - "RULE-SET,payment_proxy,其他分流"
+  - "RULE-SET,pixiv,国外社交媒体"
+  - "RULE-SET,socialmedia_proxy,国外社交媒体"
+  - "RULE-SET,spotify,流媒体服务"
+  - "RULE-SET,steam_direct,全球直连"
+  - "RULE-SET,steam_proxy,steam社区"
+  - "RULE-SET,telegram,国外社交媒体"
+  - "RULE-SET,yandex,国外社交媒体"
+  - "RULE-SET,youtube,流媒体服务"
+  - "RULE-SET,ChinaMedia,全球直连"
+  - "RULE-SET,ProxyGFWlist,其他分流"
+  - "RULE-SET,ChinaDomain,全球直连"
+  - "RULE-SET,ChinaCompanyIp,全球直连"
+  - "RULE-SET,ChinaIp,全球直连"
+  - "GEOIP,CN,全球直连"
+  - "MATCH,漏网之鱼"
