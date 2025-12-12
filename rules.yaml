@@ -20,7 +20,7 @@ proxy-groups:
     include-all: true
     type: select
   - name: 自动选择
-    type:url-test
+    type: url-test
     include-all: true
     interval: 300
     tolerance: 100
