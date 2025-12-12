@@ -220,7 +220,7 @@ proxy-groups:
     tolerance: 100
   - name: 新加坡
     include-all: true
-    filter: (?i)新加坡|坡|狮城|SG|Singapore
+    filter: (?i)新加坡|坡|狮城|SG|Singapore|新
     type: url-test
     interval: 300
     tolerance: 100
@@ -231,11 +231,11 @@ proxy-groups:
     interval: 300
     tolerance: 100
   - name: 日本
-    filter: (?i)日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan
+    filter: (?i)日本|日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan
     type: url-test
     interval: 300
     tolerance: 100
-  - name: 韩国节点
+  - name: 韩国
     include-all: true
     filter: (?i)KR|Korea|KOR|首尔|韩|韓
     type: url-test
