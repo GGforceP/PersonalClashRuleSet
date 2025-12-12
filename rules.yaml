@@ -10,11 +10,8 @@ proxy-groups:
       - 韩国
       - 俄罗斯
       - 土耳其
-      - 英国
-      - 德国
-      - 法国
-      - 奥呆利
       - 手动选择
+      - 自动选择
       - 直连
   - name: 手动选择
     include-all: true
@@ -36,10 +33,6 @@ proxy-groups:
       - 韩国
       - 俄罗斯
       - 土耳其
-      - 英国
-      - 德国
-      - 法国
-      - 奥呆利
       - 手动选择
       - 自动选择
       - 直连
@@ -55,10 +48,6 @@ proxy-groups:
       - 韩国
       - 俄罗斯
       - 土耳其
-      - 英国
-      - 德国
-      - 法国
-      - 奥呆利
       - 手动选择
       - 自动选择
       - 直连
@@ -74,10 +63,6 @@ proxy-groups:
       - 韩国
       - 俄罗斯
       - 土耳其
-      - 英国
-      - 德国
-      - 法国
-      - 奥呆利
       - 手动选择
       - 自动选择
       - 直连
@@ -93,10 +78,6 @@ proxy-groups:
       - 韩国
       - 俄罗斯
       - 土耳其
-      - 英国
-      - 德国
-      - 法国
-      - 奥呆利
       - 手动选择
       - 自动选择
       - 直连
@@ -112,10 +93,6 @@ proxy-groups:
       - 韩国
       - 俄罗斯
       - 土耳其
-      - 英国
-      - 德国
-      - 法国
-      - 奥呆利
       - 手动选择
       - 自动选择
       - 直连
@@ -131,10 +108,6 @@ proxy-groups:
       - 韩国
       - 俄罗斯
       - 土耳其
-      - 英国
-      - 德国
-      - 法国
-      - 奥呆利
       - 手动选择
       - 自动选择
       - 直连
@@ -150,10 +123,6 @@ proxy-groups:
       - 韩国
       - 俄罗斯
       - 土耳其
-      - 英国
-      - 德国
-      - 法国
-      - 奥呆利
       - 手动选择
       - 自动选择
       - 直连
@@ -169,10 +138,6 @@ proxy-groups:
       - 韩国
       - 俄罗斯
       - 土耳其
-      - 英国
-      - 德国
-      - 法国
-      - 奥呆利
       - 手动选择
       - 自动选择
       - 直连
@@ -188,10 +153,6 @@ proxy-groups:
       - 韩国
       - 俄罗斯
       - 土耳其
-      - 英国
-      - 德国
-      - 法国
-      - 奥呆利
       - 手动选择
       - 自动选择
       - 直连
@@ -207,10 +168,6 @@ proxy-groups:
       - 韩国
       - 俄罗斯
       - 土耳其
-      - 英国
-      - 德国
-      - 法国
-      - 奥呆利
       - 手动选择
       - 自动选择
       - 直连
@@ -230,10 +187,6 @@ proxy-groups:
       - 韩国
       - 俄罗斯
       - 土耳其
-      - 英国
-      - 德国
-      - 法国
-      - 奥呆利
       - 手动选择
       - 自动选择
       - 直连
@@ -250,10 +203,6 @@ proxy-groups:
       - 韩国
       - 俄罗斯
       - 土耳其
-      - 英国
-      - 德国
-      - 法国
-      - 奥呆利
       - 手动选择
       - 自动选择
       - 直连
@@ -302,26 +251,26 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 100
-  - name: 英国
-    filter: (?i)英国|曼彻斯特|UK|英
-    type: url-test
-    interval: 300
-    tolerance: 100
-  - name: 德国
-    filter: (?i)德国|慕尼黑|GE|德|Germany
-    type: url-test
-    interval: 300
-    tolerance: 100
-  - name: 法国
-    filter: (?i)法|法国|巴黎|France|FR
-    type: url-test
-    interval: 300
-    tolerance: 100
-  - name: 奥呆利
-    filter: (?i)奥|澳大利亚|Austria|AUS|AU
-    type: url-test
-    interval: 300
-    tolerance: 100
+ # - name: 英国
+ #   filter: (?i)英国|曼彻斯特|UK|英
+ #   type: url-test
+ #   interval: 300
+ #   tolerance: 100
+ # - name: 德国
+ #   filter: (?i)德国|慕尼黑|GE|德|Germany
+ #   type: url-test
+ #   interval: 300
+ #   tolerance: 100
+ # - name: 法国
+ #   filter: (?i)法|法国|巴黎|France|FR
+ #   type: url-test
+ #   interval: 300
+ #   tolerance: 100
+ # - name: 奥呆利
+ #   filter: (?i)奥|澳大利亚|Austria|AUS|AU
+ #   type: url-test
+ #   interval: 300
+ #   tolerance: 100
 
 rule-providers:
   LAN:
