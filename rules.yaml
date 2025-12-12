@@ -2,17 +2,17 @@ proxy-groups:
   - name: 区域选择
     type: select
     proxies:
-      - 香港
-      - 美国
-      - 新加坡
-      - 台湾
-      - 日本
-      - 韩国
-      - 俄罗斯
-      - 土耳其
+      - 香港节点
+      - 美国节点
+      - 新加坡节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 俄罗斯节点
+      - 土耳其节点
       - 手动选择
       - 自动选择
-      - 直连
+      - 直连节点
   - name: 手动选择
     include-all: true
     type: select
@@ -25,156 +25,147 @@ proxy-groups:
     type: select
     proxies:
       - 区域选择
-      - 香港
-      - 美国
-      - 新加坡
-      - 台湾
-      - 日本
-      - 韩国
-      - 俄罗斯
-      - 土耳其
+      - 香港节点
+      - 美国节点
+      - 新加坡节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 俄罗斯节点
+      - 土耳其节点
       - 手动选择
       - 自动选择
-      - 直连
+      - 直连节点
   - name: 常用AI
     type: select
     proxies:
       - 区域选择
-      - 香港
-      - 美国
-      - 新加坡
-      - 台湾
-      - 日本
-      - 韩国
-      - 俄罗斯
-      - 土耳其
+      - 香港节点
+      - 美国节点
+      - 新加坡节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 俄罗斯节点
+      - 土耳其节点
       - 手动选择
       - 自动选择
-      - 直连
+      - 直连节点
   - name: YouTube
     type: select
     proxies:
       - 区域选择
-      - 香港
-      - 美国
-      - 新加坡
-      - 台湾
-      - 日本
-      - 韩国
-      - 俄罗斯
-      - 土耳其
+      - 香港节点
+      - 美国节点
+      - 新加坡节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 俄罗斯节点
+      - 土耳其节点
       - 手动选择
       - 自动选择
-      - 直连
+      - 直连节点
   - name: 流媒体服务
     type: select
     proxies:
       - 区域选择
-      - 香港
-      - 美国
-      - 新加坡
-      - 台湾
-      - 日本
-      - 韩国
-      - 俄罗斯
-      - 土耳其
+      - 香港节点
+      - 美国节点
+      - 新加坡节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 俄罗斯节点
+      - 土耳其节点
       - 手动选择
       - 自动选择
-      - 直连
+      - 直连节点
   - name: 国外社交媒体
     type: select
     proxies:
       - 区域选择
-      - 香港
-      - 美国
-      - 新加坡
-      - 台湾
-      - 日本
-      - 韩国
-      - 俄罗斯
-      - 土耳其
+      - 香港节点
+      - 美国节点
+      - 新加坡节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 俄罗斯节点
+      - 土耳其节点
       - 手动选择
       - 自动选择
-      - 直连
+      - 直连节点
   - name: 国内媒体
     type: select
     proxies:
       - 区域选择
-      - 香港
-      - 美国
-      - 新加坡
-      - 台湾
-      - 日本
-      - 韩国
-      - 俄罗斯
-      - 土耳其
+      - 香港节点
+      - 美国节点
+      - 新加坡节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 俄罗斯节点
+      - 土耳其节点
       - 手动选择
       - 自动选择
-      - 直连
+      - 直连节点
   - name: 微软服务-代理
     type: select
     proxies:
       - 区域选择
-      - 香港
-      - 美国
-      - 新加坡
-      - 台湾
-      - 日本
-      - 韩国
-      - 俄罗斯
-      - 土耳其
+      - 香港节点
+      - 美国节点
+      - 新加坡节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 俄罗斯节点
+      - 土耳其节点
       - 手动选择
       - 自动选择
-      - 直连
+      - 直连节点
   - name: 微软服务-直连
     type: select
     proxies:
       - 区域选择
-      - 香港
-      - 美国
-      - 新加坡
-      - 台湾
-      - 日本
-      - 韩国
-      - 俄罗斯
-      - 土耳其
+      - 香港节点
+      - 美国节点
+      - 新加坡节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 俄罗斯节点
+      - 土耳其节点
       - 手动选择
       - 自动选择
-      - 直连
+      - 直连节点
   - name: Steam社区
     type: select
     proxies:
       - 区域选择
-      - 香港
-      - 美国
-      - 新加坡
-      - 台湾
-      - 日本
-      - 韩国
-      - 俄罗斯
-      - 土耳其
+      - 香港节点
+      - 美国节点
+      - 新加坡节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 俄罗斯节点
+      - 土耳其节点
       - 手动选择
       - 自动选择
-      - 直连
+      - 直连节点
   - name: 全球直连
     type: select
     proxies:
       - 区域选择
-      - 香港
-      - 美国
-      - 新加坡
-      - 台湾
-      - 日本
-      - 韩国
-      - 俄罗斯
-      - 土耳其
-      - 手动选择
-      - 自动选择
-      - 直连
+      - 直连节点
   - name: FuckADs
     type: select
     proxies:
       - REJECT
+      - 直连节点
   - name: 其他分流
     type: select
     proxies:
@@ -206,71 +197,71 @@ proxy-groups:
       - 手动选择
       - 自动选择
       - 直连
-  - name: 香港
+  - name: 香港节点
     include-all: true
     filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong
     type: url-test
     interval: 300
     tolerance: 100
-  - name: 美国
+  - name: 美国节点
     include-all: true
     filter: (?i)美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States
     type: url-test
     interval: 300
     tolerance: 100
-  - name: 新加坡
+  - name: 新加坡节点
     include-all: true
     filter: (?i)新加坡|坡|狮城|SG|Singapore|新
     type: url-test
     interval: 300
     tolerance: 100
-  - name: 台湾
+  - name: 台湾节点
     include-all: true
     filter: (?i)台|新北|彰化|TW|Taiwan
     type: url-test
     interval: 300
     tolerance: 100
-  - name: 日本
+  - name: 日本节点
     filter: (?i)日本|日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan
     type: url-test
     interval: 300
     tolerance: 100
-  - name: 韩国
+  - name: 韩国节点
     include-all: true
     filter: (?i)KR|Korea|KOR|首尔|韩|韓
     type: url-test
     interval: 300
     tolerance: 100
-  - name: 俄罗斯
+  - name: 俄罗斯节点
     filter: (?i)俄罗斯|俄|RU|Russia|俄国|罗斯
     type: url-test
     interval: 300
     tolerance: 100
-  - name: 土耳其
+  - name: 土耳其节点
     filter: (?i)TR|土耳其|Turkey|Türkiye|Turkye|土
     type: url-test
     interval: 300
     tolerance: 100
- # - name: 英国
- #   filter: (?i)英国|曼彻斯特|UK|英
- #   type: url-test
- #   interval: 300
- #   tolerance: 100
- # - name: 德国
- #   filter: (?i)德国|慕尼黑|GE|德|Germany
- #   type: url-test
- #   interval: 300
- #   tolerance: 100
- # - name: 法国
- #   filter: (?i)法|法国|巴黎|France|FR
- #   type: url-test
- #   interval: 300
- #   tolerance: 100
- # - name: 奥呆利
- #   filter: (?i)奥|澳大利亚|Austria|AUS|AU
- #   type: url-test
- #   interval: 300
- #   tolerance: 100
+  - name: 英国节点
+    filter: (?i)英国|曼彻斯特|UK|英
+    type: url-test
+    interval: 300
+    tolerance: 100
+  - name: 德国节点
+    filter: (?i)德国|慕尼黑|GE|德|Germany
+    type: url-test
+    interval: 300
+    tolerance: 100
+  - name: 法国节点
+    filter: (?i)法|法国|巴黎|France|FR
+    type: url-test
+    interval: 300
+    tolerance: 100
+  - name: 奥呆利节点
+    filter: (?i)奥|澳大利亚|Austria|AUS|AU
+    type: url-test
+    interval: 300
+    tolerance: 100
 
 rule-providers:
   LAN:
