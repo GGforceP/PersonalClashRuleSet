@@ -14,13 +14,11 @@ proxy-groups:
       - 自动选择
       - 直连
   - name: 手动选择
-    use:
-      - proxy
+    include-all: true
     type: select
   - name: 自动选择
     type: url-test
-    use:
-      - proxy
+    include-all: true
     interval: 300
     tolerance: 100
   - name: Telegram
@@ -174,8 +172,7 @@ proxy-groups:
       - 自动选择
       - 直连
   - name: 漏网之鱼
-    use:
-      - proxy
+    include-all: true
     type: select
     proxies:
       - 区域选择
@@ -191,29 +188,25 @@ proxy-groups:
       - 自动选择
       - 直连
   - name: 香港节点
-    use:
-      - proxy
+    include-all: true
     filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong
     type: url-test
     interval: 300
     tolerance: 100
   - name: 美国节点
-    use:
-      - proxy
+    include-all: true
     filter: (?i)美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States
     type: url-test
     interval: 300
     tolerance: 100
   - name: 新加坡节点
-    use:
-      - proxy
+    include-all: true
     filter: (?i)新加坡|坡|狮城|SG|Singapore|新
     type: url-test
     interval: 300
     tolerance: 100
   - name: 台湾节点
-    use:
-      - proxy
+    include-all: true
     filter: (?i)台|新北|彰化|TW|Taiwan
     type: url-test
     interval: 300
@@ -224,8 +217,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
   - name: 韩国节点
-    use:
-      - proxy
+    include-all: true
     filter: (?i)KR|Korea|KOR|首尔|韩|韓
     type: url-test
     interval: 300
@@ -261,8 +253,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
   - name: 奈飞节点
-    use:
-      - proxy
+    include-all: true
     filter: (?i)NF|奈飞|解锁|Netflix|NETFLIX|Media
     type: select
     
