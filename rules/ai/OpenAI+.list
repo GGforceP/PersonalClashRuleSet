@@ -1,0 +1,76 @@
+# =========================================
+# OpenAI / ChatGPT / Sora
+# 精准匹配，避免误杀
+# =========================================
+
+# --- OpenAI 主域名 ---
+DOMAIN,openai.com
+DOMAIN,api.openai.com
+DOMAIN,platform.openai.com
+DOMAIN,auth.openai.com
+DOMAIN,cdn.openai.com
+
+# --- ChatGPT Web ---
+DOMAIN,chat.openai.com
+DOMAIN,chatgpt.com
+
+# --- ChatGPT 实时语音 / LiveKit ---
+DOMAIN-SUFFIX,livekit.cloud
+DOMAIN-SUFFIX,livekit.io
+DOMAIN,chatgpt.livekit.cloud
+DOMAIN,chatgpt.livekit.io
+
+# --- OpenAI 静态资源 / CDN ---
+DOMAIN,openaicom.imgix.net
+DOMAIN,openaicom.azureedge.net
+DOMAIN,openaicom-api.azureedge.net
+DOMAIN,openaicomproduction.azureedge.net
+DOMAIN,openaicomproduction.blob.core.windows.net
+DOMAIN,openaicom.azurewebsites.net
+DOMAIN,openaicom-api.azurewebsites.net
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN,cdn.oaistatic.com
+
+# --- OpenAI 文件 / 模型资源 ---
+DOMAIN,files.openai.com
+DOMAIN,models.openai.com
+
+# --- OpenAI 账号 / 登录相关 ---
+DOMAIN,auth0.openai.com
+DOMAIN,auth0.com
+DOMAIN,cdn.auth0.com
+
+# --- OpenAI 遥测 / 反作弊（必要） ---
+DOMAIN,api.statsig.com
+DOMAIN,events.statsigapi.net
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN,featuregates.org
+
+# --- OpenAI 用户内容资源 ---
+DOMAIN-SUFFIX,oaiusercontent.com
+
+# =========================================
+# Sora（OpenAI 视频生成模型）
+# =========================================
+
+# --- Sora 主域名 ---
+DOMAIN,sora.openai.com
+
+# --- Sora API / 推理 ---
+DOMAIN,api.sora.openai.com
+DOMAIN,queue.sora.openai.com
+
+# --- Sora 静态资源 / CDN ---
+DOMAIN,cdn.sora.openai.com
+DOMAIN-SUFFIX,sora-cdn.openai.com
+
+# --- Sora 视频 / 资产资源 ---
+DOMAIN,video.sora.openai.com
+DOMAIN,assets.sora.openai.com
+
+# --- Sora 通配（严格控制）---
+DOMAIN-SUFFIX,sora.openai.com
+
+# =========================================
+# END
+# =========================================
