@@ -1,0 +1,118 @@
+# =========================================
+# Stable Diffusion / Stability AI / SDXL
+# 全量代理（不考虑国内分流）
+# 精准匹配，避免误杀
+# =========================================
+
+
+# =========================================
+# Stability AI（Stable Diffusion 官方）
+# =========================================
+
+# --- Stability AI 主站 ---
+DOMAIN,stability.ai
+DOMAIN,www.stability.ai
+
+# --- Stability AI API（SDXL / SD3 / Core API）---
+DOMAIN,api.stability.ai
+DOMAIN,api.stability.ai
+DOMAIN,api.stability.ai
+
+# --- Stability AI CDN / 静态资源 ---
+DOMAIN,cdn.stability.ai
+DOMAIN,assets.stability.ai
+
+# --- Stability AI 模型资源 ---
+DOMAIN,models.stability.ai
+DOMAIN,sdxlturbo.stability.ai
+
+# --- Stability AI 用户内容 ---
+DOMAIN-SUFFIX,stability.ai
+
+
+# =========================================
+# DreamStudio（Stability AI 官方前端）
+# =========================================
+
+# --- DreamStudio 主站 ---
+DOMAIN,dreamstudio.ai
+DOMAIN,www.dreamstudio.ai
+
+# --- DreamStudio API ---
+DOMAIN,api.dreamstudio.ai
+
+# --- DreamStudio 静态资源 ---
+DOMAIN,cdn.dreamstudio.ai
+DOMAIN,assets.dreamstudio.ai
+
+# --- DreamStudio 用户内容 ---
+DOMAIN-SUFFIX,dreamstudio.ai
+
+
+# =========================================
+# AUTOMATIC1111 / SD WebUI（常用资源）
+# =========================================
+
+# --- WebUI 扩展市场（Extensions）---
+DOMAIN,raw.githubusercontent.com
+DOMAIN,github.com
+DOMAIN,githubusercontent.com
+
+# --- WebUI 模型下载（HuggingFace）---
+DOMAIN,huggingface.co
+DOMAIN,cdn-lfs.huggingface.co
+DOMAIN,files.pythonhosted.org
+
+# --- WebUI 插件依赖 ---
+DOMAIN,pypi.org
+DOMAIN,pythonhosted.org
+
+# --- WebUI 资源（JS / CSS / CDN）---
+DOMAIN,cdnjs.cloudflare.com
+DOMAIN,cdn.jsdelivr.net
+DOMAIN,unpkg.com
+
+
+# =========================================
+# Civitai（Stable Diffusion 模型社区）
+# =========================================
+
+# --- Civitai 主站 ---
+DOMAIN,civitai.com
+DOMAIN,www.civitai.com
+
+# --- Civitai API ---
+DOMAIN,api.civitai.com
+
+# --- Civitai CDN / 模型下载 ---
+DOMAIN,cdn.civitai.com
+DOMAIN,files.civitai.com
+
+# --- Civitai 用户内容 ---
+DOMAIN-SUFFIX,civitai.com
+
+
+# =========================================
+# HuggingFace（Stable Diffusion 模型主要来源）
+# =========================================
+
+# --- HuggingFace 主站 ---
+DOMAIN,huggingface.co
+DOMAIN,www.huggingface.co
+
+# --- HuggingFace 模型下载 ---
+DOMAIN,cdn-lfs.huggingface.co
+DOMAIN,hf.co
+
+# --- HuggingFace API ---
+DOMAIN,api-inference.huggingface.co
+DOMAIN,api.huggingface.co
+
+# --- HuggingFace 用户内容 ---
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,hf.space
+
+
+# =========================================
+# END
+# =========================================
