@@ -1,0 +1,56 @@
+# =========================================
+# Google Gemini / Google AI
+# 精准匹配，避免误杀
+# =========================================
+
+# --- Gemini 主站 / Web ---
+DOMAIN,gemini.google.com
+DOMAIN,gemini.googleusercontent.com
+
+# --- Gemini API ---
+DOMAIN,api.gemini.google.com
+DOMAIN,ai.google.dev
+DOMAIN,api.ai.google.dev
+
+# --- Google AI 主域名 ---
+DOMAIN,google.ai
+DOMAIN,www.google.ai
+
+# --- Google AI Studio / 控制台 ---
+DOMAIN,aistudio.google.com
+DOMAIN,makersuite.google.com
+
+# --- Gemini 模型 / 文件资源 ---
+DOMAIN,storage.googleapis.com
+DOMAIN,dl.google.com
+DOMAIN,dl-ssl.google.com
+
+# --- Gemini 静态资源 / CDN ---
+DOMAIN,fonts.gstatic.com
+DOMAIN,fonts.googleapis.com
+DOMAIN,ssl.gstatic.com
+DOMAIN,lh3.googleusercontent.com
+DOMAIN,lh4.googleusercontent.com
+DOMAIN,lh5.googleusercontent.com
+DOMAIN,lh6.googleusercontent.com
+
+# --- Google 登录 / 账号系统（Gemini 必需）---
+DOMAIN,accounts.google.com
+DOMAIN,oauth2.googleapis.com
+DOMAIN,securetoken.googleapis.com
+
+# --- Google AI 遥测 / 统计（必要）---
+DOMAIN,play.googleapis.com
+DOMAIN,firebaselogging.googleapis.com
+DOMAIN,firestore.googleapis.com
+
+# --- Google AI 用户内容资源 ---
+DOMAIN-SUFFIX,googleusercontent.com
+
+# --- Gemini 相关通配（严格控制）---
+DOMAIN-SUFFIX,google.ai
+DOMAIN-SUFFIX,ai.google.dev
+
+# =========================================
+# END
+# =========================================
