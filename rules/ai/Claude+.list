@@ -1,0 +1,46 @@
+# =========================================
+# Claude / Anthropic
+# 精准匹配，避免误杀
+# =========================================
+
+# --- Claude 主站 / Web ---
+DOMAIN,claude.ai
+DOMAIN,console.claude.ai
+DOMAIN,chat.claude.ai
+
+# --- Claude API ---
+DOMAIN,api.anthropic.com
+DOMAIN,api.claude.ai
+
+# --- Claude 静态资源 / CDN ---
+DOMAIN,cdn.anthropic.com
+DOMAIN,assets.anthropic.com
+DOMAIN,static.anthropic.com
+DOMAIN-SUFFIX,anthropic-cdn.com
+
+# --- Claude 文件 / 模型资源 ---
+DOMAIN,files.anthropic.com
+DOMAIN,models.anthropic.com
+
+# --- Anthropic 主域名 ---
+DOMAIN,anthropic.com
+DOMAIN,www.anthropic.com
+
+# --- Anthropic 账号 / 登录 ---
+DOMAIN,auth.anthropic.com
+DOMAIN,accounts.anthropic.com
+
+# --- Claude 遥测 / 统计（必要） ---
+DOMAIN,events.anthropic.com
+DOMAIN,metrics.anthropic.com
+
+# --- Claude 用户内容资源 ---
+DOMAIN-SUFFIX,claudeusercontent.com
+
+# --- Claude 相关通配（严格控制）---
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,anthropic.com
+
+# =========================================
+# END
+# =========================================
