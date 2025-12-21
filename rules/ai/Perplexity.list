@@ -1,0 +1,46 @@
+# =========================================
+# Perplexity AI
+# 全量代理（不考虑国内分流）
+# 精准匹配，避免误杀
+# =========================================
+
+
+# =========================================
+# Perplexity 主站 / Web
+# =========================================
+DOMAIN,perplexity.ai
+DOMAIN,www.perplexity.ai
+
+
+# =========================================
+# Perplexity API / 推理服务
+# =========================================
+DOMAIN,api.perplexity.ai
+DOMAIN,api.prod.perplexity.ai
+DOMAIN,api.staging.perplexity.ai
+
+
+# =========================================
+# Perplexity 搜索 / 结果服务
+# =========================================
+DOMAIN,search.perplexity.ai
+DOMAIN,answers.perplexity.ai
+
+
+# =========================================
+# Perplexity 静态资源 / CDN
+# =========================================
+DOMAIN,cdn.perplexity.ai
+DOMAIN,assets.perplexity.ai
+DOMAIN,static.perplexity.ai
+
+
+# =========================================
+# Perplexity 用户内容资源
+# =========================================
+DOMAIN-SUFFIX,perplexity.ai
+
+
+# =========================================
+# END
+# =========================================
