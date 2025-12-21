@@ -1,0 +1,27 @@
+# =========================================
+# Midjourney
+# 精准匹配，避免误杀
+# =========================================
+
+# --- Midjourney 主站 / Web ---
+DOMAIN,midjourney.com
+DOMAIN,www.midjourney.com
+
+# --- Midjourney API / 服务端 ---
+DOMAIN,api.midjourney.com
+
+# --- Midjourney 静态资源 / CDN ---
+DOMAIN,cdn.midjourney.com
+DOMAIN-SUFFIX,mj.gallery
+
+# --- Midjourney 图片资源 / 用户内容 ---
+DOMAIN-SUFFIX,midjourney.com
+DOMAIN-SUFFIX,mj.run
+
+# --- Midjourney 任务队列 / 生成服务 ---
+DOMAIN,task.midjourney.com
+DOMAIN,queue.midjourney.com
+
+# =========================================
+# END
+# =========================================
