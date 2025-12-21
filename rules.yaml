@@ -310,9 +310,86 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-  ai:
-    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/ai.list
-    path: ./ruleset/ai.list
+  Claude:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/ai/Claude+.list
+    path: ./ruleset/Claude+.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Cohere:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/ai/Cohere.list
+    path: ./ruleset/Cohere.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Copilot:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/ai/Copilot+.list
+    path: ./ruleset/Copilot+.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Gemini:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/ai/Gemini+.list
+    path: ./ruleset/Gemini+.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Grok:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/ai/Grok.list
+    path: ./ruleset/Grok.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  HuggingFace:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/ai/HuggingFace+.list
+    path: ./ruleset/HuggingFace+.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Midjourney:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/ai/Midjourney+.list
+    path: ./ruleset/Midjourney+.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  OpenAI:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/ai/OpenAI+.list
+    path: ./ruleset/OpenAI+.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  OpenRouter:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/ai/OpenRouter-Together-DeepInfra.list
+    path: ./ruleset/OpenRouter-Together-DeepInfra.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Perplexity:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/ai/Perplexity.list
+    path: ./ruleset/Perplexity.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  RunPod:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/ai/RunPod+.list
+    path: ./ruleset/RunPod+.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Stable_Diffusion:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/ai/Stable_Diffusion+.list
+    path: ./ruleset/Stable_Diffusion+.list
     behavior: classical
     interval: 86400
     format: text
@@ -511,7 +588,18 @@ rules:
   - "RULE-SET,LAN,DIRECT"
   - "RULE-SET,Pinterest,国外社交媒体"
   - "RULE-SET,adult_content_proxy,国外社交媒体"
-  - "RULE-SET,ai,常用AI"
+  - "RULE-SET,Claude,常用AI"
+  - "RULE-SET,Cohere,常用AI"
+  - "RULE-SET,Copilot,常用AI"
+  - "RULE-SET,Gemini,常用AI"
+  - "RULE-SET,Grok,常用AI"
+  - "RULE-SET,HuggingFace,常用AI"
+  - "RULE-SET,Midjourney,常用AI"
+  - "RULE-SET,OpenAI,常用AI"
+  - "RULE-SET,OpenRouter,常用AI"
+  - "RULE-SET,Perplexity,常用AI"
+  - "RULE-SET,RunPod,常用AI"
+  - "RULE-SET,Stable_Diffusion,常用AI"
   - "RULE-SET,apple,国外社交媒体"
   - "RULE-SET,apple_direct,全球直连"
   - "RULE-SET,cloudflare_proxy,其他分流"
