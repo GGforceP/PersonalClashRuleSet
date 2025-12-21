@@ -1,0 +1,59 @@
+# =========================================
+# Cohere（Command / Embed / Rerank / Chat）
+# 全量代理（不考虑国内分流）
+# 精准匹配，避免误杀
+# =========================================
+
+
+# =========================================
+# Cohere 主站 / Web
+# =========================================
+DOMAIN,cohere.com
+DOMAIN,www.cohere.com
+
+
+# =========================================
+# Cohere API（核心服务）
+# =========================================
+DOMAIN,api.cohere.ai
+DOMAIN,api.cohere.com
+DOMAIN,api.cohere.io
+
+
+# =========================================
+# Cohere Platform / 控制台
+# =========================================
+DOMAIN,platform.cohere.com
+DOMAIN,console.cohere.com
+DOMAIN,studio.cohere.com
+
+
+# =========================================
+# Cohere 模型 / 推理服务
+# =========================================
+DOMAIN,models.cohere.ai
+DOMAIN,inference.cohere.ai
+DOMAIN,command.cohere.ai
+DOMAIN,embed.cohere.ai
+DOMAIN,rerank.cohere.ai
+
+
+# =========================================
+# Cohere 静态资源 / CDN
+# =========================================
+DOMAIN,cdn.cohere.ai
+DOMAIN,assets.cohere.ai
+DOMAIN,static.cohere.ai
+
+
+# =========================================
+# Cohere 用户内容资源
+# =========================================
+DOMAIN-SUFFIX,cohere.ai
+DOMAIN-SUFFIX,cohere.com
+DOMAIN-SUFFIX,cohere.io
+
+
+# =========================================
+# END
+# =========================================
