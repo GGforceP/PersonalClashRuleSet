@@ -1,0 +1,92 @@
+# =========================================
+# Microsoft Copilot + Bing
+# 全量代理（不考虑国内分流）
+# 精准匹配，避免误杀
+# =========================================
+
+# =========================================
+# Copilot 主站 / Web / Pro
+# =========================================
+DOMAIN,copilot.microsoft.com
+DOMAIN,www.copilot.microsoft.com
+
+# Copilot API / 服务端
+DOMAIN,api.copilot.microsoft.com
+DOMAIN,prod.api.copilot.microsoft.com
+DOMAIN,assets.copilot.microsoft.com
+
+# Copilot Studio / 插件平台
+DOMAIN,studio.copilot.microsoft.com
+DOMAIN,plugins.copilot.microsoft.com
+
+# Copilot Edge 集成
+DOMAIN,edge.microsoft.com
+DOMAIN,edgeassetservice.azureedge.net
+
+# Microsoft AI 主域名
+DOMAIN,ai.azure.com
+DOMAIN,api.ai.azure.com
+DOMAIN,azure.microsoft.com
+
+# Microsoft Graph（Copilot 必需）
+DOMAIN,graph.microsoft.com
+DOMAIN,graph.microsoft.us
+
+# Microsoft 账号 / 登录
+DOMAIN,login.microsoftonline.com
+DOMAIN,login.live.com
+DOMAIN,account.microsoft.com
+DOMAIN,auth.microsoft.com
+
+# Microsoft AI 模型 / 文件资源
+DOMAIN,models.azure.com
+DOMAIN,models-prod.azure.com
+DOMAIN,contentstorage.microsoft.com
+
+# Microsoft 静态资源 / CDN
+DOMAIN,msftstatic.com
+DOMAIN,msftauth.net
+DOMAIN,msauth.net
+DOMAIN,msocdn.com
+DOMAIN,officecdn.microsoft.com
+
+# Microsoft 遥测 / 统计
+DOMAIN,telemetry.microsoft.com
+DOMAIN,events.data.microsoft.com
+DOMAIN,browser.events.data.microsoft.com
+
+# Copilot 用户内容资源
+DOMAIN-SUFFIX,microsoftusercontent.com
+
+# Copilot 通配（严格控制）
+DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,ai.azure.com
+
+
+# =========================================
+# Bing / Microsoft Search（Copilot 搜索增强）
+# =========================================
+
+# Bing 主站
+DOMAIN,bing.com
+DOMAIN,www.bing.com
+
+# Bing API（Copilot 搜索必需）
+DOMAIN,api.bing.com
+DOMAIN,bingapis.azure-api.net
+DOMAIN,api.cognitive.microsoft.com
+
+# Bing 静态资源 / CDN
+DOMAIN,ssl.bing.com
+DOMAIN,assets.bing.com
+
+# Bing 搜索内容资源
+DOMAIN,th.bing.com
+DOMAIN,ts.bing.com
+
+# Bing 通配（严格控制）
+DOMAIN-SUFFIX,bing.com
+
+# =========================================
+# END
+# =========================================
