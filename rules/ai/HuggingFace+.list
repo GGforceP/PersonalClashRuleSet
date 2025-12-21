@@ -1,0 +1,88 @@
+# =========================================
+# HuggingFace + Gradio
+# 全量代理（不考虑国内分流）
+# 精准匹配，避免误杀
+# =========================================
+
+
+# =========================================
+# HuggingFace 主站 / Web
+# =========================================
+DOMAIN,huggingface.co
+DOMAIN,www.huggingface.co
+
+
+# =========================================
+# HuggingFace API / 推理服务
+# =========================================
+DOMAIN,api.huggingface.co
+DOMAIN,api-inference.huggingface.co
+DOMAIN,inference.huggingface.co
+DOMAIN,widgets.huggingface.co
+
+
+# =========================================
+# HuggingFace 模型 / 数据集 / LFS（大文件）
+# =========================================
+DOMAIN,cdn-lfs.huggingface.co
+DOMAIN,cdn-lfs-us-east-1.huggingface.co
+DOMAIN,cdn-lfs-us-west-1.huggingface.co
+DOMAIN,cdn-lfs-eu-west-1.huggingface.co
+DOMAIN,files.huggingface.co
+DOMAIN,hf.co
+
+
+# =========================================
+# HuggingFace Spaces（应用托管平台）
+# =========================================
+DOMAIN,hf.space
+DOMAIN,www.hf.space
+DOMAIN,spaces.huggingface.tech
+
+
+# =========================================
+# HuggingFace 静态资源 / CDN
+# =========================================
+DOMAIN,assets.huggingface.co
+DOMAIN,cdn.huggingface.co
+DOMAIN,static.huggingface.co
+
+
+# =========================================
+# HuggingFace 用户内容资源
+# =========================================
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,hf.space
+DOMAIN-SUFFIX,huggingface.tech
+
+
+
+# =========================================
+# Gradio（HuggingFace Spaces 前端框架）
+# =========================================
+
+# --- Gradio 主站 / 文档 ---
+DOMAIN,gradio.app
+DOMAIN,www.gradio.app
+
+# --- Gradio API / 服务端 ---
+DOMAIN,api.gradio.app
+DOMAIN,api.gradio.dev
+
+# --- Gradio 静态资源 / CDN ---
+DOMAIN,cdn.gradio.app
+DOMAIN,assets.gradio.app
+DOMAIN,gradio.s3.amazonaws.com
+
+# --- Gradio WebSocket（Spaces 实时通信）---
+DOMAIN,ws.gradio.app
+DOMAIN,wss.gradio.app
+
+# --- Gradio 用户内容资源 ---
+DOMAIN-SUFFIX,gradio.app
+DOMAIN-SUFFIX,gradio.dev
+
+
+# =========================================
+# END
+# =========================================
