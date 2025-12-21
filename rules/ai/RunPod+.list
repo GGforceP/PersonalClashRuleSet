@@ -1,0 +1,61 @@
+# =========================================
+# RunPod + Paperspace
+# 全量代理（不考虑国内分流）
+# 精准匹配，避免误杀
+# =========================================
+
+
+# =========================================
+# RunPod（GPU 云算力 / AI 推理）
+# =========================================
+
+# --- RunPod 主站 / Web ---
+DOMAIN,runpod.io
+DOMAIN,www.runpod.io
+
+# --- RunPod API / 服务端 ---
+DOMAIN,api.runpod.io
+DOMAIN,api.runpod.ai
+
+# --- RunPod 控制台 / Dashboard ---
+DOMAIN,console.runpod.io
+DOMAIN,dashboard.runpod.io
+
+# --- RunPod 静态资源 / CDN ---
+DOMAIN,cdn.runpod.io
+DOMAIN,assets.runpod.io
+
+# --- RunPod 用户内容资源 ---
+DOMAIN-SUFFIX,runpod.io
+DOMAIN-SUFFIX,runpod.ai
+
+
+
+# =========================================
+# Paperspace（GPU 云算力 / Gradient 平台）
+# =========================================
+
+# --- Paperspace 主站 / Web ---
+DOMAIN,paperspace.com
+DOMAIN,www.paperspace.com
+
+# --- Paperspace API ---
+DOMAIN,api.paperspace.com
+DOMAIN,api.gradient.paperspace.com
+
+# --- Paperspace Gradient（AI 训练平台）---
+DOMAIN,gradient.paperspace.com
+DOMAIN,console.paperspace.com
+
+# --- Paperspace 静态资源 / CDN ---
+DOMAIN,assets.paperspace.com
+DOMAIN,cdn.paperspace.com
+
+# --- Paperspace 用户内容资源 ---
+DOMAIN-SUFFIX,paperspace.com
+DOMAIN-SUFFIX,gradient.paperspace.com
+
+
+# =========================================
+# END
+# =========================================
