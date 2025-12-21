@@ -1,0 +1,87 @@
+# =========================================
+# Midjourney + Discord
+# 全量代理（不考虑国内分流）
+# 精准匹配，避免误杀
+# =========================================
+
+
+# =========================================
+# Midjourney
+# =========================================
+
+# --- Midjourney 主站 / Web ---
+DOMAIN,midjourney.com
+DOMAIN,www.midjourney.com
+
+# --- Midjourney API / 服务端 ---
+DOMAIN,api.midjourney.com
+
+# --- Midjourney 静态资源 / CDN ---
+DOMAIN,cdn.midjourney.com
+DOMAIN-SUFFIX,mj.gallery
+
+# --- Midjourney 图片资源 / 用户内容 ---
+DOMAIN-SUFFIX,midjourney.com
+DOMAIN-SUFFIX,mj.run
+
+# --- Midjourney 任务队列 / 生成服务 ---
+DOMAIN,task.midjourney.com
+DOMAIN,queue.midjourney.com
+
+
+
+# =========================================
+# Discord（Midjourney 依赖）
+# =========================================
+
+# --- Discord 主站 / Web ---
+DOMAIN,discord.com
+DOMAIN,www.discord.com
+DOMAIN,discordapp.com
+DOMAIN,www.discordapp.com
+
+# --- Discord API / Gateway（Midjourney 必需）---
+DOMAIN,discord.gg
+DOMAIN,discordapp.net
+DOMAIN,discord.media
+DOMAIN,discordstatus.com
+DOMAIN,discord.co
+DOMAIN,discord.dev
+DOMAIN,discord.new
+
+# --- Discord WebSocket / 实时通信 ---
+DOMAIN,gateway.discord.gg
+DOMAIN,remote-auth-gateway.discord.gg
+
+# --- Discord CDN / 静态资源 ---
+DOMAIN,cdn.discordapp.com
+DOMAIN,cdn.discordapp.net
+DOMAIN,media.discordapp.net
+
+# --- Discord 图片 / 视频 / 文件资源 ---
+DOMAIN-SUFFIX,discordapp.net
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discord.media
+
+# --- Discord 语音服务（Voice）---
+DOMAIN,rtc.discord.gg
+DOMAIN,voice.discord.gg
+DOMAIN,region1.discord.gg
+DOMAIN,region2.discord.gg
+DOMAIN,region3.discord.gg
+
+# --- Discord 用户内容资源 ---
+DOMAIN-SUFFIX,discordusercontent.com
+
+# --- Discord 通配（严格控制）---
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discordapp.net
+
+
+
+# =========================================
+# END
+# =========================================
