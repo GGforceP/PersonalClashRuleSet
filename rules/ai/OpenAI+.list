@@ -9,10 +9,14 @@ DOMAIN,api.openai.com
 DOMAIN,platform.openai.com
 DOMAIN,auth.openai.com
 DOMAIN,cdn.openai.com
+DOMAIN,www.chatgpt.com
 
 # --- ChatGPT Web ---
 DOMAIN,chat.openai.com
 DOMAIN,chatgpt.com
+DOMAIN,api.gpt.openai.com
+DOMAIN,api.gpt-4o.openai.com
+DOMAIN,api.gpt-4o-mini.openai.com
 
 # --- ChatGPT 实时语音 / LiveKit ---
 DOMAIN-SUFFIX,livekit.cloud
@@ -30,21 +34,32 @@ DOMAIN,openaicom.azurewebsites.net
 DOMAIN,openaicom-api.azurewebsites.net
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN,cdn.oaistatic.com
+DOMAIN,static.openai.com
+DOMAIN,assets.openai.com
 
 # --- OpenAI 文件 / 模型资源 ---
 DOMAIN,files.openai.com
 DOMAIN,models.openai.com
+DOMAIN,realtime.openai.com
+DOMAIN,api.realtime.openai.com
+DOMAIN,uploads.openai.com
+DOMAIN,files.oaiusercontent.com
+DOMAIN,playground.openai.com
 
 # --- OpenAI 账号 / 登录相关 ---
 DOMAIN,auth0.openai.com
 DOMAIN,auth0.com
 DOMAIN,cdn.auth0.com
+DOMAIN,billing.openai.com
+DOMAIN,checkout.openai.com
 
 # --- OpenAI 遥测 / 反作弊（必要） ---
 DOMAIN,api.statsig.com
 DOMAIN,events.statsigapi.net
 DOMAIN-SUFFIX,statsigapi.net
 DOMAIN,featuregates.org
+DOMAIN,telemetry.openai.com
+DOMAIN,events.openai.com
 
 # --- OpenAI 用户内容资源 ---
 DOMAIN-SUFFIX,oaiusercontent.com
@@ -55,6 +70,8 @@ DOMAIN-SUFFIX,oaiusercontent.com
 
 # --- Sora 主域名 ---
 DOMAIN,sora.openai.com
+DOMAIN,sora-assets.openai.com
+DOMAIN,sora-video.openai.com
 
 # --- Sora API / 推理 ---
 DOMAIN,api.sora.openai.com
