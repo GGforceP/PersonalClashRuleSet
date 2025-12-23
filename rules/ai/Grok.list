@@ -10,7 +10,9 @@
 # =========================================
 DOMAIN,x.ai
 DOMAIN,www.x.ai
-
+DOMAIN,chat.x.ai
+DOMAIN,studio.x.ai
+DOMAIN,workspace.x.ai
 
 # =========================================
 # Grok 主站 / Web
@@ -18,20 +20,23 @@ DOMAIN,www.x.ai
 DOMAIN,grok.x.ai
 DOMAIN,www.grok.x.ai
 
-
 # =========================================
 # xAI / Grok API（核心服务）
 # =========================================
 DOMAIN,api.x.ai
 DOMAIN,api.grok.x.ai
-
+DOMAIN,api.chat.x.ai
+DOMAIN,api.studio.x.ai
+DOMAIN,api.inference.x.ai
 
 # =========================================
 # xAI 模型 / 推理服务
 # =========================================
 DOMAIN,inference.x.ai
 DOMAIN,models.x.ai
-
+DOMAIN,compute.x.ai
+DOMAIN,training.x.ai
+DOMAIN,datasets.x.ai
 
 # =========================================
 # xAI 静态资源 / CDN
@@ -39,13 +44,22 @@ DOMAIN,models.x.ai
 DOMAIN,cdn.x.ai
 DOMAIN,assets.x.ai
 DOMAIN,static.x.ai
+DOMAIN,media.x.ai
+DOMAIN,files.x.ai
+DOMAIN,storage.x.ai
+DOMAIN-SUFFIX,grokusercontent.com
+DOMAIN-SUFFIX,xaiusercontent.com
 
 
 # =========================================
 # xAI 用户内容资源
 # =========================================
 DOMAIN-SUFFIX,x.ai
-
+DOMAIN,auth.x.ai
+DOMAIN,login.x.ai
+DOMAIN,events.x.ai
+DOMAIN,metrics.x.ai
+DOMAIN,telemetry.x.ai
 
 # =========================================
 # END
