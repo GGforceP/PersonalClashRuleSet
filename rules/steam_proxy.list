@@ -26,6 +26,8 @@ DOMAIN-SUFFIX,help.steampowered.com
 DOMAIN-SUFFIX,api.steampowered.com
 DOMAIN-SUFFIX,api.steampowered.com.edgesuite.net
 DOMAIN-SUFFIX,api.steampowered.com.akamaized.net
+DOMAIN-SUFFIX,api.steampowered.com.fastly.net
+DOMAIN-SUFFIX,api.steampowered.com.cloudflare.net
 
 # Steam User Content（非中国区）
 DOMAIN-SUFFIX,steamusercontent.com
@@ -33,6 +35,9 @@ DOMAIN-SUFFIX,ugc.steampowered.com
 DOMAIN-SUFFIX,ugc.steamusercontent.com
 DOMAIN-SUFFIX,ugc.steamcontent.com
 DOMAIN-SUFFIX,ugc.steampowered.com.edgesuite.net
+DOMAIN-SUFFIX,ugc.steamusercontent.fastly.net
+DOMAIN-SUFFIX,ugc.steamusercontent.cloudflare.net
+DOMAIN-SUFFIX,ugc.steamusercontent-a.akamaihd.net
 
 # Steam Workshop（创意工坊）
 DOMAIN-SUFFIX,steamworkshopdownloader.io
@@ -48,9 +53,14 @@ DOMAIN-SUFFIX,steam-chat.com.edgesuite.net
 DOMAIN-SUFFIX,cloud.steampowered.com
 DOMAIN-SUFFIX,cloud-3.steampowered.com
 DOMAIN-SUFFIX,cloud.steampowered.com.edgesuite.net
+DOMAIN-SUFFIX,cloud.steampowered.com.fastly.net
+DOMAIN-SUFFIX,cloud.steampowered.com.cloudflare.net
+
 
 # Steam Inventory（库存）
 DOMAIN-SUFFIX,inventory.steampowered.com
+DOMAIN-SUFFIX,inventory.steampowered.com.fastly.net
+DOMAIN-SUFFIX,inventory.steampowered.com.cloudflare.net
 
 # Steam Stats / Tracking（统计）
 DOMAIN-SUFFIX,steamstat.us
@@ -62,8 +72,16 @@ DOMAIN-SUFFIX,steampowered.com.edgesuite.net
 DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
 DOMAIN-SUFFIX,steamcdn-a.akamaihd.net.edgesuite.net
 DOMAIN-SUFFIX,steamcdn-a.akamaihd.net.globalredir.akadns.net
+DOMAIN-SUFFIX,steamstore-a.akamaihd.net
+DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
+DOMAIN-SUFFIX,steamstore.fastly.net
+DOMAIN-SUFFIX,steamcommunity.fastly.net
+DOMAIN-SUFFIX,steamusercontent.fastly.net
+DOMAIN-SUFFIX,steamstatic.fastly.net
+DOMAIN-SUFFIX,steamcommunity.cloudflare.net
+DOMAIN-SUFFIX,steamusercontent.cloudflare.net
 
-# Steam Ads（广告）
+# Steam Ads（广告）.0/23,no-resolve
 DOMAIN-SUFFIX,ads.steampowered.com
 
 # Steam Anti-Cheat（VAC）
@@ -93,5 +111,10 @@ DOMAIN-SUFFIX,ugc.steamusercontent.com
 
 # Steam IP Ranges（部分海外节点）
 IP-CIDR,208.64.200.0/22,no-resolve
+IP-CIDR,162.254.192.0/21,no-resolve
+IP-CIDR,155.133.224.0/19,no-resolve
+IP-CIDR,146.66.152.0/22,no-resolve
+IP-CIDR,185.25.182.0/23,no-resolve
+IP-CIDR,103.10.126.0/23,no-resolve
 IP-CIDR,208.64.202.0/23,no-resolve
 IP-CIDR,208.64.204.0/22,no-resolve
