@@ -21,3 +21,5 @@
         
         2.优化了下AI规则集，去除KEYWORD和ASN匹配，提高了匹配精确度，降低了误匹配概率
 
+    25.12.23
+        1.优化了claude、copilot、gemini、grok、openai、pinterest、steam的分流列表，新增了一些规则
