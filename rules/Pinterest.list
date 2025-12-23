@@ -15,10 +15,15 @@ DOMAIN-SUFFIX,pinterest.jp
 DOMAIN-SUFFIX,api.pinterest.com
 DOMAIN-SUFFIX,api.pinterest.com.au
 DOMAIN-SUFFIX,api.pinterest.co.uk
+DOMAIN-SUFFIX,api.pinterest.dev
+DOMAIN-SUFFIX,api.pinterestapi.com
+DOMAIN-SUFFIX,api.pinterestads.com
 
 # Login / OAuth
 DOMAIN-SUFFIX,accounts.pinterest.com
 DOMAIN-SUFFIX,auth.pinterest.com
+DOMAIN-SUFFIX,identity.pinterest.com
+DOMAIN-SUFFIX,login.pinterest.com
 
 # Static / CDN
 DOMAIN-SUFFIX,pinimg.com
@@ -27,6 +32,10 @@ DOMAIN-SUFFIX,v.pinimg.com
 DOMAIN-SUFFIX,s.pinimg.com
 DOMAIN-SUFFIX,assets.pinterest.com
 DOMAIN-SUFFIX,assets.pinterest.net
+DOMAIN-SUFFIX,pinimg.net
+DOMAIN-SUFFIX,pinimg.org
+DOMAIN-SUFFIX,media.pinimg.com
+DOMAIN-SUFFIX,stream.pinimg.com
 
 # Video CDN
 DOMAIN-SUFFIX,vsco.co
@@ -42,6 +51,11 @@ DOMAIN-SUFFIX,ct.pinterest.com
 DOMAIN-SUFFIX,pinterestwidgets.com
 DOMAIN-SUFFIX,pinterest.cl
 DOMAIN-SUFFIX,pinterest.pt
+DOMAIN-SUFFIX,pinterest.es
+DOMAIN-SUFFIX,pinterest.it
+DOMAIN-SUFFIX,pinterest.com.au
+DOMAIN-SUFFIX,pinterest.in
+DOMAIN-SUFFIX,pinterest.co
 
 # Pinterest Short Links
 DOMAIN-SUFFIX,pin.it
@@ -55,6 +69,11 @@ DOMAIN-SUFFIX,pimg-cdn.com
 # Pinterest Business
 DOMAIN-SUFFIX,business.pinterest.com
 DOMAIN-SUFFIX,help.pinterest.com
+DOMAIN-SUFFIX,email.pinterest.com
+DOMAIN-SUFFIX,notifications.pinterest.com
+DOMAIN-SUFFIX,ads-api.pinterest.com
+DOMAIN-SUFFIX,conversion.pinterest.com
+DOMAIN-SUFFIX,tag.pinterest.com
 
 # Pinterest Misc
 DOMAIN-SUFFIX,pinterestmail.com
