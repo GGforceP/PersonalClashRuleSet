@@ -9,11 +9,17 @@
 # =========================================
 DOMAIN,copilot.microsoft.com
 DOMAIN,www.copilot.microsoft.com
+DOMAIN,copilot.microsoft365.com
+DOMAIN,copilot.office.com
+DOMAIN,copilot.teams.microsoft.com
+DOMAIN,copilot.edge.microsoft.com
 
 # Copilot API / 服务端
 DOMAIN,api.copilot.microsoft.com
 DOMAIN,prod.api.copilot.microsoft.com
 DOMAIN,assets.copilot.microsoft.com
+DOMAIN,copilot-api.bing.com
+DOMAIN,copilot.bing.com
 
 # Copilot Studio / 插件平台
 DOMAIN,studio.copilot.microsoft.com
@@ -42,6 +48,12 @@ DOMAIN,auth.microsoft.com
 DOMAIN,models.azure.com
 DOMAIN,models-prod.azure.com
 DOMAIN,contentstorage.microsoft.com
+DOMAIN,ai.azure.com
+DOMAIN,api.ai.azure.com
+DOMAIN,oai.azure.com
+DOMAIN,aoai.azure.com
+DOMAIN,models.azure.com
+DOMAIN,models-prod.azure.com
 
 # Microsoft 静态资源 / CDN
 DOMAIN,msftstatic.com
@@ -57,6 +69,10 @@ DOMAIN,browser.events.data.microsoft.com
 
 # Copilot 用户内容资源
 DOMAIN-SUFFIX,microsoftusercontent.com
+DOMAIN,officeapps.live.com
+DOMAIN,office.live.com
+DOMAIN,cdn.office.net
+DOMAIN,officecdn.microsoft.com
 
 # Copilot 通配（严格控制）
 DOMAIN-SUFFIX,copilot.microsoft.com
