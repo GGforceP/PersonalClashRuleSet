@@ -25,7 +25,11 @@ DOMAIN-SUFFIX,steamcontent.net
 DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
 DOMAIN-SUFFIX,steamserver.net
 DOMAIN-SUFFIX,steamstat.us
-
+DOMAIN-SUFFIX,steamcontent.us
+DOMAIN-SUFFIX,steamcontent.eu
+DOMAIN-SUFFIX,steamcontent.ru
+DOMAIN-SUFFIX,steamcontent.hk
+DOMAIN-SUFFIX,steamcontent.sg
 
 # ============================================
 # Steam 客户端更新 / 内容分发（国内可直连）
@@ -33,12 +37,21 @@ DOMAIN-SUFFIX,steamstat.us
 DOMAIN-SUFFIX,cm.steampowered.com
 DOMAIN-SUFFIX,cm2.steampowered.com
 DOMAIN-SUFFIX,cm3.steampowered.com
+DOMAIN-SUFFIX,cm4.steampowered.com
+DOMAIN-SUFFIX,cm5.steampowered.com
+DOMAIN-SUFFIX,cm6.steampowered.com
+DOMAIN-SUFFIX,cm7.steampowered.com
+DOMAIN-SUFFIX,cm8.steampowered.com
+DOMAIN-SUFFIX,cm9.steampowered.com
+DOMAIN-SUFFIX,cm10.steampowered.com
 
 DOMAIN-SUFFIX,steampipe.steamcontent.com
 DOMAIN-SUFFIX,steampipe.steamcontent.net
 DOMAIN-SUFFIX,steampipe.steamcontent.com.cn
 DOMAIN-SUFFIX,steampipe.steamcontent.net.cn
-
+DOMAIN-SUFFIX,steampipe.steamcontent.us
+DOMAIN-SUFFIX,steampipe.steamcontent.eu
+DOMAIN-SUFFIX,steampipe.steamcontent.ru
 
 # ============================================
 # Steam 静态资源（国内可直连）
@@ -47,7 +60,8 @@ DOMAIN-SUFFIX,steamstatic.com
 DOMAIN-SUFFIX,steamusercontent.com
 DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
 DOMAIN-SUFFIX,steamcommunity.com.edgesuite.net
-
+DOMAIN-SUFFIX,steamstore-a.akamaihd.net
+DOMAIN-SUFFIX,steamstore.akamaized.net
 
 # ============================================
 # Steam 完美世界联运（国内可直连）
@@ -65,3 +79,9 @@ IP-CIDR,103.10.124.0/23,no-resolve
 IP-CIDR,103.28.54.0/23,no-resolve
 IP-CIDR,45.121.184.0/22,no-resolve
 IP-CIDR,45.121.186.0/23,no-resolve
+IP-CIDR,103.10.125.0/24,no-resolve
+IP-CIDR,103.10.126.0/23,no-resolve
+IP-CIDR,146.66.152.0/22,no-resolve
+IP-CIDR,155.133.224.0/19,no-resolve
+IP-CIDR,162.254.192.0/21,no-resolve
+IP-CIDR,185.25.182.0/23,no-resolve
