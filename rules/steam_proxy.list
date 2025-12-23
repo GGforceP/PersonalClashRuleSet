@@ -15,7 +15,7 @@ DOMAIN-SUFFIX,steamcommunity.com.edgesuite.net
 DOMAIN-SUFFIX,community.steamstatic.com.akamaized.net
 
 # Steam Market（市场）
-DOMAIN-SUFFIX,steamcommunity.com.market
+DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,market.steampowered.com
 
 # Steam Login / OAuth
@@ -76,8 +76,6 @@ DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net
 DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
 
 # Steam Classical CDN (Need Proxy)
-DOMAIN-SUFFIX,steamcontent.com
-DOMAIN-SUFFIX,steamcontent.net
 DOMAIN-SUFFIX,steamcontent.com.edgesuite.net
 DOMAIN-SUFFIX,steamcontent.com.akamaized.net
 DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
