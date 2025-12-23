@@ -6,6 +6,14 @@
 # --- Gemini 主站 / Web ---
 DOMAIN,gemini.google.com
 DOMAIN,gemini.googleusercontent.com
+DOMAIN,chat.google.com
+DOMAIN,workspace.google.com
+DOMAIN,gemini.apps.google.com
+DOMAIN,docs.google.com
+DOMAIN,sheets.google.com
+DOMAIN,slides.google.com
+DOMAIN,mail.google.com
+DOMAIN,workspace.google.com
 
 # --- Gemini API ---
 DOMAIN,api.gemini.google.com
@@ -15,15 +23,22 @@ DOMAIN,api.ai.google.dev
 # --- Google AI 主域名 ---
 DOMAIN,google.ai
 DOMAIN,www.google.ai
+DOMAIN,api.generativeai.google
+DOMAIN,generativelanguage.googleapis.com
 
 # --- Google AI Studio / 控制台 ---
 DOMAIN,aistudio.google.com
 DOMAIN,makersuite.google.com
+DOMAIN,ai.google.com
+DOMAIN,deepmind.google
 
 # --- Gemini 模型 / 文件资源 ---
 DOMAIN,storage.googleapis.com
 DOMAIN,dl.google.com
 DOMAIN,dl-ssl.google.com
+DOMAIN,cloud.google.com
+DOMAIN,us-central1-aiplatform.googleapis.com
+DOMAIN,us-central1-generativelanguage.googleapis.com
 
 # --- Gemini 静态资源 / CDN ---
 DOMAIN,fonts.gstatic.com
@@ -38,11 +53,15 @@ DOMAIN,lh6.googleusercontent.com
 DOMAIN,accounts.google.com
 DOMAIN,oauth2.googleapis.com
 DOMAIN,securetoken.googleapis.com
+DOMAIN,identitytoolkit.googleapis.com
+DOMAIN,securetoken.googleapis.com   # 你已有
 
 # --- Google AI 遥测 / 统计（必要）---
 DOMAIN,play.googleapis.com
 DOMAIN,firebaselogging.googleapis.com
 DOMAIN,firestore.googleapis.com
+DOMAIN,analytics.google.com
+DOMAIN,analytics.googleusercontent.com
 
 # --- Google AI 用户内容资源 ---
 DOMAIN-SUFFIX,googleusercontent.com
