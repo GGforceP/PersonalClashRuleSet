@@ -5,12 +5,19 @@
 
 # --- Claude 主站 / Web ---
 DOMAIN,claude.ai
-DOMAIN,console.claude.ai
 DOMAIN,chat.claude.ai
+DOMAIN,console.claude.ai
+DOMAIN,workbench.claude.ai
+DOMAIN,team.claude.ai
+DOMAIN,pro.claude.ai
+DOMAIN,anthropic.com
+DOMAIN,www.anthropic.com
 
 # --- Claude API ---
-DOMAIN,api.anthropic.com
 DOMAIN,api.claude.ai
+DOMAIN,api.anthropic.com
+DOMAIN,api.us.anthropic.com
+DOMAIN,api.eu.anthropic.com
 
 # --- Claude 静态资源 / CDN ---
 DOMAIN,cdn.anthropic.com
@@ -21,6 +28,9 @@ DOMAIN-SUFFIX,anthropic-cdn.com
 # --- Claude 文件 / 模型资源 ---
 DOMAIN,files.anthropic.com
 DOMAIN,models.anthropic.com
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN,media.claudeusercontent.com
+DOMAIN,artifacts.claude.ai
 
 # --- Anthropic 主域名 ---
 DOMAIN,anthropic.com
@@ -29,10 +39,12 @@ DOMAIN,www.anthropic.com
 # --- Anthropic 账号 / 登录 ---
 DOMAIN,auth.anthropic.com
 DOMAIN,accounts.anthropic.com
+DOMAIN,oauth.anthropic.com
 
 # --- Claude 遥测 / 统计（必要） ---
 DOMAIN,events.anthropic.com
 DOMAIN,metrics.anthropic.com
+DOMAIN,telemetry.anthropic.com
 
 # --- Claude 用户内容资源 ---
 DOMAIN-SUFFIX,claudeusercontent.com
