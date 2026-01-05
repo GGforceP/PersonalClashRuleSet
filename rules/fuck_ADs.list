@@ -143,15 +143,6 @@ DOMAIN-SUFFIX,feedback.microsoft.com
 DOMAIN-SUFFIX,adobedtm.com
 DOMAIN-SUFFIX,adobestats.com
 
-# AD Keywords
-DOMAIN-KEYWORD,adservice
-DOMAIN-KEYWORD,adsystem
-DOMAIN-KEYWORD,advert
-DOMAIN-KEYWORD,tracking
-DOMAIN-KEYWORD,analytics
-DOMAIN-KEYWORD,metrics
-DOMAIN-KEYWORD,telemetry
-
 # Spotify 广告拦截
 DOMAIN,ads.spotify.com
 DOMAIN,ads-ak.spotify.com
@@ -161,3 +152,13 @@ DOMAIN,partner.spotify.com
 DOMAIN,log.spotify.com
 DOMAIN,metrics.spotify.com
 DOMAIN,crashdump.spotify.com
+
+# AD Keywords
+DOMAIN-KEYWORD,adservice
+DOMAIN-KEYWORD,adsystem
+DOMAIN-KEYWORD,advert
+DOMAIN-KEYWORD,tracking
+DOMAIN-KEYWORD,analytics
+DOMAIN-KEYWORD,metrics
+DOMAIN-KEYWORD,telemetry
+
