@@ -151,3 +151,13 @@ DOMAIN-KEYWORD,tracking
 DOMAIN-KEYWORD,analytics
 DOMAIN-KEYWORD,metrics
 DOMAIN-KEYWORD,telemetry
+
+# Spotify 广告拦截
+DOMAIN,ads.spotify.com
+DOMAIN,ads-ak.spotify.com
+DOMAIN,ads-fa.spotify.com
+DOMAIN,audio2.spotify.com
+DOMAIN,partner.spotify.com
+DOMAIN,log.spotify.com
+DOMAIN,metrics.spotify.com
+DOMAIN,crashdump.spotify.com
