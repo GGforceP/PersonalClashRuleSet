@@ -23,3 +23,7 @@
 
     25.12.23
         1.优化了claude、copilot、gemini、grok、openai、pinterest、steam的分流列表，新增了一些规则
+
+
+    26.1.12
+        1.更新优化了下spotify的广告域名，现在PC段可以正常拦截spotify广告
