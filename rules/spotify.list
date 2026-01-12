@@ -76,10 +76,10 @@ DOMAIN-SUFFIX,login.spotify.com
 # ============================================
 # Spotify 广告服务（Ads）
 # ============================================
-DOMAIN-SUFFIX,ads-fa.spotify.com
-DOMAIN-SUFFIX,ads-ak.spotify.com
-DOMAIN-SUFFIX,ads-akp.spotify.com
-DOMAIN-SUFFIX,adstudio.spotify.com
+#DOMAIN-SUFFIX,ads-fa.spotify.com
+#DOMAIN-SUFFIX,ads-ak.spotify.com
+#DOMAIN-SUFFIX,ads-akp.spotify.com
+#DOMAIN-SUFFIX,adstudio.spotify.com
 
 
 # ============================================
