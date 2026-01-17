@@ -98,3 +98,19 @@ DOMAIN-SUFFIX,bongacams.net
 DOMAIN-SUFFIX,cdnlab.live
 DOMAIN-SUFFIX,cdnlab.dev
 DOMAIN-SUFFIX,adultvideosapi.com
+
+# 禁漫天堂
+DOMAIN-SUFFIX,18comic.vip,Proxy
+DOMAIN-SUFFIX,18comic.org,Proxy
+DOMAIN-SUFFIX,18comic1.biz,Proxy
+DOMAIN-SUFFIX,18comic2.biz,Proxy
+DOMAIN-SUFFIX,cdn-msp.18comic.org,Proxy
+DOMAIN-SUFFIX,cdn-msp2.18comic.org,Proxy
+
+# 哔咔漫画
+DOMAIN-SUFFIX,picacg.com,Proxy
+DOMAIN-SUFFIX,picaapi.com,Proxy
+DOMAIN-SUFFIX,picacomic.com,Proxy
+DOMAIN-SUFFIX,api.picacomic.com,Proxy
+DOMAIN-SUFFIX,storage1.picacomic.com,Proxy
+DOMAIN-SUFFIX,img.picacomic.com,Proxy
