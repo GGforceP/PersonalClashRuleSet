@@ -1,27 +1,29 @@
 # =========================================
-# xAI / Grok
-# 全量代理（不考虑国内分流）
-# 精准匹配，避免误杀
+# xAI / Grok (优化版 2026.03)
+# 全量代理，不考虑国内分流
+# 精准匹配 + 兜底，未来-proof
 # =========================================
 
-
 # =========================================
-# xAI 主站 / Web
+# 主站 / 聊天入口（最重要新增）
 # =========================================
+DOMAIN,grok.com
+DOMAIN,www.grok.com
 DOMAIN,x.ai
 DOMAIN,www.x.ai
+DOMAIN,grok.x.ai
+DOMAIN,www.grok.x.ai
 DOMAIN,chat.x.ai
 DOMAIN,studio.x.ai
 DOMAIN,workspace.x.ai
 
 # =========================================
-# Grok 主站 / Web
+# Grok 在 X 平台
 # =========================================
-DOMAIN,grok.x.ai
-DOMAIN,www.grok.x.ai
+DOMAIN,grok.x.com
 
 # =========================================
-# xAI / Grok API（核心服务）
+# API（核心服务）
 # =========================================
 DOMAIN,api.x.ai
 DOMAIN,api.grok.x.ai
@@ -30,7 +32,7 @@ DOMAIN,api.studio.x.ai
 DOMAIN,api.inference.x.ai
 
 # =========================================
-# xAI 模型 / 推理服务
+# 模型 / 推理 / 计算服务
 # =========================================
 DOMAIN,inference.x.ai
 DOMAIN,models.x.ai
@@ -39,7 +41,16 @@ DOMAIN,training.x.ai
 DOMAIN,datasets.x.ai
 
 # =========================================
-# xAI 静态资源 / CDN
+# 开发者后台 & 文档
+# =========================================
+DOMAIN,console.x.ai
+DOMAIN,accounts.x.ai
+DOMAIN,docs.x.ai
+DOMAIN,auth.x.ai
+DOMAIN,login.x.ai
+
+# =========================================
+# 静态资源 / CDN
 # =========================================
 DOMAIN,cdn.x.ai
 DOMAIN,assets.x.ai
@@ -47,19 +58,26 @@ DOMAIN,static.x.ai
 DOMAIN,media.x.ai
 DOMAIN,files.x.ai
 DOMAIN,storage.x.ai
+
+# Grok Imagine 图像/视频生成 CDN
+DOMAIN-SUFFIX,assets.grok.com
+
+# 用户生成内容
 DOMAIN-SUFFIX,grokusercontent.com
 DOMAIN-SUFFIX,xaiusercontent.com
 
-
 # =========================================
-# xAI 用户内容资源
+# 监控 / 事件 / 遥测
 # =========================================
-DOMAIN-SUFFIX,x.ai
-DOMAIN,auth.x.ai
-DOMAIN,login.x.ai
 DOMAIN,events.x.ai
 DOMAIN,metrics.x.ai
 DOMAIN,telemetry.x.ai
+
+# =========================================
+# 兜底（覆盖所有剩余 *.x.ai 和 *.grok.com）
+# =========================================
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
 
 # =========================================
 # END
