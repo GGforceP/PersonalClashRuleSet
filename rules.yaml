@@ -230,7 +230,7 @@ proxy-groups:
     tolerance: 50
   - name: 新加坡节点
     include-all: true
-    filter: (?i)新加坡|坡|狮城|SG|Singapore|新
+    filter: (?i)新加坡|坡|狮城|SG|Singapore
     type: url-test
     interval: 300
     tolerance: 50
