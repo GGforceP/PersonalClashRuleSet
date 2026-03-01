@@ -1,92 +1,93 @@
 # =========================================
-# OpenAI / ChatGPT / Sora
-# 精准匹配，避免误杀
+# OpenAI / ChatGPT / Sora / DALL·E / Realtime (优化版 2026.03)
+# 精准 + 全面，优先 ChatGPT 主站，覆盖 Prism & Sora 2
 # =========================================
 
-# --- OpenAI 主域名 ---
-DOMAIN,openai.com
+# =========================================
+# ChatGPT 主站（最重要，消费者入口）
+# =========================================
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN,www.chatgpt.com
+DOMAIN,chat.openai.com
+DOMAIN,chatgpt.openai.com
+
+# =========================================
+# OpenAI 主站 & API（核心服务）
+# =========================================
+DOMAIN-SUFFIX,openai.com
 DOMAIN,api.openai.com
 DOMAIN,platform.openai.com
 DOMAIN,auth.openai.com
-DOMAIN,cdn.openai.com
-DOMAIN,www.chatgpt.com
+DOMAIN,billing.openai.com
+DOMAIN,checkout.openai.com
 
-# --- ChatGPT Web ---
-DOMAIN,chat.openai.com
-DOMAIN,chatgpt.com
-DOMAIN,api.gpt.openai.com
-DOMAIN,api.gpt-4o.openai.com
-DOMAIN,api.gpt-4o-mini.openai.com
+# =========================================
+# Prism（2026 新科学工作空间）
+# =========================================
+DOMAIN,prism.openai.com
 
-# --- ChatGPT 实时语音 / LiveKit ---
+# =========================================
+# Realtime / 高级语音 / LiveKit
+# =========================================
+DOMAIN,realtime.openai.com
+DOMAIN,api.realtime.openai.com
 DOMAIN-SUFFIX,livekit.cloud
 DOMAIN-SUFFIX,livekit.io
 DOMAIN,chatgpt.livekit.cloud
-DOMAIN,chatgpt.livekit.io
 
-# --- OpenAI 静态资源 / CDN ---
-DOMAIN,openaicom.imgix.net
-DOMAIN,openaicom.azureedge.net
-DOMAIN,openaicom-api.azureedge.net
-DOMAIN,openaicomproduction.azureedge.net
-DOMAIN,openaicomproduction.blob.core.windows.net
-DOMAIN,openaicom.azurewebsites.net
-DOMAIN,openaicom-api.azurewebsites.net
+# =========================================
+# 开发者 / Playground / 文件 / 模型
+# =========================================
+DOMAIN,playground.openai.com
+DOMAIN,models.openai.com
+DOMAIN,uploads.openai.com
+DOMAIN,files.openai.com
+DOMAIN,api.gpt.openai.com
+
+# =========================================
+# 静态资源 / CDN（图片、视频、DALL·E）
+# =========================================
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN,cdn.oaistatic.com
 DOMAIN,static.openai.com
 DOMAIN,assets.openai.com
+DOMAIN,openaicom.imgix.net
+DOMAIN,openaicom.azureedge.net
+DOMAIN,openaicomproduction.azureedge.net
+DOMAIN,openaicomproduction.blob.core.windows.net
 
-# --- OpenAI 文件 / 模型资源 ---
-DOMAIN,files.openai.com
-DOMAIN,models.openai.com
-DOMAIN,realtime.openai.com
-DOMAIN,api.realtime.openai.com
-DOMAIN,uploads.openai.com
-DOMAIN,files.oaiusercontent.com
-DOMAIN,playground.openai.com
-
-# --- OpenAI 账号 / 登录相关 ---
-DOMAIN,auth0.openai.com
-DOMAIN,auth0.com
-DOMAIN,cdn.auth0.com
-DOMAIN,billing.openai.com
-DOMAIN,checkout.openai.com
-
-# --- OpenAI 遥测 / 反作弊（必要） ---
-DOMAIN,api.statsig.com
-DOMAIN,events.statsigapi.net
-DOMAIN-SUFFIX,statsigapi.net
-DOMAIN,featuregates.org
-DOMAIN,telemetry.openai.com
-DOMAIN,events.openai.com
-
-# --- OpenAI 用户内容资源 ---
+# =========================================
+# 用户生成内容（DALL·E / GPT-Image / Sora 视频必须）
+# =========================================
 DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN,files.oaiusercontent.com
 
 # =========================================
-# Sora（OpenAI 视频生成模型）
+# Sora 视频生成（Sora 2 完全兼容）
 # =========================================
-
-# --- Sora 主域名 ---
 DOMAIN,sora.openai.com
 DOMAIN,sora-assets.openai.com
-DOMAIN,sora-video.openai.com
-
-# --- Sora API / 推理 ---
-DOMAIN,api.sora.openai.com
-DOMAIN,queue.sora.openai.com
-
-# --- Sora 静态资源 / CDN ---
 DOMAIN,cdn.sora.openai.com
-DOMAIN-SUFFIX,sora-cdn.openai.com
-
-# --- Sora 视频 / 资产资源 ---
 DOMAIN,video.sora.openai.com
 DOMAIN,assets.sora.openai.com
-
-# --- Sora 通配（严格控制）---
+DOMAIN,api.sora.openai.com
+DOMAIN,queue.sora.openai.com
 DOMAIN-SUFFIX,sora.openai.com
+
+# =========================================
+# 账号 / 登录 / 遥测 / 反作弊（强烈建议代理）
+# =========================================
+DOMAIN,auth0.openai.com
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN,featuregates.org
+DOMAIN,events.openai.com
+DOMAIN,telemetry.openai.com
+
+# =========================================
+# 兜底（覆盖未来所有新子域）
+# =========================================
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
 
 # =========================================
 # END
