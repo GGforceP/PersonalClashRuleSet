@@ -1,86 +1,71 @@
 # =========================================
-# Midjourney + Discord
-# 全量代理（不考虑国内分流）
-# 精准匹配，避免误杀
+# Midjourney / Niji Journey + Discord (优化版 2026.03)
+# Web 平台优先 + Niji 独立站点 + Discord 必要依赖
+# 精准匹配，避免多余流量，未来-proof
 # =========================================
 
-
 # =========================================
-# Midjourney
+# Midjourney 主站 / Web App（2026 强烈推荐）
 # =========================================
-
-# --- Midjourney 主站 / Web ---
-DOMAIN,midjourney.com
-DOMAIN,www.midjourney.com
-
-# --- Midjourney API / 服务端 ---
-DOMAIN,api.midjourney.com
-
-# --- Midjourney 静态资源 / CDN ---
-DOMAIN,cdn.midjourney.com
-DOMAIN-SUFFIX,mj.gallery
-
-# --- Midjourney 图片资源 / 用户内容 ---
 DOMAIN-SUFFIX,midjourney.com
-DOMAIN-SUFFIX,mj.run
+DOMAIN,www.midjourney.com
+DOMAIN,docs.midjourney.com
+DOMAIN,help.midjourney.com
+DOMAIN,explore.midjourney.com
+DOMAIN,account.midjourney.com
 
-# --- Midjourney 任务队列 / 生成服务 ---
+# =========================================
+# Niji Journey（2026 新增，Niji 7 专用）
+# =========================================
+DOMAIN-SUFFIX,nijijourney.com
+DOMAIN,www.nijijourney.com
+
+# =========================================
+# Midjourney API / 生成 / 任务 / 队列
+# =========================================
+DOMAIN,api.midjourney.com
 DOMAIN,task.midjourney.com
 DOMAIN,queue.midjourney.com
 
-
+# =========================================
+# Midjourney CDN / 静态 / 图片资源
+# =========================================
+DOMAIN,cdn.midjourney.com
+DOMAIN,assets.midjourney.com
+DOMAIN-SUFFIX,mj.gallery
+DOMAIN-SUFFIX,mj.run
 
 # =========================================
-# Discord（Midjourney 依赖）
+# Discord（Midjourney Bot 核心依赖 - 精简必要部分）
 # =========================================
-
-# --- Discord 主站 / Web ---
-DOMAIN,discord.com
-DOMAIN,www.discord.com
-DOMAIN,discordapp.com
-DOMAIN,www.discordapp.com
-
-# --- Discord API / Gateway（Midjourney 必需）---
+# 主站 & 邀请
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discord.gg
 DOMAIN,discord.gg
+DOMAIN,discordapp.com
 DOMAIN,discordapp.net
-DOMAIN,discord.media
-DOMAIN,discordstatus.com
-DOMAIN,discord.co
-DOMAIN,discord.dev
-DOMAIN,discord.new
 
-# --- Discord WebSocket / 实时通信 ---
+# Gateway / 实时通信 / API
 DOMAIN,gateway.discord.gg
 DOMAIN,remote-auth-gateway.discord.gg
+DOMAIN,api.discord.com
 
-# --- Discord CDN / 静态资源 ---
+# CDN / 媒体 / 用户内容（MJ 生成图重度依赖）
 DOMAIN,cdn.discordapp.com
 DOMAIN,cdn.discordapp.net
 DOMAIN,media.discordapp.net
-
-# --- Discord 图片 / 视频 / 文件资源 ---
-DOMAIN-SUFFIX,discordapp.net
-DOMAIN-SUFFIX,discordapp.com
-DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discordusercontent.com
 DOMAIN-SUFFIX,discord.media
 
-# --- Discord 语音服务（Voice）---
-DOMAIN,rtc.discord.gg
-DOMAIN,voice.discord.gg
-DOMAIN,region1.discord.gg
-DOMAIN,region2.discord.gg
-DOMAIN,region3.discord.gg
+# 语音（可选，如果不语音聊天可删掉）
+# DOMAIN,rtc.discord.gg
+# DOMAIN,voice.discord.gg
 
-# --- Discord 用户内容资源 ---
-DOMAIN-SUFFIX,discordusercontent.com
-
-# --- Discord 通配（严格控制）---
-DOMAIN-SUFFIX,discord.com
-DOMAIN-SUFFIX,discord.gg
-DOMAIN-SUFFIX,discordapp.com
-DOMAIN-SUFFIX,discordapp.net
-
-
+# =========================================
+# 兜底（覆盖未来新子域）
+# =========================================
+DOMAIN-SUFFIX,midjourney.com
+DOMAIN-SUFFIX,nijijourney.com
 
 # =========================================
 # END
