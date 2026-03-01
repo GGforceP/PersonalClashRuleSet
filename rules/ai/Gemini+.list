@@ -1,73 +1,55 @@
 # =========================================
-# Google Gemini / Google AI
-# 精准匹配，避免误杀
+# Google Gemini / Gemini+ (优化版 2026.03)
+# 专注 Gemini 核心服务，拒绝广撒网
+# 精准匹配 + 兜底，避免代理无关 Google 服务
 # =========================================
 
-# --- Gemini 主站 / Web ---
-DOMAIN,gemini.google.com
-DOMAIN,gemini.googleusercontent.com
-DOMAIN,chat.google.com
-DOMAIN,workspace.google.com
-DOMAIN,gemini.apps.google.com
-DOMAIN,docs.google.com
-DOMAIN,sheets.google.com
-DOMAIN,slides.google.com
-DOMAIN,mail.google.com
-DOMAIN,workspace.google.com
-
-# --- Gemini API ---
-DOMAIN,api.gemini.google.com
-DOMAIN,ai.google.dev
-DOMAIN,api.ai.google.dev
-
-# --- Google AI 主域名 ---
-DOMAIN,google.ai
-DOMAIN,www.google.ai
-DOMAIN,api.generativeai.google
-DOMAIN,generativelanguage.googleapis.com
-
-# --- Google AI Studio / 控制台 ---
+# =========================================
+# 主站 / 聊天入口
+# =========================================
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN,www.gemini.google.com
 DOMAIN,aistudio.google.com
-DOMAIN,makersuite.google.com
-DOMAIN,ai.google.com
+DOMAIN,ai.google.dev
 DOMAIN,deepmind.google
+DOMAIN,gemini.google
 
-# --- Gemini 模型 / 文件资源 ---
-DOMAIN,storage.googleapis.com
-DOMAIN,dl.google.com
-DOMAIN,dl-ssl.google.com
-DOMAIN,cloud.google.com
-DOMAIN,us-central1-aiplatform.googleapis.com
-DOMAIN,us-central1-generativelanguage.googleapis.com
+# =========================================
+# Gemini API（开发者/应用必备，最重要）
+# =========================================
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN,aiplatform.googleapis.com  # Vertex AI / Gemini Enterprise 用到
 
-# --- Gemini 静态资源 / CDN ---
-DOMAIN,fonts.gstatic.com
-DOMAIN,fonts.googleapis.com
-DOMAIN,ssl.gstatic.com
-DOMAIN,lh3.googleusercontent.com
-DOMAIN,lh4.googleusercontent.com
-DOMAIN,lh5.googleusercontent.com
-DOMAIN,lh6.googleusercontent.com
+# =========================================
+# Google AI Studio & 文档
+# =========================================
+DOMAIN,studio.google.com
+DOMAIN,developers.google.com  # Gemini API 文档页
+DOMAIN,support.google.com/gemini
 
-# --- Google 登录 / 账号系统（Gemini 必需）---
-DOMAIN,accounts.google.com
-DOMAIN,oauth2.googleapis.com
-DOMAIN,securetoken.googleapis.com
-DOMAIN,identitytoolkit.googleapis.com
-DOMAIN,securetoken.googleapis.com   # 你已有
+# =========================================
+# 模型 / DeepMind 相关
+# =========================================
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN,models.deepmind.google
 
-# --- Google AI 遥测 / 统计（必要）---
-DOMAIN,play.googleapis.com
-DOMAIN,firebaselogging.googleapis.com
-DOMAIN,firestore.googleapis.com
-DOMAIN,analytics.google.com
-DOMAIN,analytics.googleusercontent.com
+# =========================================
+# 静态资源 / CDN（图像、视频、文件上传）
+# =========================================
+DOMAIN-SUFFIX,googleusercontent.com  # Gemini 生成内容常走这里
+DOMAIN,cdn.gemini.google.com
+DOMAIN,storage.googleapis.com/gemini*  # 只匹配 Gemini 相关存储（可选更宽松）
 
-# --- Google AI 用户内容资源 ---
-DOMAIN-SUFFIX,googleusercontent.com
+# =========================================
+# 监控 / 事件（可选，建议加）
+# =========================================
+DOMAIN,events.gemini.google.com
+DOMAIN,metrics.gemini.google.com
 
-# --- Gemini 相关通配（严格控制）---
-DOMAIN-SUFFIX,google.ai
+# =========================================
+# 兜底（覆盖所有剩余 *.gemini.google.* 和 ai.google.*）
+# =========================================
+DOMAIN-SUFFIX,gemini.google
 DOMAIN-SUFFIX,ai.google.dev
 
 # =========================================
