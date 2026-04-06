@@ -280,14 +280,7 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 100
-  - name: 奥呆利节点
-    include-all: true
-    filter: (?i)澳|澳大利亚|Austria|AUS|AU
-    type: url-test
-    interval: 300
-    tolerance: 100
-
-
+    
 rule-providers:
   LAN:
     url: https://raw.githubusercontent.com/GGforceP/PersonalClashRuleSet/main/rules/LAN.list
