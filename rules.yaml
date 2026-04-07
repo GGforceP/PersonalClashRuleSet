@@ -255,11 +255,11 @@ proxy-groups:
   - name: 俄罗斯节点
     include-all: true
     filter: (?i)俄罗斯|俄|RU|Russia|俄国|罗斯
-    type: select
+    type: url-test
   - name: 土耳其节点
     include-all: true
     filter: (?i)TR|土耳其|Turkey|Türkiye|Turkye|土
-    type: select
+    type: url-test
     interval: 300
     tolerance: 50
   - name: 英国节点
