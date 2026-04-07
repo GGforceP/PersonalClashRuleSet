@@ -61,10 +61,18 @@ DOMAIN,storage.x.ai
 
 # Grok Imagine 图像/视频生成 CDN
 DOMAIN-SUFFIX,assets.grok.com
+DOMAIN-SUFFIX,imagine-public.x.ai
+DOMAIN-SUFFIX,images-public.x.ai
 
 # 用户生成内容
 DOMAIN-SUFFIX,grokusercontent.com
 DOMAIN-SUFFIX,xaiusercontent.com
+
+# =========================================
+# 其他 xAI 服务
+# =========================================
+DOMAIN,grokipedia.com
+DOMAIN,status.x.ai
 
 # =========================================
 # 监控 / 事件 / 遥测
