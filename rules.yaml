@@ -224,7 +224,7 @@ proxy-groups:
     tolerance: 50
   - name: 美国节点
     include-all: true
-  filter: (?i)美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States
+    filter: (?i)美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States
     type: url-test
     interval: 300
     tolerance: 50
@@ -287,7 +287,7 @@ rule-providers:
     path: ./ruleset/LAN.list
     behavior: classical
     interval: 86400
-    format: textsa
+    format: text
     type: http
   Pinterest:
     url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/Pinterest.list
