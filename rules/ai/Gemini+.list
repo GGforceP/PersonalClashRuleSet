@@ -13,6 +13,7 @@ DOMAIN,aistudio.google.com
 DOMAIN,ai.google.dev
 DOMAIN,deepmind.google
 DOMAIN,gemini.google
+DOMAIN,ai.google
 
 # =========================================
 # Gemini API（开发者/应用必备，最重要）
@@ -24,8 +25,8 @@ DOMAIN,aiplatform.googleapis.com  # Vertex AI / Gemini Enterprise 用到
 # Google AI Studio & 文档
 # =========================================
 DOMAIN,studio.google.com
-DOMAIN,developers.google.com  # Gemini API 文档页
-DOMAIN,support.google.com/gemini
+DOMAIN,developers.google.com
+DOMAIN,support.google.com
 
 # =========================================
 # 模型 / DeepMind 相关
@@ -36,9 +37,9 @@ DOMAIN,models.deepmind.google
 # =========================================
 # 静态资源 / CDN（图像、视频、文件上传）
 # =========================================
-DOMAIN-SUFFIX,googleusercontent.com  # Gemini 生成内容常走这里
+DOMAIN-SUFFIX,googleusercontent.com     # 生成内容必备
 DOMAIN,cdn.gemini.google.com
-DOMAIN,storage.googleapis.com/gemini*  # 只匹配 Gemini 相关存储（可选更宽松）
+DOMAIN-SUFFIX,storage.googleapis.com    # Gemini 文件上传&媒体存储
 
 # =========================================
 # 监控 / 事件（可选，建议加）
