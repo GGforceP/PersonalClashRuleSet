@@ -280,7 +280,12 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 100
-    
+  - name: 澳呆利亚
+    include-all: true
+    filter: (?i)澳|澳洲|AUS|Australia|AU
+    type: url-test
+    interval: 300
+    tolerance: 100
 rule-providers:
   LAN:
     url: https://raw.githubusercontent.com/GGforceP/PersonalClashRuleSet/main/rules/LAN.list
