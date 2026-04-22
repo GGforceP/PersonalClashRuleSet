@@ -61,9 +61,9 @@ DOMAIN,telemetry.anthropic.com
 # =========================================
 # 可选（按需打开）
 # =========================================
-# DOMAIN-SUFFIX,docs.anthropic.com      # 文档页
-# DOMAIN-SUFFIX,support.anthropic.com   # 支持页
-# DOMAIN,console.anthropic.com          # 旧 Console 重定向
+DOMAIN-SUFFIX,docs.anthropic.com      # 文档页
+DOMAIN-SUFFIX,support.anthropic.com   # 支持页
+DOMAIN,console.anthropic.com          # 旧 Console 重定向
 
 # =========================================
 # END
