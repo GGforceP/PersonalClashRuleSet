@@ -1,57 +1,69 @@
 # =========================================
-# Claude / Anthropic
+# Claude / Anthropic（优化版 2026.04）
 # 精准匹配，避免误杀
 # =========================================
 
-# --- Claude 主站 / Web ---
-DOMAIN,claude.ai
+# =========================================
+# Claude 主站 / Web
+# =========================================
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,platform.claude.com     # 【新增】2026 新 Console 主入口
 DOMAIN,chat.claude.ai
 DOMAIN,console.claude.ai
 DOMAIN,workbench.claude.ai
 DOMAIN,team.claude.ai
 DOMAIN,pro.claude.ai
-DOMAIN,anthropic.com
-DOMAIN,www.anthropic.com
 
-# --- Claude API ---
+# =========================================
+# Anthropic 主域名（清理冗余）
+# =========================================
+DOMAIN-SUFFIX,anthropic.com
+
+# =========================================
+# Claude API（开发者 / 应用必备）
+# =========================================
 DOMAIN,api.claude.ai
-DOMAIN,api.anthropic.com
+DOMAIN-SUFFIX,api.anthropic.com
 DOMAIN,api.us.anthropic.com
 DOMAIN,api.eu.anthropic.com
 
-# --- Claude 静态资源 / CDN ---
+# =========================================
+# 静态资源 / CDN
+# =========================================
 DOMAIN,cdn.anthropic.com
 DOMAIN,assets.anthropic.com
 DOMAIN,static.anthropic.com
 DOMAIN-SUFFIX,anthropic-cdn.com
 
-# --- Claude 文件 / 模型资源 ---
+# =========================================
+# 文件 / 模型 / 用户内容
+# =========================================
 DOMAIN,files.anthropic.com
 DOMAIN,models.anthropic.com
 DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN,media.claudeusercontent.com
 DOMAIN,artifacts.claude.ai
 
-# --- Anthropic 主域名 ---
-DOMAIN,anthropic.com
-DOMAIN,www.anthropic.com
-
-# --- Anthropic 账号 / 登录 ---
+# =========================================
+# 账号 / 登录 / 认证
+# =========================================
 DOMAIN,auth.anthropic.com
 DOMAIN,accounts.anthropic.com
 DOMAIN,oauth.anthropic.com
 
-# --- Claude 遥测 / 统计（必要） ---
+# =========================================
+# 遥测 / 统计（必要，避免卡顿）
+# =========================================
 DOMAIN,events.anthropic.com
 DOMAIN,metrics.anthropic.com
 DOMAIN,telemetry.anthropic.com
 
-# --- Claude 用户内容资源 ---
-DOMAIN-SUFFIX,claudeusercontent.com
-
-# --- Claude 相关通配（严格控制）---
-DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,anthropic.com
+# =========================================
+# 可选（按需打开）
+# =========================================
+# DOMAIN-SUFFIX,docs.anthropic.com      # 文档页
+# DOMAIN-SUFFIX,support.anthropic.com   # 支持页
+# DOMAIN,console.anthropic.com          # 旧 Console 重定向
 
 # =========================================
 # END
