@@ -1,5 +1,5 @@
 # =========================================
-# Google Gemini / Gemini+ (优化版 2026.03)
+# Google Gemini / Gemini+（优化版 2026.04）
 # 专注 Gemini 核心服务，拒绝广撒网
 # 精准匹配 + 兜底，避免代理无关 Google 服务
 # =========================================
@@ -8,44 +8,48 @@
 # 主站 / 聊天入口
 # =========================================
 DOMAIN-SUFFIX,gemini.google.com
-DOMAIN,www.gemini.google.com
-DOMAIN,aistudio.google.com
-DOMAIN,ai.google.dev
-DOMAIN,deepmind.google
-DOMAIN,gemini.google
-DOMAIN,ai.google
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,gemini.google
+DOMAIN-SUFFIX,ai.google
 
 # =========================================
 # Gemini API（开发者/应用必备，最重要）
 # =========================================
 DOMAIN-SUFFIX,generativelanguage.googleapis.com
-DOMAIN,aiplatform.googleapis.com  # Vertex AI / Gemini Enterprise 用到
+DOMAIN-SUFFIX,aiplatform.googleapis.com   # Vertex AI / Gemini Enterprise
 
 # =========================================
-# Google AI Studio & 文档
+# Google AI Studio & 文档（按需保留）
 # =========================================
-DOMAIN,studio.google.com
-DOMAIN,developers.google.com
-DOMAIN,support.google.com
+DOMAIN-SUFFIX,studio.google.com
+DOMAIN-SUFFIX,developers.google.com
+DOMAIN-SUFFIX,support.google.com
 
 # =========================================
 # 模型 / DeepMind 相关
 # =========================================
-DOMAIN-SUFFIX,deepmind.google
-DOMAIN,models.deepmind.google
+DOMAIN-SUFFIX,models.deepmind.google
 
 # =========================================
 # 静态资源 / CDN（图像、视频、文件上传）
 # =========================================
 DOMAIN-SUFFIX,googleusercontent.com     # 生成内容必备
+DOMAIN-SUFFIX,gstatic.com               # 【新增】网页静态资源（JS/CSS/字体）
 DOMAIN,cdn.gemini.google.com
-DOMAIN-SUFFIX,storage.googleapis.com    # Gemini 文件上传&媒体存储
+DOMAIN-SUFFIX,storage.googleapis.com    # 文件上传 & 媒体存储
 
 # =========================================
 # 监控 / 事件（可选，建议加）
 # =========================================
 DOMAIN,events.gemini.google.com
 DOMAIN,metrics.gemini.google.com
+
+# =========================================
+# 认证 / OAuth（新增，登录和 API 调用必备）
+# =========================================
+DOMAIN-SUFFIX,oauth2.googleapis.com
 
 # =========================================
 # 兜底（覆盖所有剩余 *.gemini.google.* 和 ai.google.*）
