@@ -1,107 +1,73 @@
 # =========================================
-# Microsoft Copilot / M365 Copilot (优化版 2026.03)
-# 精准聚焦 Copilot 核心，保留 Bing 搜索必需，新增 cloud.microsoft 新入口
-# 避免过度代理无关 Office 服务
+# Microsoft Copilot+（优化版 2026.04）
+# 专注 Copilot 网页 / M365 / Studio / API
+# 已包含 cloud.microsoft 迁移域名
 # =========================================
 
 # =========================================
-# Copilot 主站 / 新入口（2026 最重要）
+# 主站 / 聊天入口
 # =========================================
 DOMAIN-SUFFIX,copilot.microsoft.com
-DOMAIN,copilot.cloud.microsoft
-DOMAIN,m365.cloud.microsoft
-DOMAIN,m365copilot.com
-DOMAIN,www.copilot.microsoft.com
-DOMAIN,copilot.microsoft365.com
-DOMAIN,copilot.office.com
-DOMAIN,copilot.teams.microsoft.com
-DOMAIN,copilot.edge.microsoft.com
+DOMAIN-SUFFIX,copilot.cloud.microsoft     # 【2026 新主入口】
+DOMAIN-SUFFIX,copilot.microsoft
 
 # =========================================
-# Copilot API / 服务端
+# M365 Copilot & 云服务
 # =========================================
-DOMAIN,api.copilot.microsoft.com
-DOMAIN,prod.api.copilot.microsoft.com
-DOMAIN,copilot-api.bing.com
-DOMAIN,copilot.bing.com
-DOMAIN,api.copilot.microsoft.com
+DOMAIN-SUFFIX,cloud.microsoft             # 2026 全面迁移核心域名
+DOMAIN-SUFFIX,m365.cloud.microsoft
 
 # =========================================
-# Copilot Studio / Agents / 插件平台
+# Bing 搜索 grounding（必要，Copilot 依赖）
 # =========================================
-DOMAIN,studio.copilot.microsoft.com
-DOMAIN,plugins.copilot.microsoft.com
-DOMAIN,copilotstudio.microsoft.com
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,bingapis.com
+DOMAIN,chat.bing.com
+DOMAIN,copilotsearch.bing.com
 
 # =========================================
-# M365 Copilot 集成（新）
+# API / 后端服务
 # =========================================
-DOMAIN,chat.m365.cloud.microsoft
-DOMAIN,copilot.cloud.microsoft/chat
+DOMAIN-SUFFIX,api.copilot.microsoft.com
+DOMAIN-SUFFIX,graph.microsoft.com         # Microsoft Graph Copilot API
+DOMAIN-SUFFIX,copilotstudio.microsoft.com # Copilot Studio
+DOMAIN-SUFFIX,ai.azure.com                # Azure OpenAI 后端
+DOMAIN-SUFFIX,openai.azure.com
 
 # =========================================
-# Edge / Windows 集成
+# 账号 / 登录 / 认证
 # =========================================
-DOMAIN,edge.microsoft.com
-DOMAIN,edgeassetservice.azureedge.net
-
-# =========================================
-# Azure AI / 模型（精简，只留 Copilot 必需）
-# =========================================
-DOMAIN-SUFFIX,ai.azure.com
-DOMAIN,oai.azure.com
-DOMAIN,aoai.azure.com
-DOMAIN,models.azure.com
-DOMAIN,models-prod.azure.com
-
-# =========================================
-# Microsoft Graph（M365 Copilot 必需）
-# =========================================
-DOMAIN,graph.microsoft.com
-DOMAIN,graph.microsoft.us
-
-# =========================================
-# 账号登录（必需，不能省）
-# =========================================
-DOMAIN,login.microsoftonline.com
-DOMAIN,account.microsoft.com
-DOMAIN,auth.microsoft.com
+DOMAIN-SUFFIX,login.microsoftonline.com
+DOMAIN-SUFFIX,account.microsoft.com
+DOMAIN-SUFFIX,login.live.com
 
 # =========================================
 # 静态资源 / CDN
 # =========================================
-DOMAIN,assets.copilot.microsoft.com
-DOMAIN-SUFFIX,microsoftusercontent.com
-DOMAIN,contentstorage.microsoft.com
-DOMAIN,msftstatic.com
-DOMAIN,cdn.office.net
-DOMAIN,officecdn.microsoft.com
+DOMAIN-SUFFIX,cdn.copilot.microsoft.com
+DOMAIN-SUFFIX,assets.copilot.microsoft.com
+DOMAIN-SUFFIX,static.copilot.microsoft.com
+DOMAIN-SUFFIX,edge.microsoft.com
+DOMAIN-SUFFIX,azureedge.net               # 常用 Azure CDN
 
 # =========================================
-# 遥测 / 统计（建议代理，防卡顿）
+# 遥测 / 事件 / 监控（强烈建议保留，避免卡顿）
 # =========================================
-DOMAIN,telemetry.microsoft.com
-DOMAIN,events.data.microsoft.com
-DOMAIN,browser.events.data.microsoft.com
+DOMAIN-SUFFIX,events.copilot.microsoft.com
+DOMAIN-SUFFIX,metrics.copilot.microsoft.com
+DOMAIN-SUFFIX,telemetry.microsoft.com
 
 # =========================================
-# Bing / 搜索增强（Copilot 核心依赖，保留全量）
+# 其他必要服务
 # =========================================
-DOMAIN-SUFFIX,bing.com
-DOMAIN,api.bing.com
-DOMAIN,bingapis.azure-api.net
-DOMAIN,api.cognitive.microsoft.com
-DOMAIN,ssl.bing.com
-DOMAIN,assets.bing.com
-DOMAIN,th.bing.com
-DOMAIN,ts.bing.com
+DOMAIN-SUFFIX,office.com                  # 过渡期仍会用到
+DOMAIN-SUFFIX,office.net
 
 # =========================================
-# 兜底（未来-proof）
+# 兜底（覆盖所有剩余 *.copilot.microsoft.* 和 cloud.microsoft 子域）
 # =========================================
 DOMAIN-SUFFIX,copilot.microsoft.com
-DOMAIN-SUFFIX,ai.azure.com
-DOMAIN-SUFFIX,cloud.microsoft  # 仅限 Copilot 相关，谨慎使用
+DOMAIN-SUFFIX,cloud.microsoft
 
 # =========================================
 # END
