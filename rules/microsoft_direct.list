@@ -1,8 +1,12 @@
-# 由Microsoft Copilot AI整理提供🤣
-# Microsoft Copilot: https://copilot.microsoft.com
-#=================================================
+# =========================================
+# Microsoft 中国区 + 更新服务 直连规则（优化版 2026.04）
+# 配合 Copilot+.list 使用：Copilot 走代理，其他中国区服务走直连
+# 必须直连才能更快更稳（Windows Update / Office / Azure CN / OneDrive CN）
+# =========================================
 
-# Windows Update / Office 更新 CDN（必须直连）
+# =========================================
+# Windows Update / Office 更新 CDN（最高优先级，必须直连）
+# =========================================
 DOMAIN-SUFFIX,windowsupdate.com
 DOMAIN-SUFFIX,windowsupdate.microsoft.com
 DOMAIN-SUFFIX,update.microsoft.com
@@ -27,38 +31,41 @@ DOMAIN-SUFFIX,surface.downloads.prss.microsoft.com
 DOMAIN-SUFFIX,vscode.download.prss.microsoft.com
 DOMAIN-SUFFIX,vz.download.prss.microsoft.com
 
+# =========================================
 # Windows 激活 / 证书 / CRL（必须直连）
+# =========================================
 DOMAIN-SUFFIX,crl.microsoft.com
 DOMAIN-SUFFIX,ocsp.microsoft.com
 DOMAIN-SUFFIX,mscrl.microsoft.com
 DOMAIN-SUFFIX,oneocsp.microsoft.com
 
+# =========================================
 # Edge / Windows 网络测试（必须直连）
+# =========================================
 DOMAIN-SUFFIX,msftconnecttest.com
 DOMAIN-SUFFIX,msftncsi.com
 
-# Bing 中国区（直连更快）
+# =========================================
+# Bing / Windows Search 中国区（直连更快）
+# =========================================
 DOMAIN-SUFFIX,cn.bing.com
 DOMAIN-SUFFIX,cn.bing.net
 DOMAIN-SUFFIX,emoi-cncdn.bing.com
-
-# Windows Search 中国区
 DOMAIN-SUFFIX,cn.windowssearch.com
 
-#OneDrive
-DOMAIN-SUFFIX,onedrive.live.com
-DOMAIN-SUFFIX,office365.cn
-DOMAIN-SUFFIX,sharepoint.cn
-DOMAIN-SUFFIX,sharepointonline.cn
-DOMAIN-SUFFIX,storage.live.com
-
-
-# OneDrive / Outlook 中国区（直连）
+# =========================================
+# OneDrive / Outlook / SharePoint 中国区（直连）
+# =========================================
 DOMAIN-SUFFIX,onedrive.live.com
 DOMAIN-SUFFIX,storage.live.com
 DOMAIN-SUFFIX,outlook.cn
+DOMAIN-SUFFIX,office365.cn
+DOMAIN-SUFFIX,sharepoint.cn
+DOMAIN-SUFFIX,sharepointonline.cn
 
-# Azure 中国区（*.cn 全部直连）
+# =========================================
+# Azure 中国区（完整列表）
+# =========================================
 DOMAIN-SUFFIX,azure.cn
 DOMAIN-SUFFIX,azure-api.cn
 DOMAIN-SUFFIX,azure-apihub.cn
@@ -88,31 +95,31 @@ DOMAIN-SUFFIX,azuresandbox.cn
 DOMAIN-SUFFIX,windowsazure.cn
 DOMAIN-SUFFIX,windowsazurestatus.cn
 
-# Xbox 中国区
+# =========================================
+# Xbox / Microsoft Store / Office 中国区
+# =========================================
 DOMAIN-SUFFIX,xboxlive.cn
-
-# Microsoft Store 中国区
 DOMAIN-SUFFIX,microsoftstore.com.cn
-
-# Office 中国区
-DOMAIN-SUFFIX,office365.cn
 DOMAIN-SUFFIX,office365-net.cn
 DOMAIN-SUFFIX,officeplus.cn
 DOMAIN-SUFFIX,officewebapps.cn
 
-# Dynamics / Power Platform 中国区
+# =========================================
+# Dynamics / Power Platform / Teams 中国区
+# =========================================
 DOMAIN-SUFFIX,dynamics.cn
 DOMAIN-SUFFIX,powerapps.cn
 DOMAIN-SUFFIX,powerappscdn.net
 DOMAIN-SUFFIX,powerappsportals.cn
 DOMAIN-SUFFIX,powerautomate.cn
 DOMAIN-SUFFIX,powerbi.cn
-
-# SharePoint 中国区
-DOMAIN-SUFFIX,sharepoint.cn
-
-# Teams 中国区
 DOMAIN-SUFFIX,teams.cdn.office.net
 
-# GitHub 中国加速（直连更快）
+# =========================================
+# GitHub 中国加速（可选，建议移到单独的 github_direct 规则）
+# =========================================
 DOMAIN-SUFFIX,github-cloud.s3.amazonaws.com
+
+# =========================================
+# END
+# =========================================
