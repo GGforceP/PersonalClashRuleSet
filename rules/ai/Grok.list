@@ -1,65 +1,53 @@
 # =========================================
-# xAI / Grok (优化版 2026.03)
+# xAI / Grok（优化版 2026.04）
 # 全量代理，不考虑国内分流
 # 精准匹配 + 兜底，未来-proof
 # =========================================
 
 # =========================================
-# 主站 / 聊天入口（最重要新增）
+# 主站 / 聊天入口
 # =========================================
-DOMAIN,grok.com
-DOMAIN,www.grok.com
-DOMAIN,x.ai
-DOMAIN,www.x.ai
-DOMAIN,grok.x.ai
-DOMAIN,www.grok.x.ai
-DOMAIN,chat.x.ai
-DOMAIN,studio.x.ai
-DOMAIN,workspace.x.ai
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.x.ai
+DOMAIN-SUFFIX,chat.x.ai
+DOMAIN-SUFFIX,studio.x.ai
+DOMAIN-SUFFIX,workspace.x.ai
 
 # =========================================
 # Grok 在 X 平台
 # =========================================
-DOMAIN,grok.x.com
+DOMAIN-SUFFIX,grok.x.com
 
 # =========================================
-# API（核心服务）
+# API / 推理 / 模型服务（核心）
 # =========================================
-DOMAIN,api.x.ai
-DOMAIN,api.grok.x.ai
-DOMAIN,api.chat.x.ai
-DOMAIN,api.studio.x.ai
-DOMAIN,api.inference.x.ai
-
-# =========================================
-# 模型 / 推理 / 计算服务
-# =========================================
-DOMAIN,inference.x.ai
-DOMAIN,models.x.ai
-DOMAIN,compute.x.ai
-DOMAIN,training.x.ai
-DOMAIN,datasets.x.ai
+DOMAIN-SUFFIX,api.x.ai
+DOMAIN-SUFFIX,api.grok.x.ai
+DOMAIN-SUFFIX,inference.x.ai
+DOMAIN-SUFFIX,models.x.ai
+DOMAIN-SUFFIX,compute.x.ai
 
 # =========================================
 # 开发者后台 & 文档
 # =========================================
-DOMAIN,console.x.ai
-DOMAIN,accounts.x.ai
-DOMAIN,docs.x.ai
-DOMAIN,auth.x.ai
-DOMAIN,login.x.ai
+DOMAIN-SUFFIX,console.x.ai
+DOMAIN-SUFFIX,accounts.x.ai
+DOMAIN-SUFFIX,docs.x.ai
+DOMAIN-SUFFIX,auth.x.ai
+DOMAIN-SUFFIX,login.x.ai
 
 # =========================================
 # 静态资源 / CDN
 # =========================================
-DOMAIN,cdn.x.ai
-DOMAIN,assets.x.ai
-DOMAIN,static.x.ai
-DOMAIN,media.x.ai
-DOMAIN,files.x.ai
-DOMAIN,storage.x.ai
+DOMAIN-SUFFIX,cdn.x.ai
+DOMAIN-SUFFIX,assets.x.ai
+DOMAIN-SUFFIX,static.x.ai
+DOMAIN-SUFFIX,media.x.ai
+DOMAIN-SUFFIX,files.x.ai
+DOMAIN-SUFFIX,storage.x.ai
 
-# Grok Imagine 图像/视频生成 CDN
+# Grok Imagine 图像/视频生成
 DOMAIN-SUFFIX,assets.grok.com
 DOMAIN-SUFFIX,imagine-public.x.ai
 DOMAIN-SUFFIX,images-public.x.ai
@@ -75,11 +63,11 @@ DOMAIN,grokipedia.com
 DOMAIN,status.x.ai
 
 # =========================================
-# 监控 / 事件 / 遥测
+# 监控 / 事件 / 遥测（必要）
 # =========================================
-DOMAIN,events.x.ai
-DOMAIN,metrics.x.ai
-DOMAIN,telemetry.x.ai
+DOMAIN-SUFFIX,events.x.ai
+DOMAIN-SUFFIX,metrics.x.ai
+DOMAIN-SUFFIX,telemetry.x.ai
 
 # =========================================
 # 兜底（覆盖所有剩余 *.x.ai 和 *.grok.com）
