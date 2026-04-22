@@ -1,90 +1,78 @@
 # =========================================
-# OpenAI / ChatGPT / Sora / DALL·E / Realtime (优化版 2026.03)
-# 精准 + 全面，优先 ChatGPT 主站，覆盖 Prism & Sora 2
+# OpenAI / ChatGPT（优化版 2026.04）
+# 专注 OpenAI 核心服务（ChatGPT、API、Sora、Realtime Voice、Prism）
 # =========================================
 
 # =========================================
-# ChatGPT 主站（最重要，消费者入口）
-# =========================================
-DOMAIN-SUFFIX,chatgpt.com
-DOMAIN,www.chatgpt.com
-DOMAIN,chat.openai.com
-DOMAIN,chatgpt.openai.com
-
-# =========================================
-# OpenAI 主站 & API（核心服务）
+# 主站 / 聊天入口
 # =========================================
 DOMAIN-SUFFIX,openai.com
-DOMAIN,api.openai.com
-DOMAIN,platform.openai.com
-DOMAIN,auth.openai.com
-DOMAIN,billing.openai.com
-DOMAIN,checkout.openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,chat.openai.com
+DOMAIN-SUFFIX,chatgpt.com
 
 # =========================================
-# Prism（2026 新科学工作空间）
+# API / 开发者平台（核心）
 # =========================================
-DOMAIN,prism.openai.com
+DOMAIN-SUFFIX,api.openai.com
+DOMAIN-SUFFIX,platform.openai.com
+DOMAIN-SUFFIX,api.chatgpt.com
 
 # =========================================
-# Realtime / 高级语音 / LiveKit
+# Sora / 视频生成
 # =========================================
-DOMAIN,realtime.openai.com
-DOMAIN,api.realtime.openai.com
-DOMAIN-SUFFIX,livekit.cloud
-DOMAIN-SUFFIX,livekit.io
-DOMAIN,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,sora.openai.com
+DOMAIN-SUFFIX,video.openai.com
+DOMAIN,cdn.sora.openai.com
 
 # =========================================
-# 开发者 / Playground / 文件 / 模型
+# Realtime Voice / 语音（LiveKit）
 # =========================================
-DOMAIN,playground.openai.com
-DOMAIN,models.openai.com
-DOMAIN,uploads.openai.com
-DOMAIN,files.openai.com
-DOMAIN,api.gpt.openai.com
+DOMAIN-SUFFIX,livekit.openai.com
+DOMAIN-SUFFIX,voice.openai.com
+DOMAIN-SUFFIX,realtime.openai.com
 
 # =========================================
-# 静态资源 / CDN（图片、视频、DALL·E）
+# Prism / 高级功能
+# =========================================
+DOMAIN-SUFFIX,prism.openai.com
+
+# =========================================
+# 静态资源 / CDN（网页加载必备）
 # =========================================
 DOMAIN-SUFFIX,oaistatic.com
-DOMAIN,cdn.oaistatic.com
-DOMAIN,static.openai.com
-DOMAIN,assets.openai.com
-DOMAIN,openaicom.imgix.net
-DOMAIN,openaicom.azureedge.net
-DOMAIN,openaicomproduction.azureedge.net
-DOMAIN,openaicomproduction.blob.core.windows.net
+DOMAIN-SUFFIX,openai-static.com
+DOMAIN-SUFFIX,cdn.openai.com
 
 # =========================================
-# 用户生成内容（DALL·E / GPT-Image / Sora 视频必须）
+# 用户生成内容 / 文件上传
 # =========================================
 DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN,files.oaiusercontent.com
+DOMAIN-SUFFIX,openaiusercontent.com
 
 # =========================================
-# Sora 视频生成（Sora 2 完全兼容）
+# 账号 / 登录 / 认证 / 计费
 # =========================================
-DOMAIN,sora.openai.com
-DOMAIN,sora-assets.openai.com
-DOMAIN,cdn.sora.openai.com
-DOMAIN,video.sora.openai.com
-DOMAIN,assets.sora.openai.com
-DOMAIN,api.sora.openai.com
-DOMAIN,queue.sora.openai.com
-DOMAIN-SUFFIX,sora.openai.com
+DOMAIN-SUFFIX,auth0.openai.com
+DOMAIN-SUFFIX,auth.openai.com
+DOMAIN-SUFFIX,accounts.openai.com
+DOMAIN-SUFFIX,billing.openai.com
 
 # =========================================
-# 账号 / 登录 / 遥测 / 反作弊（强烈建议代理）
+# 文档 / 帮助 / 支持
 # =========================================
-DOMAIN,auth0.openai.com
-DOMAIN-SUFFIX,statsigapi.net
-DOMAIN,featuregates.org
-DOMAIN,events.openai.com
-DOMAIN,telemetry.openai.com
+DOMAIN-SUFFIX,help.openai.com
+DOMAIN-SUFFIX,docs.openai.com
 
 # =========================================
-# 兜底（覆盖未来所有新子域）
+# 遥测 / 事件 / 监控（强烈建议保留，避免卡顿）
+# =========================================
+DOMAIN-SUFFIX,events.openai.com
+DOMAIN-SUFFIX,metrics.openai.com
+DOMAIN-SUFFIX,telemetry.openai.com
+
+# =========================================
+# 兜底（覆盖所有剩余 *.openai.com 和 *.chatgpt.com）
 # =========================================
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,chatgpt.com
