@@ -1,8 +1,12 @@
-# FuukAD Full (Ads + Tracking + ProgramAD)
-# 由Microsoft Copilot AI整理提供🤣
-# Microsoft Copilot: https://copilot.microsoft.com
+# =========================================
+# FuckADs Full（Ads + Tracking + Program AD + Telemetry）优化版 2026.04
+# 专注拦截广告、追踪、程序内置广告和遥测
+# 推荐策略：REJECT（黑名单模式）
+# =========================================
 
-# Google Ads
+# =========================================
+# Google Ads / Analytics
+# =========================================
 DOMAIN-SUFFIX,admob.com
 DOMAIN-SUFFIX,adservice.google.com
 DOMAIN-SUFFIX,adservice.google.com.hk
@@ -12,22 +16,34 @@ DOMAIN-SUFFIX,googlesyndication.com
 DOMAIN-SUFFIX,googleadservices.com
 DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,googletagservices.com
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,analytics.google.com
 
-# Facebook Ads
+# =========================================
+# Meta / Facebook Ads
+# =========================================
 DOMAIN-SUFFIX,facebookads.com
 DOMAIN-SUFFIX,fbcdn-ads.com
 DOMAIN-SUFFIX,fbads.com
 DOMAIN-SUFFIX,facebookpixel.com
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,fbcdn.net
 
+# =========================================
 # TikTok / ByteDance Ads
+# =========================================
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,bytedance.com
 DOMAIN-SUFFIX,bytedapm.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com.cn
+DOMAIN-SUFFIX,ads.tiktok.com
+DOMAIN-SUFFIX,ads-api.tiktok.com
 
-# Tencent Ads
+# =========================================
+# Tencent Ads / Program AD
+# =========================================
 DOMAIN-SUFFIX,ad.qq.com
 DOMAIN-SUFFIX,adsmind.gdtimg.com
 DOMAIN-SUFFIX,gdt.qq.com
@@ -36,13 +52,13 @@ DOMAIN-SUFFIX,bugly.qq.com
 DOMAIN-SUFFIX,oth.eve.mdt.qq.com
 DOMAIN-SUFFIX,oth.str.mdt.qq.com
 DOMAIN-SUFFIX,oth.update.mdt.qq.com
-
-# Tencent Program AD
 DOMAIN-SUFFIX,pmir.3g.qq.com
 DOMAIN-SUFFIX,pmir.qq.com
 DOMAIN-SUFFIX,pmir-dl.qq.com
 
+# =========================================
 # Baidu Ads
+# =========================================
 DOMAIN-SUFFIX,cpro.baidu.com
 DOMAIN-SUFFIX,pos.baidu.com
 DOMAIN-SUFFIX,baiduads.com
@@ -51,13 +67,17 @@ DOMAIN-SUFFIX,hm.baidu.com
 DOMAIN-SUFFIX,hmma.baidu.com
 DOMAIN-SUFFIX,api.tuisong.baidu.com
 
-# 360 Ads
+# =========================================
+# 360 / 其他国内安全软件广告
+# =========================================
 DOMAIN-SUFFIX,softupdate.360.cn
 DOMAIN-SUFFIX,update.360safe.com
 DOMAIN-SUFFIX,down.360safe.com
 DOMAIN-SUFFIX,stat.360safe.com
 
-# Alibaba / UC / Youku Ads
+# =========================================
+# 阿里 / UC / Youku Ads
+# =========================================
 DOMAIN-SUFFIX,adashx.m.taobao.com
 DOMAIN-SUFFIX,adashx.ut.taobao.com
 DOMAIN-SUFFIX,adashbc.ut.taobao.com
@@ -65,25 +85,25 @@ DOMAIN-SUFFIX,ads.uc.cn
 DOMAIN-SUFFIX,adash.man.aliyuncs.com
 DOMAIN-SUFFIX,atm.youku.com
 
-# Xiaomi Ads
+# =========================================
+# 小米 / 华为 / OPPO / VIVO 广告
+# =========================================
 DOMAIN-SUFFIX,ad.xiaomi.com
 DOMAIN-SUFFIX,ad.mi.com
 DOMAIN-SUFFIX,tracking.miui.com
 DOMAIN-SUFFIX,tracking.intl.miui.com
-
-# Huawei Ads
 DOMAIN-SUFFIX,ads.huawei.com
 DOMAIN-SUFFIX,adscloud.huawei.com
 DOMAIN-SUFFIX,metrics1.data.hicloud.com
 DOMAIN-SUFFIX,metrics2.data.hicloud.com
-
-# Oppo / Vivo Ads
 DOMAIN-SUFFIX,adsfs.oppo.com
 DOMAIN-SUFFIX,adsfs.vivo.com
 DOMAIN-SUFFIX,adsdk.vivo.com
 DOMAIN-SUFFIX,adsdk.oppo.com
 
-# Common Mobile SDK Ads
+# =========================================
+# 通用移动广告 SDK
+# =========================================
 DOMAIN-SUFFIX,applovin.com
 DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,adjust.com
@@ -93,14 +113,16 @@ DOMAIN-SUFFIX,chartboost.com
 DOMAIN-SUFFIX,tapjoy.com
 DOMAIN-SUFFIX,kochava.com
 
-# Video Platform Ads
+# =========================================
+# 视频平台 / 其他广告
+# =========================================
 DOMAIN-SUFFIX,ads.youtube.com
 DOMAIN-SUFFIX,ads-twitter.com
-DOMAIN-SUFFIX,ads.tiktok.com
 DOMAIN-SUFFIX,ads-api.twitter.com
-DOMAIN-SUFFIX,ads-api.tiktok.com
 
-# Tracking / Analytics
+# =========================================
+# 国内常用统计 / 追踪
+# =========================================
 DOMAIN-SUFFIX,umeng.com
 DOMAIN-SUFFIX,umengcloud.com
 DOMAIN-SUFFIX,umtrack.com
@@ -108,16 +130,14 @@ DOMAIN-SUFFIX,umenglog.com
 DOMAIN-SUFFIX,cnzz.com
 DOMAIN-SUFFIX,cnzz.net
 DOMAIN-SUFFIX,51.la
-DOMAIN-SUFFIX,mathtag.com
-DOMAIN-SUFFIX,scorecardresearch.com
 
-# Game Ads
+# =========================================
+# 游戏 / 其他厂商广告
+# =========================================
 DOMAIN-SUFFIX,ads.supercell.com
 DOMAIN-SUFFIX,ads.gameloft.com
 DOMAIN-SUFFIX,ads.nexon.com
 DOMAIN-SUFFIX,ads.pubmatic.com
-
-# Xunlei / NetEase Ads
 DOMAIN-SUFFIX,ad.xunlei.com
 DOMAIN-SUFFIX,adsp.xunlei.com
 DOMAIN-SUFFIX,analytics.xunlei.com
@@ -126,12 +146,18 @@ DOMAIN-SUFFIX,analytics.163.com
 DOMAIN-SUFFIX,iadmat.nosdn.127.net
 DOMAIN-SUFFIX,iadmusicmat.music.126.net
 
-# WPS / Kingsoft Ads
+# =========================================
+# WPS / 金山 / Adobe
+# =========================================
 DOMAIN-SUFFIX,ad.wps.cn
 DOMAIN-SUFFIX,ad-stat.ksosoft.com
 DOMAIN-SUFFIX,update.wps.cn
+DOMAIN-SUFFIX,adobedtm.com
+DOMAIN-SUFFIX,adobestats.com
 
-# Windows Telemetry
+# =========================================
+# Windows Telemetry（强烈建议保留）
+# =========================================
 DOMAIN-SUFFIX,telemetry.microsoft.com
 DOMAIN-SUFFIX,settings-win.data.microsoft.com
 DOMAIN-SUFFIX,watson.telemetry.microsoft.com
@@ -139,11 +165,9 @@ DOMAIN-SUFFIX,watson.ppe.telemetry.microsoft.com
 DOMAIN-SUFFIX,watson.microsoft.com
 DOMAIN-SUFFIX,feedback.microsoft.com
 
-# Adobe Tracking
-DOMAIN-SUFFIX,adobedtm.com
-DOMAIN-SUFFIX,adobestats.com
-
+# =========================================
 # Spotify 广告拦截
+# =========================================
 DOMAIN,ads.spotify.com
 DOMAIN,ads-ak.spotify.com
 DOMAIN,ads-fa.spotify.com
@@ -153,12 +177,6 @@ DOMAIN,log.spotify.com
 DOMAIN,metrics.spotify.com
 DOMAIN,crashdump.spotify.com
 
-# AD Keywords
-DOMAIN-KEYWORD,adservice
-DOMAIN-KEYWORD,adsystem
-DOMAIN-KEYWORD,advert
-DOMAIN-KEYWORD,tracking
-DOMAIN-KEYWORD,analytics
-DOMAIN-KEYWORD,metrics
-DOMAIN-KEYWORD,telemetry
-
+# =========================================
+# END
+# =========================================
