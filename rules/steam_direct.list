@@ -1,39 +1,51 @@
-# ============================================
-# Steam Direct List（国内可直连）
-# 由Microsoft Copilot AI整理提供🤣
-# Microsoft Copilot: https://copilot.microsoft.com
-# ============================================
+# =========================================
+# Steam 直连规则（优化版 2026.04）
+# 专为中国/香港用户优化：国内 CDN + 完美世界 + 下载服务全直连
+# 配合 steam_proxy.list 使用（商店/社区/聊天走代理）
+# =========================================
 
-
-# ============================================
-# Steam 中国区（完美世界运营）
-# ============================================
+# =========================================
+# Steam 中国区 / 完美世界联运（必须直连）
+# =========================================
 DOMAIN-SUFFIX,steamchina.com
 DOMAIN-SUFFIX,steamchina.com.cn
-DOMAIN-SUFFIX,steamcontent.com.cn
 DOMAIN-SUFFIX,steampowered.com.cn
 DOMAIN-SUFFIX,steamstatic.com.cn
 DOMAIN-SUFFIX,steamusercontent.com.cn
-DOMAIN-SUFFIX,steamcdn-a.akamaihd.net.cn
+DOMAIN-SUFFIX,steamcontent.com.cn
 
+# 完美世界联运游戏
+DOMAIN-SUFFIX,wmsj.cn
+DOMAIN-SUFFIX,wmsjsteam.com
+DOMAIN-SUFFIX,csgo.wmsj.cn
+DOMAIN-SUFFIX,dota2.wmsj.cn
 
-# ============================================
-# Steam 下载 CDN（国内可直连）
-# ============================================
+# =========================================
+# Steam 下载 CDN（核心，必须直连才能用国内节点）
+# =========================================
 DOMAIN-SUFFIX,steamcontent.com
 DOMAIN-SUFFIX,steamcontent.net
 DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
-DOMAIN-SUFFIX,steamserver.net
-DOMAIN-SUFFIX,steamstat.us
-DOMAIN-SUFFIX,steamcontent.us
-DOMAIN-SUFFIX,steamcontent.eu
-DOMAIN-SUFFIX,steamcontent.ru
-DOMAIN-SUFFIX,steamcontent.hk
-DOMAIN-SUFFIX,steamcontent.sg
+DOMAIN-SUFFIX,steamstatic.com
+DOMAIN-SUFFIX,steamusercontent.com
+DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
+DOMAIN-SUFFIX,steamstore-a.akamaihd.net
+DOMAIN-SUFFIX,steamstore.akamaized.net
 
-# ============================================
-# Steam 客户端更新 / 内容分发（国内可直连）
-# ============================================
+# Fastly CDN（2026 年下载常用）
+DOMAIN-SUFFIX,fastly.steamstatic.com
+DOMAIN-SUFFIX,fastly-cdn.steamstatic.com
+DOMAIN-SUFFIX,cdn.fastly.steamstatic.com
+DOMAIN-SUFFIX,steamcontent.fastly.steamstatic.com
+
+# Steampipe（分片下载关键）
+DOMAIN-SUFFIX,steampipe.steamcontent.com
+DOMAIN-SUFFIX,steampipe.steamcontent.net
+DOMAIN-SUFFIX,steampipe.steamcontent.com.cn
+
+# =========================================
+# Steam 内容分发服务器（cm 系列 + 其他）
+# =========================================
 DOMAIN-SUFFIX,cm.steampowered.com
 DOMAIN-SUFFIX,cm2.steampowered.com
 DOMAIN-SUFFIX,cm3.steampowered.com
@@ -45,43 +57,22 @@ DOMAIN-SUFFIX,cm8.steampowered.com
 DOMAIN-SUFFIX,cm9.steampowered.com
 DOMAIN-SUFFIX,cm10.steampowered.com
 
-DOMAIN-SUFFIX,steampipe.steamcontent.com
-DOMAIN-SUFFIX,steampipe.steamcontent.net
-DOMAIN-SUFFIX,steampipe.steamcontent.com.cn
-DOMAIN-SUFFIX,steampipe.steamcontent.net.cn
-DOMAIN-SUFFIX,steampipe.steamcontent.us
-DOMAIN-SUFFIX,steampipe.steamcontent.eu
-DOMAIN-SUFFIX,steampipe.steamcontent.ru
+DOMAIN-SUFFIX,steamserver.net
+DOMAIN-SUFFIX,steamstat.us
 
-# ============================================
-# Steam 静态资源（国内可直连）
-# ============================================
-DOMAIN-SUFFIX,steamstatic.com
-DOMAIN-SUFFIX,steamusercontent.com
-DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
-DOMAIN-SUFFIX,steamcommunity.com.edgesuite.net
-DOMAIN-SUFFIX,steamstore-a.akamaihd.net
-DOMAIN-SUFFIX,steamstore.akamaized.net
-
-# ============================================
-# Steam 完美世界联运（国内可直连）
-# ============================================
-DOMAIN-SUFFIX,wmsj.cn
-DOMAIN-SUFFIX,wmsjsteam.com
-DOMAIN-SUFFIX,csgo.wmsj.cn
-DOMAIN-SUFFIX,dota2.wmsj.cn
-
-
-# ============================================
-# Steam IP 段（国内可直连）
-# ============================================
+# =========================================
+# Steam IP-CIDR（Valve 常用段，直连更稳）
+# =========================================
 IP-CIDR,103.10.124.0/23,no-resolve
 IP-CIDR,103.28.54.0/23,no-resolve
 IP-CIDR,45.121.184.0/22,no-resolve
-IP-CIDR,45.121.186.0/23,no-resolve
-IP-CIDR,103.10.125.0/24,no-resolve
-IP-CIDR,103.10.126.0/23,no-resolve
 IP-CIDR,146.66.152.0/22,no-resolve
 IP-CIDR,155.133.224.0/19,no-resolve
 IP-CIDR,162.254.192.0/21,no-resolve
 IP-CIDR,185.25.182.0/23,no-resolve
+IP-CIDR,103.10.125.0/24,no-resolve
+IP-CIDR,103.10.126.0/23,no-resolve
+
+# =========================================
+# END
+# =========================================
