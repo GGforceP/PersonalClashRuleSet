@@ -1,115 +1,82 @@
-# Steam Proxy (Global Access Required)
-# 由Microsoft Copilot AI整理提供🤣
-# Microsoft Copilot: https://copilot.microsoft.com
+# =========================================
+# Steam Proxy（国际访问部分）（优化版 2026.04）
+# 配合 steam_direct.list 使用：
+# 商店/社区/聊天/工坊/API/国际CDN 走代理
+# 下载/内容分发走直连（更快）
+# =========================================
 
-# Steam Store（商店）
+# =========================================
+# Steam Store（商店 / 购买）
+# =========================================
 DOMAIN-SUFFIX,store.steampowered.com
 DOMAIN-SUFFIX,checkout.steampowered.com
-DOMAIN-SUFFIX,store.steampowered.com.akadns.net
 
-# Steam Community（社区）
+# =========================================
+# Steam Community（社区 / 市场 / 创意工坊）
+# =========================================
 DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,community.steamstatic.com
-DOMAIN-SUFFIX,community.cloudflare.steamstatic.com
-DOMAIN-SUFFIX,steamcommunity.com.edgesuite.net
-DOMAIN-SUFFIX,community.steamstatic.com.akamaized.net
-
-# Steam Market（市场）
-DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,market.steampowered.com
+DOMAIN-SUFFIX,workshop.steampowered.com
+DOMAIN-SUFFIX,steamworkshopdownloader.io
 
-# Steam Login / OAuth
+# =========================================
+# Steam Login / Help / OAuth
+# =========================================
 DOMAIN-SUFFIX,login.steampowered.com
 DOMAIN-SUFFIX,help.steampowered.com
 
-# Steam Web API（部分接口需代理）
+# =========================================
+# Steam API / Web API
+# =========================================
 DOMAIN-SUFFIX,api.steampowered.com
-DOMAIN-SUFFIX,api.steampowered.com.edgesuite.net
-DOMAIN-SUFFIX,api.steampowered.com.akamaized.net
-DOMAIN-SUFFIX,api.steampowered.com.fastly.net
-DOMAIN-SUFFIX,api.steampowered.com.cloudflare.net
 
-# Steam User Content（非中国区）
+# =========================================
+# Steam Friends / Chat（好友 / 聊天）
+# =========================================
+DOMAIN-SUFFIX,steam-chat.com
+DOMAIN-SUFFIX,chat.steampowered.com
+
+# =========================================
+# Steam Cloud（云存档）
+# =========================================
+DOMAIN-SUFFIX,cloud.steampowered.com
+DOMAIN-SUFFIX,cloud-3.steampowered.com
+
+# =========================================
+# Steam Inventory / UGC（用户生成内容）
+# =========================================
 DOMAIN-SUFFIX,steamusercontent.com
 DOMAIN-SUFFIX,ugc.steampowered.com
 DOMAIN-SUFFIX,ugc.steamusercontent.com
 DOMAIN-SUFFIX,ugc.steamcontent.com
-DOMAIN-SUFFIX,ugc.steampowered.com.edgesuite.net
-DOMAIN-SUFFIX,ugc.steamusercontent.fastly.net
-DOMAIN-SUFFIX,ugc.steamusercontent.cloudflare.net
-DOMAIN-SUFFIX,ugc.steamusercontent-a.akamaihd.net
-
-# Steam Workshop（创意工坊）
-DOMAIN-SUFFIX,steamworkshopdownloader.io
-DOMAIN-SUFFIX,workshop.steampowered.com
-DOMAIN-SUFFIX,workshop.steampowered.com.edgesuite.net
-
-# Steam Friends / Chat（好友 / 聊天）
-DOMAIN-SUFFIX,steam-chat.com
-DOMAIN-SUFFIX,chat.steampowered.com
-DOMAIN-SUFFIX,steam-chat.com.edgesuite.net
-
-# Steam Cloud（云存档）
-DOMAIN-SUFFIX,cloud.steampowered.com
-DOMAIN-SUFFIX,cloud-3.steampowered.com
-DOMAIN-SUFFIX,cloud.steampowered.com.edgesuite.net
-DOMAIN-SUFFIX,cloud.steampowered.com.fastly.net
-DOMAIN-SUFFIX,cloud.steampowered.com.cloudflare.net
-
-
-# Steam Inventory（库存）
 DOMAIN-SUFFIX,inventory.steampowered.com
-DOMAIN-SUFFIX,inventory.steampowered.com.fastly.net
-DOMAIN-SUFFIX,inventory.steampowered.com.cloudflare.net
 
-# Steam Stats / Tracking（统计）
+# =========================================
+# Steam Stats / Tracking
+# =========================================
 DOMAIN-SUFFIX,steamstat.us
-DOMAIN-SUFFIX,steampowered.com.akadns.net
-DOMAIN-SUFFIX,steampowered.com.globalredir.akadns.net
-DOMAIN-SUFFIX,steampowered.com.edgesuite.net
 
-# Steam CDN（国际节点，需代理）
+# =========================================
+# 国际 CDN（必须走代理的海外节点）
+# =========================================
 DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
-DOMAIN-SUFFIX,steamcdn-a.akamaihd.net.edgesuite.net
-DOMAIN-SUFFIX,steamcdn-a.akamaihd.net.globalredir.akadns.net
 DOMAIN-SUFFIX,steamstore-a.akamaihd.net
 DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
+DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net
+DOMAIN-SUFFIX,steamstatic.com
+
 DOMAIN-SUFFIX,steamstore.fastly.net
 DOMAIN-SUFFIX,steamcommunity.fastly.net
 DOMAIN-SUFFIX,steamusercontent.fastly.net
 DOMAIN-SUFFIX,steamstatic.fastly.net
+
 DOMAIN-SUFFIX,steamcommunity.cloudflare.net
 DOMAIN-SUFFIX,steamusercontent.cloudflare.net
 
-# Steam Ads（广告）.0/23,no-resolve
-DOMAIN-SUFFIX,ads.steampowered.com
-
-# Steam Anti-Cheat（VAC）
-DOMAIN-SUFFIX,vac.steampowered.com
-
-# Steam Misc（其他需要代理的域名）
-DOMAIN-SUFFIX,steamstatic.com
-DOMAIN-SUFFIX,steamstatic.com.edgesuite.net
-DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net
-DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
-
-# Steam Classical CDN (Need Proxy)
-DOMAIN-SUFFIX,steamcontent.com.edgesuite.net
-DOMAIN-SUFFIX,steamcontent.com.akamaized.net
-DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
-DOMAIN-SUFFIX,steamcdn-a.akamaihd.net.edgesuite.net
-DOMAIN-SUFFIX,steamcdn-a.akamaihd.net.globalredir.akadns.net
-DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net
-DOMAIN-SUFFIX,steamusercontent.com.edgesuite.net
-DOMAIN-SUFFIX,steamusercontent.com.akamaized.net
-DOMAIN-SUFFIX,steamstatic.com.edgesuite.net
-DOMAIN-SUFFIX,steamstatic.com.akamaized.net
-DOMAIN-SUFFIX,ugc.steampowered.com.edgesuite.net
-DOMAIN-SUFFIX,ugc.steampowered.com.akamaized.net
-DOMAIN-SUFFIX,ugc.steamcontent.com
-DOMAIN-SUFFIX,ugc.steamusercontent.com
-
-# Steam IP Ranges（部分海外节点）
+# =========================================
+# Steam IP-CIDR（海外节点，强烈建议保留）
+# =========================================
 IP-CIDR,208.64.200.0/22,no-resolve
 IP-CIDR,162.254.192.0/21,no-resolve
 IP-CIDR,155.133.224.0/19,no-resolve
@@ -118,3 +85,7 @@ IP-CIDR,185.25.182.0/23,no-resolve
 IP-CIDR,103.10.126.0/23,no-resolve
 IP-CIDR,208.64.202.0/23,no-resolve
 IP-CIDR,208.64.204.0/22,no-resolve
+
+# =========================================
+# END
+# =========================================
