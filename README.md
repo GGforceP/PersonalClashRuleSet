@@ -27,4 +27,7 @@
         ·纯本地操作，无需另外的服务器跑，无公网ip要求，随时随地可用。
         缺点：
        ·兼容性差，有些代理软件不支持引用外部覆写资源。
-    
+
+
+鸣谢：@Aethersailor （Custom_OpenClash_Rules）
+    项目地址：[Custom_OpenClash_Rules](https://github.com/Aethersailor/Custom_OpenClash_Rules)
