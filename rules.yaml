@@ -364,7 +364,7 @@ rules:
   - "GEOSITE,apple,苹果服务"  # 苹果服务
   - "GEOSITE,microsoft,微软服务"  # 微软服务
   - "GEOSITE,googlefcm,谷歌服务"  # Google FCM推送
-  - "GEOSITE,google,🇬 谷歌服务"  # Google服务
+  - "GEOSITE,google,谷歌服务"  # Google服务
   - "GEOSITE,tiktok,国外流媒体"  # TikTok
   - "GEOSITE,netflix,国外流媒体"  # Netflix
   - "GEOSITE,disney,国外流媒体"  # Disney+
