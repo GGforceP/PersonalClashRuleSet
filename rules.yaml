@@ -125,7 +125,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 区域选择
-  - name: 微软服务-代理
+  - name: 国外流媒体
     type: select
     proxies:
       - 区域选择
@@ -144,7 +144,7 @@ proxy-groups:
       - 手动选择
       - 自动选择
       - DIRECT
-  - name: 微软服务-直连
+  - name: 微软服务
     type: select
     proxies:
       - DIRECT
@@ -360,19 +360,19 @@ rules:
   - "GEOSITE,category-speedtest,测速工具"  # 测速工具
   - "GEOSITE,steam,Steam"  # Steam
   - "GEOSITE,youtube,国外社交媒体"  # YouTube
-  - "GEOSITE,apple-tvplus,国外社交媒体"  # Apple TV+
+  - "GEOSITE,apple-tvplus,国外流媒体"  # Apple TV+
   - "GEOSITE,apple,苹果服务"  # 苹果服务
   - "GEOSITE,microsoft,微软服务"  # 微软服务
   - "GEOSITE,googlefcm,谷歌服务"  # Google FCM推送
   - "GEOSITE,google,🇬 谷歌服务"  # Google服务
-  - "GEOSITE,tiktok,国外社交媒体"  # TikTok
-  - "GEOSITE,netflix,国外社交媒体"  # Netflix
-  - "GEOSITE,disney,国外社交媒体"  # Disney+
-  - "GEOSITE,hbo,国外社交媒体"  # HBO
-  - "GEOSITE,primevideo,国外社交媒体"  # Prime Video
-  - "GEOSITE,category-emby,国外社交媒体"  # Emby
-  - "GEOSITE,spotify,国外社交媒体"  # Spotify
-  - "GEOSITE,bahamut,国外社交媒体"  # 巴哈姆特
+  - "GEOSITE,tiktok,国外流媒体"  # TikTok
+  - "GEOSITE,netflix,国外流媒体"  # Netflix
+  - "GEOSITE,disney,国外流媒体"  # Disney+
+  - "GEOSITE,hbo,国外流媒体"  # HBO
+  - "GEOSITE,primevideo,国外流媒体"  # Prime Video
+  - "GEOSITE,category-emby,国外流媒体"  # Emby
+  - "GEOSITE,spotify,国外流媒体"  # Spotify
+  - "GEOSITE,bahamut,国外流媒体"  # 巴哈姆特
   - "GEOSITE,category-games,全球直连"  # 游戏平台
   - "GEOSITE,category-entertainment,国外社交媒体"  # 国外媒体
   - "GEOSITE,category-ecommerce,国外社交媒体"  # 国外电商
@@ -381,7 +381,7 @@ rules:
   - "GEOIP,twitter,国外社交媒体,no-resolve"  # Twitter IP
   - "GEOIP,facebook,国外社交媒体,no-resolve"  # Facebook IP
   - "GEOIP,google,🇬 谷歌服务,no-resolve"  # Google IP
-  - "GEOIP,netflix,国外社交媒体,no-resolve"  # Netflix IP
+  - "GEOIP,netflix,国外流媒体,no-resolve"  # Netflix IP
   - "GEOSITE,cn,全球直连"  # 中国域名
   - "GEOIP,cn,全球直连,no-resolve"  # 中国IP
   - "RULE-SET,Custom_Port_Direct,漏网之鱼"  # 非标端口
