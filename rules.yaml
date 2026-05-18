@@ -394,7 +394,7 @@ rules:
   - "GEOIP,telegram,即时通讯,no-resolve"  # Telegram IP
   - "GEOIP,twitter,国外社交媒体,no-resolve"  # Twitter IP
   - "GEOIP,facebook,国外社交媒体,no-resolve"  # Facebook IP
-  - "GEOIP,google,🇬 谷歌服务,no-resolve"  # Google IP
+  - "GEOIP,google,谷歌服务,no-resolve"  # Google IP
   - "GEOIP,netflix,国外流媒体,no-resolve"  # Netflix IP
   - "GEOSITE,cn,全球直连"  # 中国域名
   - "GEOIP,cn,全球直连,no-resolve"  # 中国IP
