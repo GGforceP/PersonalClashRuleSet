@@ -66,6 +66,7 @@ proxy-groups:
   - name: 测速工具
     type: select
     proxies:
+      - DIRECT
       - 区域选择
       - 香港节点
       - 美国节点
@@ -81,10 +82,10 @@ proxy-groups:
       - 澳呆利亚
       - 手动选择
       - 自动选择
-      - DIRECT
   - name: 苹果服务
     type: select
     proxies:
+      - DIRECT
       - 区域选择
       - 香港节点
       - 美国节点
@@ -100,7 +101,6 @@ proxy-groups:
       - 澳呆利亚
       - 手动选择
       - 自动选择
-      - DIRECT
   - name: 国外社交媒体
     type: select
     proxies:
