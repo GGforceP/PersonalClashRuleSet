@@ -1,6 +1,6 @@
 使用方法：
 
-    一.搭配substore（强烈推荐）：
+一.搭配substore（强烈推荐）：
         1.在“订阅”页面中，添加一个新的订阅，导入自己的订阅配置文件；
         2.然后再在“文件”页面中，添加一个新的mihomo配置文件；
         3.在下方的“JavaScript/YAML 覆写”设置中，添加一个新的“脚本操作”；
@@ -8,7 +8,7 @@
         5.先点击“即时预览”看看是否能正常拉取到脚本。
         6.是→点击保存，将生成的文件分享链接导入clash核心的代理软件，开始使用。
         7.否→想个办法连上github。再重复 6 。
-SubStore项目地址：[Sub-Store](https://github.com/sub-store-org/Sub-Store)
+        SubStore项目地址：[Sub-Store](https://github.com/sub-store-org/Sub-Store)
 
         
         优势：
@@ -17,7 +17,7 @@ SubStore项目地址：[Sub-Store](https://github.com/sub-store-org/Sub-Store)
         缺点：
         ·需要一台私有或云上服务器跑，如果需要wan访问，需要公网ip或者转发。
     
-    二：直接在clash内核的代理软件中引用：
+二：直接在clash内核的代理软件中引用：
         以flclash为例：
         1.开启应用，进入“工具”页面，点击“进阶配置”；
         2.点击“脚本”，点击右上角“添加”；
