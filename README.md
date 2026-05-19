@@ -8,14 +8,14 @@
         5.先点击“即时预览”看看是否能正常拉取到脚本。
         6.是→点击保存，将生成的文件分享链接导入clash核心的代理软件，开始使用。
         7.否→想个办法连上github。再重复 6 。
-        SubStore项目地址：https://github.com/sub-store-org/Sub-Store
+        SubStore项目地址：[Sub-Store](https://github.com/sub-store-org/Sub-Store)
 
         
         优势：
         ·一次部署，一劳永逸，后续不管进行任何规则修改操作，只需要在代理软件更新订阅，不需要任何其他操作。
         ·兼容性好，只要是clash/mihomo内核的代理软件（openclash、clash、clash mi、clash meta、flclash、stash、clash party、clash verge等）全都支持
         缺点：
-        需要一台私有或云上服务器跑，如果需要wan访问，需要公网ip或者转发。
+        ·需要一台私有或云上服务器跑，如果需要wan访问，需要公网ip或者转发。
     
     二：直接在clash内核的代理软件中引用：
         以flclash为例：
@@ -33,3 +33,13 @@
 
 鸣谢：@Aethersailor （Custom_OpenClash_Rules）
     项目地址：[Custom_OpenClash_Rules](https://github.com/Aethersailor/Custom_OpenClash_Rules)
+
+由于本人主要使用openclash，因此主要为openclash服务，规则中使用的数据库均为openclash默认：
+    GEO数据库：
+        MMDB: [https://testingcf.jsdelivr.net/gh/alecthw/mmdb_china_ip_list@release/Country.mmdb](https://testingcf.jsdelivr.net/gh/alecthw/mmdb_china_ip_list@release/Country.mmdb)
+    GeoIP 数据库：
+        GEOIP: [https://testingcf.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat](https://testingcf.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat)
+    GeoSite 数据库：
+        GEOSITE: [https://testingcf.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geosite.dat](https://testingcf.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geosite.dat)
+    ASN：
+        ASN: [https://testingcf.jsdelivr.net/gh/xishang0128/geoip@release/GeoLite2-ASN.mmdb](https://testingcf.jsdelivr.net/gh/xishang0128/geoip@release/GeoLite2-ASN.mmdb)
