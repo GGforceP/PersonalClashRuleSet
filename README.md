@@ -44,3 +44,5 @@ GeoSite 数据库：    GEOSITE: [https://testingcf.jsdelivr.net/gh/Loyalsoldier
 
 ASN：    ASN: [https://testingcf.jsdelivr.net/gh/xishang0128/geoip@release/GeoLite2-ASN.mmdb](https://testingcf.jsdelivr.net/gh/xishang0128/geoip@release/GeoLite2-ASN.mmdb)
 
+
+如果有个性化需求的，可以fork一份，再自己编辑添加一些规则，geo规则库：[domain-list-community](https://github.com/v2fly/domain-list-community)
