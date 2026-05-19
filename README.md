@@ -8,7 +8,7 @@
         5.先点击“即时预览”看看是否能正常拉取到脚本。
         6.是→点击保存，将生成的文件分享链接导入clash核心的代理软件，开始使用。
         7.否→想个办法连上github。再重复 6 。
-        SubStore项目地址：[Sub-Store](https://github.com/sub-store-org/Sub-Store)
+        SubStore项目地址：https://github.com/sub-store-org/Sub-Store
 
         
         优势：
