@@ -187,7 +187,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 区域选择
-  - name: 其他分流
+  - name: !成人网站!
     type: select
     proxies:
       - 区域选择
@@ -353,50 +353,51 @@ rule-providers:
     format: mrs  # 二进制格式
 
 rules:
-  - "GEOSITE,private,全球直连"  # 私有域名
-  - "GEOIP,private,全球直连,no-resolve"  # 私有IP
-  - "RULE-SET,Custom_Direct_Domain,全球直连"  # 自定义直连域名
-  - "RULE-SET,Custom_Direct_IP,全球直连,no-resolve"  # 自定义直连IP
-  - "RULE-SET,Custom_Direct_Port,全球直连"  # 自定义直连端口
-  - "RULE-SET,Custom_Proxy_Domain,区域选择"  # 自定义代理域名
-  - "RULE-SET,Custom_Proxy_IP,区域选择,no-resolve"  # 自定义代理IP
-  - "GEOSITE,google-cn,全球直连"  # Google中国服务
-  - "GEOSITE,category-games@cn,全球直连"  # 国内游戏
-  - "RULE-SET,Steam_CDN_Domain,全球直连"  # Steam CDN
-  - "RULE-SET,Steam_CDN_IP,全球直连,no-resolve"  # Steam CDN
-  - "GEOSITE,category-game-platforms-download,全球直连"  # 游戏平台下载
-  - "GEOSITE,category-public-tracker,全球直连"  # BT Tracker
-  - "GEOSITE,category-communication,即时通讯"  # 即时通讯
-  - "GEOSITE,category-social-media-!cn,国外社交媒体"  # 国外社交媒体
-  - "GEOSITE,openai,常用AI"  # OpenAI
-  - "GEOSITE,category-ai-!cn,常用AI"  # AI服务
-  - "GEOSITE,github,常用AI"  # GitHub
-  - "GEOSITE,category-speedtest,测速工具"  # 测速工具
-  - "GEOSITE,steam,Steam"  # Steam
-  - "GEOSITE,youtube,国外社交媒体"  # YouTube
-  - "GEOSITE,apple-tvplus,国外流媒体"  # Apple TV+
-  - "GEOSITE,apple,苹果服务"  # 苹果服务
-  - "GEOSITE,microsoft,微软服务"  # 微软服务
-  - "GEOSITE,googlefcm,谷歌服务"  # Google FCM推送
-  - "GEOSITE,google,谷歌服务"  # Google服务
-  - "GEOSITE,tiktok,国外流媒体"  # TikTok
-  - "GEOSITE,netflix,国外流媒体"  # Netflix
-  - "GEOSITE,disney,国外流媒体"  # Disney+
-  - "GEOSITE,hbo,国外流媒体"  # HBO
-  - "GEOSITE,primevideo,国外流媒体"  # Prime Video
-  - "GEOSITE,category-emby,国外流媒体"  # Emby
-  - "GEOSITE,spotify,国外流媒体"  # Spotify
-  - "GEOSITE,bahamut,国外流媒体"  # 巴哈姆特
-  - "GEOSITE,category-games,全球直连"  # 游戏平台
-  - "GEOSITE,category-entertainment,国外社交媒体"  # 国外媒体
-  - "GEOSITE,category-ecommerce,国外社交媒体"  # 国外电商
-  - "GEOSITE,gfw,区域选择"  # GFW列表
-  - "GEOIP,telegram,即时通讯,no-resolve"  # Telegram IP
-  - "GEOIP,twitter,国外社交媒体,no-resolve"  # Twitter IP
-  - "GEOIP,facebook,国外社交媒体,no-resolve"  # Facebook IP
-  - "GEOIP,google,谷歌服务,no-resolve"  # Google IP
-  - "GEOIP,netflix,国外流媒体,no-resolve"  # Netflix IP
-  - "GEOSITE,cn,全球直连"  # 中国域名
-  - "GEOIP,cn,全球直连,no-resolve"  # 中国IP
-  - "RULE-SET,Custom_Port_Direct,漏网之鱼"  # 非标端口
-  - "MATCH,漏网之鱼"  # 兜底规则
+  - "GEOSITE,private,全球直连"
+  - "GEOIP,private,全球直连,no-resolve"
+  - "RULE-SET,Custom_Direct_Domain,全球直连"
+  - "RULE-SET,Custom_Direct_IP,全球直连,no-resolve"
+  - "RULE-SET,Custom_Direct_Port,全球直连"
+  - "RULE-SET,Custom_Proxy_Domain,区域选择"
+  - "RULE-SET,Custom_Proxy_IP,区域选择,no-resolve"
+  - "GEOSITE,google-cn,全球直连"
+  - "GEOSITE,category-games@cn,全球直连"
+  - "RULE-SET,Steam_CDN_Domain,全球直连"
+  - "RULE-SET,Steam_CDN_IP,全球直连,no-resolve"
+  - "GEOSITE,category-game-platforms-download,全球直连"
+  - "GEOSITE,category-public-tracker,全球直连"
+  - "GEOSITE,category-communication,即时通讯"
+  - "GEOSITE,category-social-media-!cn,国外社交媒体"
+  - "GEOSITE,openai,常用AI"
+  - "GEOSITE,category-porn,!成人网站!"
+  - "GEOSITE,category-ai-!cn,常用AI"
+  - "GEOSITE,github,常用AI"
+  - "GEOSITE,category-speedtest,测速工具"
+  - "GEOSITE,steam,Steam"
+  - "GEOSITE,youtube,国外社交媒体"
+  - "GEOSITE,apple-tvplus,国外流媒体"
+  - "GEOSITE,apple,苹果服务"
+  - "GEOSITE,microsoft,微软服务"
+  - "GEOSITE,googlefcm,谷歌服务"
+  - "GEOSITE,google,谷歌服务"
+  - "GEOSITE,tiktok,国外流媒体"
+  - "GEOSITE,netflix,国外流媒体"
+  - "GEOSITE,disney,国外流媒体"
+  - "GEOSITE,hbo,国外流媒体"
+  - "GEOSITE,primevideo,国外流媒体"
+  - "GEOSITE,category-emby,国外流媒体"
+  - "GEOSITE,spotify,国外流媒体"
+  - "GEOSITE,bahamut,国外流媒体"
+  - "GEOSITE,category-games,全球直连"
+  - "GEOSITE,category-entertainment,国外社交媒体"
+  - "GEOSITE,category-ecommerce,国外社交媒体"
+  - "GEOSITE,gfw,区域选择"
+  - "GEOIP,telegram,即时通讯,no-resolve"
+  - "GEOIP,twitter,国外社交媒体,no-resolve"
+  - "GEOIP,facebook,国外社交媒体,no-resolve"
+  - "GEOIP,google,谷歌服务,no-resolve"
+  - "GEOIP,netflix,国外流媒体,no-resolve"
+  - "GEOSITE,cn,全球直连"
+  - "GEOIP,cn,全球直连,no-resolve"
+  - "RULE-SET,Custom_Port_Direct,漏网之鱼"
+  - "MATCH,漏网之鱼"
