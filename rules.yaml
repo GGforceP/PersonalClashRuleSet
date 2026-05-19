@@ -187,7 +187,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 区域选择
-  - name: 其他分流
+  - name: 成人网站
     type: select
     proxies:
       - 区域选择
@@ -369,6 +369,7 @@ rules:
   - "GEOSITE,category-communication,即时通讯"
   - "GEOSITE,category-social-media-!cn,国外社交媒体"
   - "GEOSITE,openai,常用AI"
+  - "GEOSITE,category-porn,成人网站"
   - "GEOSITE,category-ai-!cn,常用AI"
   - "GEOSITE,github,常用AI"
   - "GEOSITE,category-speedtest,测速工具"
