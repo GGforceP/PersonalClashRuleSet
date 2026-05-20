@@ -360,7 +360,7 @@ rules:
   - "RULE-SET,Custom_Direct_Port,全球直连"
   - "RULE-SET,Custom_Proxy_Domain,区域选择"
   - "RULE-SET,Custom_Proxy_IP,区域选择,no-resolve"
-  - "GEOSITE,google-cn,全球直连"
+  - "GEOSITE,google-cn,谷歌服务"
   - "GEOSITE,category-games@cn,全球直连"
   - "RULE-SET,Steam_CDN_Domain,全球直连"
   - "RULE-SET,Steam_CDN_IP,全球直连,no-resolve"
