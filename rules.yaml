@@ -182,11 +182,49 @@ proxy-groups:
       - 手动选择
       - 自动选择
       - DIRECT
+  - name: Emby
+    type: select
+    proxies:
+      - DIRECT
+      - 区域选择
+      - 香港节点
+      - 美国节点
+      - 新加坡节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 俄罗斯节点
+      - 土耳其节点
+      - 英国节点
+      - 德国节点
+      - 法国节点
+      - 澳呆利亚
+      - 手动选择
+      - 自动选择
   - name: 全球直连
     type: select
     proxies:
       - DIRECT
       - 区域选择
+  - name: 非常规端口
+    type: select
+    proxies:
+      - DIRECT
+      - 区域选择
+      - 香港节点
+      - 美国节点
+      - 新加坡节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 俄罗斯节点
+      - 土耳其节点
+      - 英国节点
+      - 德国节点
+      - 法国节点
+      - 澳呆利亚
+      - 手动选择
+      - 自动选择
   - name: 成人网站
     type: select
     proxies:
@@ -385,7 +423,7 @@ rules:
   - "GEOSITE,disney,国外流媒体"
   - "GEOSITE,hbo,国外流媒体"
   - "GEOSITE,primevideo,国外流媒体"
-  - "GEOSITE,category-emby,国外流媒体"
+  - "GEOSITE,category-emby,Emby"
   - "GEOSITE,spotify,国外流媒体"
   - "GEOSITE,bahamut,国外流媒体"
   - "GEOSITE,category-games,全球直连"
@@ -399,5 +437,5 @@ rules:
   - "GEOIP,netflix,国外流媒体,no-resolve"
   - "GEOSITE,cn,全球直连"
   - "GEOIP,cn,全球直连,no-resolve"
-  - "RULE-SET,Custom_Port_Direct,漏网之鱼"
+  - "RULE-SET,Custom_Port_Direct,非常规端口"
   - "MATCH,漏网之鱼"
