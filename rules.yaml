@@ -338,56 +338,56 @@ rule-providers:
     behavior: classical  # 混合类型（包含多种规则）
     interval: 10800  # 3小时
     type: http
-    url: "https://github.com/GGforceP/Aethersailor-Custom_OpenClash_Rules/raw/refs/heads/main/rule/Custom_Port_Direct.yaml"
+    url: "https://api.asailor.org/Custom_OpenClash_Rules/main/rule/Custom_Port_Direct.yaml"
     format: yaml
 
   Custom_Direct_Domain:
     behavior: domain  # 仅域名
     interval: 10800
     type: http
-    url: "https://github.com/GGforceP/Aethersailor-Custom_OpenClash_Rules/raw/refs/heads/main/rule/Custom_Direct_Domain.mrs"
+    url: "https://api.asailor.org/Custom_OpenClash_Rules/main/rule/Custom_Direct_Domain.mrs"
     format: mrs  # 二进制格式
 
   Custom_Direct_IP:
     behavior: ipcidr  # 仅 IP
     interval: 10800  # 3小时
     type: http
-    url: "https://github.com/GGforceP/Aethersailor-Custom_OpenClash_Rules/raw/refs/heads/main/rule/Custom_Direct_IP.mrs"
+    url: "https://api.asailor.org/Custom_OpenClash_Rules/main/rule/Custom_Direct_IP.mrs"
     format: mrs  # 二进制格式
 
   Custom_Direct_Port:
     behavior: classical  # 混合类型（包含多种规则）
     interval: 10800  # 3小时
     type: http
-    url: "https://github.com/GGforceP/Aethersailor-Custom_OpenClash_Rules/raw/refs/heads/main/rule/Custom_Direct_Classical_Port.yaml"
+    url: "https://api.asailor.org/Custom_OpenClash_Rules/main/rule/Custom_Direct_Classical_Port.yaml"
     format: yaml
 
   Custom_Proxy_Domain:
     behavior: domain  # 仅域名
     interval: 10800  # 3小时
     type: http
-    url: "https://github.com/GGforceP/Aethersailor-Custom_OpenClash_Rules/raw/refs/heads/main/rule/Custom_Proxy_Domain.mrs"
+    url: "https://api.asailor.org/Custom_OpenClash_Rules/main/rule/Custom_Proxy_Domain.mrs"
     format: mrs  # 二进制格式
 
   Custom_Proxy_IP:
     behavior: ipcidr  # 仅 IP
     interval: 10800  # 3小时
     type: http
-    url: "https://github.com/GGforceP/Aethersailor-Custom_OpenClash_Rules/raw/refs/heads/main/rule/Custom_Proxy_IP.mrs"
+    url: "https://api.asailor.org/Custom_OpenClash_Rules/main/rule/Custom_Proxy_IP.mrs"
     format: mrs  # 二进制格式
 
   Steam_CDN_Domain:
     behavior: domain  # Steam CDN下载服务器（直连获得更快速度）
     interval: 10800  # 3小时
     type: http
-    url: "https://github.com/GGforceP/Aethersailor-Custom_OpenClash_Rules/raw/refs/heads/main/rule/Steam_CDN_Domain.mrs"
+    url: "https://api.asailor.org/Custom_OpenClash_Rules/main/rule/Steam_CDN_Domain.mrs"
     format: mrs  # 二进制格式
 
   Steam_CDN_IP:
     behavior: ipcidr  # Steam CDN下载服务器（直连获得更快速度）
     interval: 10800  # 3小时
     type: http
-    url: "https://github.com/GGforceP/Aethersailor-Custom_OpenClash_Rules/raw/refs/heads/main/rule/Steam_CDN_IP.mrs"
+    url: "https://api.asailor.org/Custom_OpenClash_Rules/main/rule/Steam_CDN_IP.mrs"
     format: mrs  # 二进制格式
 
 rules:
