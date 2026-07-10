@@ -404,6 +404,7 @@ rules:
   - "RULE-SET,Steam_CDN_IP,全球直连,no-resolve"
   - "GEOSITE,category-game-platforms-download,全球直连"
   - "GEOSITE,category-public-tracker,全球直连"
+  - "GEOSITE,adguard,全球直连"
   - "GEOSITE,category-communication,即时通讯"
   - "GEOSITE,category-social-media-!cn,国外社交媒体"
   - "GEOSITE,openai,常用AI"
