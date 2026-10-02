@@ -416,7 +416,7 @@ rules:
   - "GEOSITE,youtube,国外社交媒体"
   - "GEOSITE,apple-tvplus,国外流媒体"
   - "GEOSITE,apple,苹果服务"
-  - "GEOSITE,microsoft@cn,微软服务"
+  - "GEOSITE,microsoft,微软服务"
   - "GEOSITE,googlefcm,谷歌服务"
   - "GEOSITE,google,谷歌服务"
   - "GEOSITE,tiktok,国外流媒体"
