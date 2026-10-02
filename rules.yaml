@@ -163,6 +163,11 @@ proxy-groups:
     proxies:
       - DIRECT
       - 区域选择
+  - name: Edge_New_Tab
+    type: select
+    proxies:
+      - 区域选择
+      - DIRECT
   - name: Steam
     type: select
     proxies:
@@ -390,6 +395,15 @@ rule-providers:
     url: "https://cdn.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Steam_CDN_IP.mrs"
     format: mrs  # 二进制格式
 
+
+  Edge_New_Tab:
+    behavior: classical  # Edge新标签页 / MSN主页核心服务
+    interval: 10800  # 3小时
+    type: http
+    url: "https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/Rules/Microsoft_Edge_NewTab.yaml"
+    format: yaml
+    
+
 rules:
   - "GEOSITE,private,全球直连"
   - "GEOIP,private,全球直连,no-resolve"
@@ -416,6 +430,7 @@ rules:
   - "GEOSITE,youtube,国外社交媒体"
   - "GEOSITE,apple-tvplus,国外流媒体"
   - "GEOSITE,apple,苹果服务"
+  - "RULE-SET,Edge_New_Tab,Edge_New_Tab"
   - "GEOSITE,microsoft,微软服务"
   - "GEOSITE,googlefcm,谷歌服务"
   - "GEOSITE,google,谷歌服务"
