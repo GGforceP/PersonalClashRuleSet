@@ -402,7 +402,13 @@ rule-providers:
     type: http
     url: "https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/Rules/Microsoft_Edge_NewTab.yaml"
     format: yaml
-    
+
+  Edge_Copilot:
+    behavior: classical  #edge copilot 侧边栏
+    interval: 10800
+    type: http
+    url: "https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/Rules/Edge_Copilot.yaml"
+    format: yaml
 
 rules:
   - "GEOSITE,private,全球直连"
@@ -422,6 +428,7 @@ rules:
   - "GEOSITE,category-communication,即时通讯"
   - "GEOSITE,category-social-media-!cn,国外社交媒体"
   - "GEOSITE,openai,常用AI"
+  - "RULE-SET,Edge_Copilot,常用AI"
   - "GEOSITE,category-porn,成人网站"
   - "GEOSITE,category-ai-!cn,常用AI"
   - "GEOSITE,github,常用AI"
