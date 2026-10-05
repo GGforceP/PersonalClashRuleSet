@@ -1,0 +1,590 @@
+# ============================================================
+# PersonalClashRuleSet - 完整 Mihomo 配置
+# ============================================================
+# 说明：
+# 1. 本文件的 proxy-groups / rule-providers / rules 与 rules.yaml 保持一致。
+# 2. 使用前请将 SUBSCRIPTION_URL 替换为真实订阅地址。
+# 3. OpenClash 可能根据插件设置覆写端口、DNS、Sniffer、TUN 等字段。
+# 4. Smart 内核专属配置后续单独维护在 rules_smart.yaml。
+
+# -------------------- 基础配置 --------------------
+mixed-port: 7890
+allow-lan: true
+bind-address: "*"
+mode: rule
+log-level: info
+ipv6: true
+
+# 路由器环境关闭进程匹配可减少额外开销
+find-process-mode: off
+
+# 统一延迟与 TCP 并发
+unified-delay: true
+tcp-concurrent: true
+
+# Mihomo API；如需允许局域网访问 Dashboard，请同时做好访问控制
+external-controller: 127.0.0.1:9090
+secret: ""
+
+# -------------------- 缓存 --------------------
+profile:
+  store-selected: true
+  store-fake-ip: true
+
+# -------------------- GEO 数据 --------------------
+# 当前规则使用 GEOSITE / GEOIP dat 分类，因此启用 geodata-mode
+geodata-mode: true
+geodata-loader: memconservative
+geo-auto-update: true
+geo-update-interval: 24
+geox-url:
+  geoip: "https://testingcf.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat"
+  geosite: "https://testingcf.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geosite.dat"
+  mmdb: "https://testingcf.jsdelivr.net/gh/alecthw/mmdb_china_ip_list@release/Country.mmdb"
+  asn: "https://testingcf.jsdelivr.net/gh/xishang0128/geoip@release/GeoLite2-ASN.mmdb"
+
+# -------------------- 订阅节点 --------------------
+proxy-providers:
+  subscription:
+    type: http
+    url: "SUBSCRIPTION_URL"  # 必填：替换为实际订阅链接
+    path: ./proxy_providers/subscription.yaml
+    interval: 86400
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+      timeout: 5000
+      lazy: true
+      expected-status: 204
+
+# -------------------- DNS --------------------
+# Fake-IP 模式下不配置 fallback：代理域名尽量交由代理链路解析；
+# nameserver 主要承担直连类域名解析，proxy-server-nameserver 用于解析代理节点域名。
+dns:
+  enable: true
+  listen: 0.0.0.0:7874
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter-mode: blacklist
+  fake-ip-filter:
+    - "*.lan"
+    - "+.local"
+  use-hosts: true
+  respect-rules: true
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  proxy-server-nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+
+# -------------------- 域名嗅探 --------------------
+sniffer:
+  enable: true
+  force-dns-mapping: true
+  parse-pure-ip: true
+  override-destination: false
+  sniff:
+    HTTP:
+      ports: [80, 8080-8880]
+    TLS:
+      ports: [443, 8443]
+    QUIC:
+      ports: [443, 8443]
+  force-domain:
+    - +.netflix.com
+    - +.nflxvideo.net
+    - +.amazonaws.com
+    - +.media.dssott.com
+  skip-domain:
+    - Mijia Cloud
+    - dlg.io.mi.com
+    - +.oray.com
+    - +.sunlogin.net
+    - +.push.apple.com
+
+# -------------------- TUN --------------------
+# 默认关闭，避免与 OpenClash 的透明代理模式重复接管；
+# 独立运行 Mihomo 且需要 TUN 时再将 enable 改为 true。
+tun:
+  enable: false
+  stack: mixed
+  dns-hijack:
+    - any:53
+    - tcp://any:53
+  auto-route: true
+  auto-redirect: true
+  auto-detect-interface: true
+
+# ============================================================
+# 以下内容与 rules.yaml 保持一致
+# ============================================================
+proxy-groups:
+  - name: 区域选择
+    type: select
+    proxies:
+      - 香港节点
+      - 美国节点
+      - 新加坡节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 俄罗斯节点
+      - 土耳其节点
+      - 英国节点
+      - 德国节点
+      - 法国节点
+      - 澳呆利亚
+      - 手动选择
+      - 自动选择
+      - DIRECT
+  - name: 手动选择
+    include-all: true
+    type: select
+  - name: 自动选择
+    type: url-test
+    include-all: true
+    interval: 300
+    tolerance: 50
+  - name: 即时通讯
+    type: select
+    proxies:
+      - 区域选择
+      - 香港节点
+      - 美国节点
+      - 新加坡节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 俄罗斯节点
+      - 土耳其节点
+      - 英国节点
+      - 德国节点
+      - 法国节点
+      - 澳呆利亚
+      - 手动选择
+      - 自动选择
+      - DIRECT
+  - name: 常用AI
+    type: select
+    proxies:
+      - 区域选择
+      - 美国节点
+      - 香港节点
+      - 新加坡节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 俄罗斯节点
+      - 土耳其节点
+      - 英国节点
+      - 德国节点
+      - 法国节点
+      - 澳呆利亚
+      - 手动选择
+      - 自动选择
+      - DIRECT
+  - name: 测速工具
+    type: select
+    proxies:
+      - DIRECT
+      - 区域选择
+      - 香港节点
+      - 美国节点
+      - 新加坡节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 俄罗斯节点
+      - 土耳其节点
+      - 英国节点
+      - 德国节点
+      - 法国节点
+      - 澳呆利亚
+      - 手动选择
+      - 自动选择
+  - name: 苹果服务
+    type: select
+    proxies:
+      - DIRECT
+      - 区域选择
+      - 香港节点
+      - 美国节点
+      - 新加坡节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 俄罗斯节点
+      - 土耳其节点
+      - 英国节点
+      - 德国节点
+      - 法国节点
+      - 澳呆利亚
+      - 手动选择
+      - 自动选择
+  - name: 国外社交媒体
+    type: select
+    proxies:
+      - 区域选择
+      - 香港节点
+      - 美国节点
+      - 新加坡节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 俄罗斯节点
+      - 土耳其节点
+      - 英国节点
+      - 德国节点
+      - 法国节点
+      - 澳呆利亚
+      - 手动选择
+      - 自动选择
+      - DIRECT
+  - name: 谷歌服务
+    type: select
+    proxies:
+      - 区域选择
+      - 香港节点
+      - 美国节点
+      - 新加坡节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 俄罗斯节点
+      - 土耳其节点
+      - 英国节点
+      - 德国节点
+      - 法国节点
+      - 澳呆利亚
+      - 手动选择
+      - 自动选择
+      - DIRECT
+  - name: 国外流媒体
+    type: select
+    proxies:
+      - 区域选择
+      - 香港节点
+      - 美国节点
+      - 新加坡节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 俄罗斯节点
+      - 土耳其节点
+      - 英国节点
+      - 德国节点
+      - 法国节点
+      - 澳呆利亚
+      - 手动选择
+      - 自动选择
+      - DIRECT
+  - name: 微软服务
+    type: select
+    proxies:
+      - DIRECT
+      - 区域选择
+  - name: Edge_New_Tab
+    type: select
+    proxies:
+      - 区域选择
+      - DIRECT
+  - name: Steam
+    type: select
+    proxies:
+      - 区域选择
+      - 香港节点
+      - 美国节点
+      - 新加坡节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 俄罗斯节点
+      - 土耳其节点
+      - 英国节点
+      - 德国节点
+      - 法国节点
+      - 澳呆利亚
+      - 手动选择
+      - 自动选择
+      - DIRECT
+  - name: Emby
+    type: select
+    proxies:
+      - DIRECT
+      - 区域选择
+      - 香港节点
+      - 美国节点
+      - 新加坡节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 俄罗斯节点
+      - 土耳其节点
+      - 英国节点
+      - 德国节点
+      - 法国节点
+      - 澳呆利亚
+      - 手动选择
+      - 自动选择
+  - name: 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 区域选择
+  - name: 非常规端口
+    type: select
+    proxies:
+      - DIRECT
+      - 区域选择
+      - 香港节点
+      - 美国节点
+      - 新加坡节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 俄罗斯节点
+      - 土耳其节点
+      - 英国节点
+      - 德国节点
+      - 法国节点
+      - 澳呆利亚
+      - 手动选择
+      - 自动选择
+  - name: 成人网站
+    type: select
+    proxies:
+      - 区域选择
+      - 香港节点
+      - 美国节点
+      - 新加坡节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 俄罗斯节点
+      - 土耳其节点
+      - 英国节点
+      - 德国节点
+      - 法国节点
+      - 澳呆利亚
+      - 手动选择
+      - 自动选择
+      - DIRECT
+  - name: 漏网之鱼
+    type: select
+    proxies:
+      - 区域选择
+      - 香港节点
+      - 美国节点
+      - 新加坡节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 俄罗斯节点
+      - 土耳其节点
+      - 英国节点
+      - 德国节点
+      - 法国节点
+      - 澳呆利亚
+      - 手动选择
+      - 自动选择
+      - DIRECT
+  - name: 香港节点
+    include-all: true
+    filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 美国节点
+    include-all: true
+    filter: (?i)美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 新加坡节点
+    include-all: true
+    filter: (?i)新加坡|坡|狮城|SG|Singapore
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 台湾节点
+    include-all: true
+    filter: (?i)台|新北|彰化|TW|Taiwan
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 日本节点
+    include-all: true
+    filter: (?i)日本|日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 韩国节点
+    include-all: true
+    filter: (?i)KR|Korea|KOR|首尔|韩|韓
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 俄罗斯节点
+    include-all: true
+    filter: (?i)俄罗斯|俄|RU|Russia|俄国|罗斯
+    type: url-test
+  - name: 土耳其节点
+    include-all: true
+    filter: (?i)TR|土耳其|Turkey|Türkiye|Turkye|土
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 英国节点
+    include-all: true
+    filter: (?i)英国|曼彻斯特|UK|英
+    type: url-test
+    interval: 300
+    tolerance: 100
+  - name: 德国节点
+    include-all: true
+    filter: (?i)德国|慕尼黑|GE|德|Germany
+    type: url-test
+    interval: 300
+    tolerance: 100
+  - name: 法国节点
+    include-all: true
+    filter: (?i)法|法国|巴黎|France|FR
+    type: url-test
+    interval: 300
+    tolerance: 100
+  - name: 澳呆利亚
+    include-all: true
+    filter: (?i)澳|澳洲|AUS|Australia|AU
+    type: url-test
+    interval: 300
+    tolerance: 100
+rule-providers:
+  Custom_Port_Direct:
+    behavior: classical  # 混合类型（包含多种规则）
+    interval: 10800  # 3小时
+    type: http
+    url: "https://cdn.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Port_Direct.yaml"
+    format: yaml
+
+  Custom_Direct_Domain:
+    behavior: domain  # 仅域名
+    interval: 10800
+    type: http
+    url: "https://cdn.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Direct_Domain.mrs"
+    format: mrs  # 二进制格式
+
+  Custom_Direct_IP:
+    behavior: ipcidr  # 仅 IP
+    interval: 10800  # 3小时
+    type: http
+    url: "https://cdn.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Direct_IP.mrs"
+    format: mrs  # 二进制格式
+
+  Custom_Direct_Port:
+    behavior: classical  # 混合类型（包含多种规则）
+    interval: 10800  # 3小时
+    type: http
+    url: "https://cdn.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Direct_Classical_Port.yaml"
+    format: yaml
+
+  Custom_Proxy_Domain:
+    behavior: domain  # 仅域名
+    interval: 10800  # 3小时
+    type: http
+    url: "https://cdn.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Proxy_Domain.mrs"
+    format: mrs  # 二进制格式
+
+  Custom_Proxy_IP:
+    behavior: ipcidr  # 仅 IP
+    interval: 10800  # 3小时
+    type: http
+    url: "https://cdn.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Proxy_IP.mrs"
+    format: mrs  # 二进制格式
+
+  Steam_CDN_Domain:
+    behavior: domain  # Steam CDN下载服务器（直连获得更快速度）
+    interval: 10800  # 3小时
+    type: http
+    url: "https://cdn.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Steam_CDN_Domain.mrs"
+    format: mrs  # 二进制格式
+
+  Steam_CDN_IP:
+    behavior: ipcidr  # Steam CDN下载服务器（直连获得更快速度）
+    interval: 10800  # 3小时
+    type: http
+    url: "https://cdn.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Steam_CDN_IP.mrs"
+    format: mrs  # 二进制格式
+
+
+  Edge_New_Tab:
+    behavior: classical  # Edge新标签页 / MSN主页核心服务
+    interval: 10800  # 3小时
+    type: http
+    url: "https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/Rules/Microsoft_Edge_NewTab.yaml"
+    format: yaml
+
+  Edge_Copilot:
+    behavior: classical  #edge copilot 侧边栏
+    interval: 10800
+    type: http
+    url: "https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/Rules/Edge_Copilot.yaml"
+    format: yaml
+
+rules:
+  - "GEOSITE,private,全球直连"
+  - "GEOIP,private,全球直连,no-resolve"
+  - "RULE-SET,Custom_Direct_Domain,全球直连"
+  - "RULE-SET,Custom_Direct_IP,全球直连,no-resolve"
+  - "RULE-SET,Custom_Direct_Port,全球直连"
+  - "RULE-SET,Custom_Proxy_Domain,区域选择"
+  - "RULE-SET,Custom_Proxy_IP,区域选择,no-resolve"
+  - "GEOSITE,google-cn,谷歌服务"
+  - "GEOSITE,category-games@cn,全球直连"
+  - "RULE-SET,Steam_CDN_Domain,全球直连"
+  - "RULE-SET,Steam_CDN_IP,全球直连,no-resolve"
+  - "GEOSITE,category-game-platforms-download,全球直连"
+  - "GEOSITE,category-public-tracker,全球直连"
+  - "GEOSITE,adguard,全球直连"
+  - "GEOSITE,category-communication,即时通讯"
+  - "GEOSITE,category-social-media-!cn,国外社交媒体"
+  - "GEOSITE,openai,常用AI"
+  - "RULE-SET,Edge_Copilot,常用AI"
+  - "GEOSITE,category-porn,成人网站"
+  - "GEOSITE,category-ai-!cn,常用AI"
+  - "GEOSITE,github,常用AI"
+  - "GEOSITE,category-speedtest,测速工具"
+  - "GEOSITE,steam,Steam"
+  - "GEOSITE,youtube,国外社交媒体"
+  - "GEOSITE,apple-tvplus,国外流媒体"
+  - "GEOSITE,apple,苹果服务"
+  - "RULE-SET,Edge_New_Tab,Edge_New_Tab"
+  - "GEOSITE,microsoft,微软服务"
+  - "GEOSITE,googlefcm,谷歌服务"
+  - "GEOSITE,google,谷歌服务"
+  - "GEOSITE,tiktok,国外流媒体"
+  - "GEOSITE,netflix,国外流媒体"
+  - "GEOSITE,disney,国外流媒体"
+  - "GEOSITE,hbo,国外流媒体"
+  - "GEOSITE,primevideo,国外流媒体"
+  - "GEOSITE,category-emby,Emby"
+  - "GEOSITE,spotify,国外流媒体"
+  - "GEOSITE,bahamut,国外流媒体"
+  - "GEOSITE,category-games,全球直连"
+  - "GEOSITE,category-entertainment,国外社交媒体"
+  - "GEOSITE,category-ecommerce,国外社交媒体"
+  - "GEOSITE,gfw,区域选择"
+  - "GEOIP,telegram,即时通讯,no-resolve"
+  - "GEOIP,twitter,国外社交媒体,no-resolve"
+  - "GEOIP,facebook,国外社交媒体,no-resolve"
+  - "GEOIP,google,谷歌服务,no-resolve"
+  - "GEOIP,netflix,国外流媒体,no-resolve"
+  - "GEOSITE,cn,全球直连"
+  - "GEOIP,cn,全球直连,no-resolve"
+  - "RULE-SET,Custom_Port_Direct,非常规端口"
+  - "MATCH,漏网之鱼"
