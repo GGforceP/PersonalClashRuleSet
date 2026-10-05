@@ -1,48 +1,95 @@
-使用方法：
+# PersonalClashRuleSet
 
-        一.搭配substore（强烈推荐）：
-        1.在“订阅”页面中，添加一个新的订阅，导入自己的订阅配置文件；
-        2.然后再在“文件”页面中，添加一个新的mihomo配置文件；
-        3.在下方的“JavaScript/YAML 覆写”设置中，添加一个新的“脚本操作”；
-        4.选择“远程链接”，将本yaml的raw链接拷贝并复制在文本框中；
-        5.先点击“即时预览”看看是否能正常拉取到脚本。
-        6.是→点击保存，将生成的文件分享链接导入clash核心的代理软件，开始使用。
-        7.否→想个办法连上github。再重复 6 。
-        SubStore项目地址：https://github.com/sub-store-org/Sub-Store
+> 面向 Mihomo / OpenClash 的个人规则与策略组配置。主要用于维护个人分流逻辑，并兼容 Sub-Store 覆写与可直接使用的完整 Mihomo 配置。
 
-        
-        优势：
-        ·一次部署，一劳永逸，后续不管进行任何规则修改操作，只需要在代理软件更新订阅，不需要任何其他操作。
-        ·兼容性好，只要是clash/mihomo内核的代理软件（openclash、clash、clash mi、clash meta、flclash、stash、clash party、clash verge等）全都支持
-        缺点：
-        ·需要一台私有或云上服务器跑，如果需要wan访问，需要公网ip或者转发。
-    
-        二：直接在clash内核的代理软件中引用：
-        以flclash为例：
-        1.开启应用，进入“工具”页面，点击“进阶配置”；
-        2.点击“脚本”，点击右上角“添加”；
-        3.进入配置编辑页面后，点击右上角“···”，选择“外部获取”——“通过URL”导入；
-        4.粘贴yaml的raw文件链接，下载配置文件，命名、保存后退出。、
-        5.开启代理。
-        优势：
-        ·灵活性强，随时在自定义配置和默认配置切换。
-        ·纯本地操作，无需另外的服务器跑，无公网ip要求，随时随地可用。
-        缺点：
-       ·兼容性差，有些代理软件不支持引用外部覆写资源。
+## 📁 仓库结构
 
+```text
+PersonalClashRuleSet/
+├── README.md
+├── rules.yaml
+├── rules_full.yaml
+├── rules_smart.yaml
+└── Rules/
+    ├── Edge_Copilot.yaml
+    └── Microsoft_Edge_NewTab.yaml
+```
 
-鸣谢：@Aethersailor （Custom_OpenClash_Rules）
-    项目地址：[Custom_OpenClash_Rules](https://github.com/Aethersailor/Custom_OpenClash_Rules)
+| 路径 | 用途 |
+| --- | --- |
+| `rules.yaml` | 主要规则成品，适用于 Sub-Store 等场景进行订阅转换/覆写；重点维护策略组、规则提供者与分流规则。 |
+| `rules_full.yaml` | 完整 Mihomo 配置模板，在 `rules.yaml` 的规则体系基础上补充全局配置、`proxy-providers`、DNS、Sniffer、GEO 等基础配置。 |
+| `rules_smart.yaml` | 预留给后续 Smart 内核专用配置。 |
+| `Rules/` | 存放单独整理、独立维护的自定义规则文件。新增自定义规则原则上放在此目录。 |
 
-由于本人主要使用openclash，因此主要为openclash服务，规则中使用的数据库均为openclash默认：
+## 🚀 使用方法
 
-GEO数据库：    MMDB: [https://testingcf.jsdelivr.net/gh/alecthw/mmdb_china_ip_list@release/Country.mmdb](https://testingcf.jsdelivr.net/gh/alecthw/mmdb_china_ip_list@release/Country.mmdb)
+### 方式一：搭配 Sub-Store（推荐）
 
-GeoIP 数据库：    GEOIP: [https://testingcf.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat](https://testingcf.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat)
+1. 在 Sub-Store 的「订阅」页面添加自己的订阅。
+2. 在「文件」页面新增一个 Mihomo 配置文件。
+3. 在「JavaScript/YAML 覆写」中新增「脚本操作」。
+4. 选择「远程链接」，填入本仓库 `rules.yaml` 的 Raw 地址。
+5. 点击「即时预览」，确认可以正常拉取并生成配置。
+6. 保存后，将生成文件的分享链接导入使用 Mihomo/Clash 内核的客户端。
+7. 后续规则更新后，只需在客户端更新订阅即可。
 
-GeoSite 数据库：    GEOSITE: [https://testingcf.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geosite.dat](https://testingcf.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geosite.dat)
+Sub-Store 项目：[sub-store-org/Sub-Store](https://github.com/sub-store-org/Sub-Store)
 
-ASN：    ASN: [https://testingcf.jsdelivr.net/gh/xishang0128/geoip@release/GeoLite2-ASN.mmdb](https://testingcf.jsdelivr.net/gh/xishang0128/geoip@release/GeoLite2-ASN.mmdb)
+**优点**
 
+- 一次部署后维护成本低，仓库规则更新后客户端刷新订阅即可。
+- 兼容范围广，适用于 OpenClash、FlClash、Clash Verge、Stash 等使用 Clash/Mihomo 内核或兼容配置的客户端。
 
-如果有个性化需求的，可以fork一份，再自己编辑添加一些规则，geo规则库：[domain-list-community](https://github.com/v2fly/domain-list-community)
+**注意**
+
+- 自建 Sub-Store 服务时，需要保证客户端能够访问该服务；涉及 WAN 访问时还需要相应的公网访问或转发方案。
+
+### 方式二：客户端直接引用覆写
+
+以 FlClash 为例：
+
+1. 打开「工具」→「进阶配置」。
+2. 进入「脚本」，点击右上角「添加」。
+3. 在配置编辑页选择「外部获取」→「通过 URL」。
+4. 填入对应 YAML 的 Raw 地址，下载并保存。
+5. 启用该配置后开始使用。
+
+**优点**
+
+- 可随时在自定义配置与默认配置之间切换。
+- 不依赖额外的 Sub-Store 服务。
+
+**注意**
+
+- 部分客户端不支持远程覆写或外部配置引用，兼容性取决于客户端实现。
+
+## 🧩 自定义规则维护
+
+- `Rules/` 用于保存个人单独整理的规则。
+- 新增规则前需要先检查是否已被现有 `rule-providers`、`GEOSITE`、`GEOIP` 或其他已引用规则覆盖，避免无意义重复。
+- 如发现重复或包含关系，先说明重复来源与范围，再决定是否仍保留独立规则。
+- `rules.yaml`、`rules_full.yaml` 与后续 `rules_smart.yaml` 的分流逻辑应尽量保持一致；内核专属能力单独维护。
+
+## 🌐 GEO 数据源
+
+本仓库主要面向 OpenClash 使用，当前规则依赖的数据库来源如下：
+
+| 类型 | 地址 |
+| --- | --- |
+| MMDB | [Country.mmdb](https://testingcf.jsdelivr.net/gh/alecthw/mmdb_china_ip_list@release/Country.mmdb) |
+| GeoIP | [geoip.dat](https://testingcf.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat) |
+| GeoSite | [geosite.dat](https://testingcf.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geosite.dat) |
+| ASN | [GeoLite2-ASN.mmdb](https://testingcf.jsdelivr.net/gh/xishang0128/geoip@release/GeoLite2-ASN.mmdb) |
+
+需要自行扩展 GeoSite 分类时，可参考：[v2fly/domain-list-community](https://github.com/v2fly/domain-list-community)
+
+## 🙏 鸣谢
+
+- [Aethersailor/Custom_OpenClash_Rules](https://github.com/Aethersailor/Custom_OpenClash_Rules)
+- [Sub-Store](https://github.com/sub-store-org/Sub-Store)
+
+## 📝 更新日志
+
+2026-10-6：  
+更新了 README 的结构、使用说明和维护规范，增加了 `rules_full.yaml` 完整配置模板和 `rules_smart.yaml` 预留文件。
