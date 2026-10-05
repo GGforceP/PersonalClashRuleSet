@@ -20,7 +20,7 @@ PersonalClashRuleSet/
 | --- | --- |
 | `Yaml/rules.yaml` | 主要规则成品，适用于 Sub-Store 等场景进行订阅转换/覆写；重点维护策略组、规则提供者与分流规则。 |
 | `Yaml/rules_full.yaml` | 完整 Mihomo 配置模板，在 `Yaml/rules.yaml` 的规则体系基础上补充全局配置、`proxy-providers`、DNS、Sniffer、GEO 等基础配置。 |
-| `Yaml/rules_smart.yaml` | 预留给后续 Smart 内核专用配置。 |
+| `Yaml/rules_smart.yaml` | Smart 内核专用派生配置。以 `Yaml/rules.yaml` 为基础，将自动测速组 Smart 化并启用 LightGBM；分流规则默认与基础配置同步。 |
 | `Rules/` | 存放单独整理、独立维护的自定义规则文件。新增自定义规则原则上放在此目录。 |
 
 ## 🚀 使用方法
@@ -70,7 +70,9 @@ Sub-Store 项目：[sub-store-org/Sub-Store](https://github.com/sub-store-org/Su
 - `Rules/` 用于保存个人单独整理的规则。
 - 新增规则前需要先检查是否已被现有 `rule-providers`、`GEOSITE`、`GEOIP` 或其他已引用规则覆盖，避免无意义重复。
 - 如发现重复或包含关系，先说明重复来源与范围，再决定是否仍保留独立规则。
-- `Yaml/rules.yaml`、`Yaml/rules_full.yaml` 与后续 `Yaml/rules_smart.yaml` 的分流逻辑应尽量保持一致；内核专属能力单独维护。
+- `Yaml/rules.yaml` 是默认的**基础分流源（Source of Truth）**。除非明确要求重新编写，所有其他规则 YAML 都以它为基础派生。
+- 当 `Yaml/rules.yaml` 的策略组、规则提供者或 `rules` 发生基础修改时，应立即同步到 `Yaml/rules_full.yaml`、`Yaml/rules_smart.yaml` 及后续新增的其他派生规则 YAML；各文件只保留自身用途所需的专属差异。
+- `Yaml/rules_smart.yaml` 仅维护 Smart 内核专属能力，例如 `type: smart`、LightGBM 等，不单独改变基础分流意图。
 
 ## 🌐 GEO 数据源
 
@@ -93,4 +95,4 @@ Sub-Store 项目：[sub-store-org/Sub-Store](https://github.com/sub-store-org/Su
 ## 📝 更新日志
 
 2026-10-6：  
-更新了 README 的结构、使用说明和维护规范，增加了 `Yaml/rules_full.yaml` 完整配置模板和 `Yaml/rules_smart.yaml` 预留文件。
+更新了 README 的结构、使用说明、规则同步规范和 Smart 配置说明，增加了 `Yaml/rules_full.yaml` 完整配置模板并完善了 `Yaml/rules_smart.yaml` Smart 内核专用配置。
