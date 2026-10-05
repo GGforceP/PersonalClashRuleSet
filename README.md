@@ -7,9 +7,10 @@
 ```text
 PersonalClashRuleSet/
 ├── README.md
-├── rules.yaml
-├── rules_full.yaml
-├── rules_smart.yaml
+├── Yaml/
+│   ├── rules.yaml
+│   ├── rules_full.yaml
+│   └── rules_smart.yaml
 └── Rules/
     ├── Edge_Copilot.yaml
     └── Microsoft_Edge_NewTab.yaml
@@ -17,9 +18,9 @@ PersonalClashRuleSet/
 
 | 路径 | 用途 |
 | --- | --- |
-| `rules.yaml` | 主要规则成品，适用于 Sub-Store 等场景进行订阅转换/覆写；重点维护策略组、规则提供者与分流规则。 |
-| `rules_full.yaml` | 完整 Mihomo 配置模板，在 `rules.yaml` 的规则体系基础上补充全局配置、`proxy-providers`、DNS、Sniffer、GEO 等基础配置。 |
-| `rules_smart.yaml` | 预留给后续 Smart 内核专用配置。 |
+| `Yaml/rules.yaml` | 主要规则成品，适用于 Sub-Store 等场景进行订阅转换/覆写；重点维护策略组、规则提供者与分流规则。 |
+| `Yaml/rules_full.yaml` | 完整 Mihomo 配置模板，在 `Yaml/rules.yaml` 的规则体系基础上补充全局配置、`proxy-providers`、DNS、Sniffer、GEO 等基础配置。 |
+| `Yaml/rules_smart.yaml` | 预留给后续 Smart 内核专用配置。 |
 | `Rules/` | 存放单独整理、独立维护的自定义规则文件。新增自定义规则原则上放在此目录。 |
 
 ## 🚀 使用方法
@@ -29,7 +30,7 @@ PersonalClashRuleSet/
 1. 在 Sub-Store 的「订阅」页面添加自己的订阅。
 2. 在「文件」页面新增一个 Mihomo 配置文件。
 3. 在「JavaScript/YAML 覆写」中新增「脚本操作」。
-4. 选择「远程链接」，填入本仓库 `rules.yaml` 的 Raw 地址。
+4. 选择「远程链接」，填入本仓库 `Yaml/rules.yaml` 的 Raw 地址。
 5. 点击「即时预览」，确认可以正常拉取并生成配置。
 6. 保存后，将生成文件的分享链接导入使用 Mihomo/Clash 内核的客户端。
 7. 后续规则更新后，只需在客户端更新订阅即可。
@@ -69,7 +70,7 @@ Sub-Store 项目：[sub-store-org/Sub-Store](https://github.com/sub-store-org/Su
 - `Rules/` 用于保存个人单独整理的规则。
 - 新增规则前需要先检查是否已被现有 `rule-providers`、`GEOSITE`、`GEOIP` 或其他已引用规则覆盖，避免无意义重复。
 - 如发现重复或包含关系，先说明重复来源与范围，再决定是否仍保留独立规则。
-- `rules.yaml`、`rules_full.yaml` 与后续 `rules_smart.yaml` 的分流逻辑应尽量保持一致；内核专属能力单独维护。
+- `Yaml/rules.yaml`、`Yaml/rules_full.yaml` 与后续 `Yaml/rules_smart.yaml` 的分流逻辑应尽量保持一致；内核专属能力单独维护。
 
 ## 🌐 GEO 数据源
 
@@ -92,4 +93,4 @@ Sub-Store 项目：[sub-store-org/Sub-Store](https://github.com/sub-store-org/Su
 ## 📝 更新日志
 
 2026-10-6：  
-更新了 README 的结构、使用说明和维护规范，增加了 `rules_full.yaml` 完整配置模板和 `rules_smart.yaml` 预留文件。
+更新了 README 的结构、使用说明和维护规范，增加了 `Yaml/rules_full.yaml` 完整配置模板和 `Yaml/rules_smart.yaml` 预留文件。
