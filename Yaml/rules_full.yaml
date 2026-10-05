@@ -5,7 +5,7 @@
 # 1. 本文件的 proxy-groups / rule-providers / rules 与 rules.yaml 保持一致。
 # 2. 使用前请将 SUBSCRIPTION_URL 替换为真实订阅地址。
 # 3. OpenClash 可能根据插件设置覆写端口、DNS、Sniffer、TUN 等字段。
-# 4. Smart 内核专属配置后续单独维护在 rules_smart.yaml。
+# 4. Smart 内核专属配置单独维护在 rules_smart.yaml；基础分流变更需与 rules.yaml 同步。
 
 # -------------------- 基础配置 --------------------
 mixed-port: 7890
