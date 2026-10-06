@@ -19,9 +19,9 @@ PersonalClashRuleSet/
 
 | 路径 | 用途 | Raw 链接 |
 | --- | --- | --- |
-| `Yaml/rules.yaml` | 主要规则成品，适用于 Sub-Store 等场景进行订阅转换/覆写；重点维护策略组、规则提供者与分流规则。 | <https://raw.githubusercontent.com/GGforceP/PersonalClashRuleSet/dev/Yaml/rules.yaml> |
-| `Yaml/rules_full.yaml` | 完整 Mihomo 配置模板，在 `Yaml/rules.yaml` 的规则体系基础上补充全局配置、`proxy-providers`、DNS、Sniffer、GEO 等基础配置。 | <https://raw.githubusercontent.com/GGforceP/PersonalClashRuleSet/dev/Yaml/rules_full.yaml> |
-| `Yaml/rules_smart.yaml` | Smart 内核专用派生配置。以 `Yaml/rules.yaml` 为基础，将自动测速组 Smart 化并启用 LightGBM；分流规则默认与基础配置同步。 | <https://raw.githubusercontent.com/GGforceP/PersonalClashRuleSet/dev/Yaml/rules_smart.yaml> |
+| `Yaml/rules.yaml` | 主要规则成品，适用于 Sub-Store 等场景进行订阅转换/覆写；重点维护策略组、规则提供者与分流规则。 | [打开 Raw](https://raw.githubusercontent.com/GGforceP/PersonalClashRuleSet/dev/Yaml/rules.yaml) |
+| `Yaml/rules_full.yaml` | 完整 Mihomo 配置模板，在 `Yaml/rules.yaml` 的规则体系基础上补充全局配置、`proxy-providers`、DNS、Sniffer、GEO 等基础配置。 | [打开 Raw](https://raw.githubusercontent.com/GGforceP/PersonalClashRuleSet/dev/Yaml/rules_full.yaml) |
+| `Yaml/rules_smart.yaml` | Smart 内核专用派生配置。以 `Yaml/rules.yaml` 为基础，将自动测速组 Smart 化并启用 LightGBM；分流规则默认与基础配置同步。 | [打开 Raw](https://raw.githubusercontent.com/GGforceP/PersonalClashRuleSet/dev/Yaml/rules_smart.yaml) |
 | `Rules/` | 存放单独整理、独立维护的自定义规则文件。新增自定义规则原则上放在此目录。 | — |
 
 ## 🚀 使用方法
