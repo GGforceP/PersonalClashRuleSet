@@ -21,4 +21,8 @@ payload:
   - "aadcdn.msftauth.net"
 
   # Microsoft Designer 使用的 Microsoft OneCDN 精确资源域名
+  - "res.public.onecdn.static.microsoft"
   - "createcatalog.public.onecdn.static.microsoft"
+
+  # Microsoft Designer / Office 配置服务（精确域名）
+  - "ecs.office.com"
