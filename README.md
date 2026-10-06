@@ -74,6 +74,7 @@ Sub-Store 项目：[sub-store-org/Sub-Store](https://github.com/sub-store-org/Su
 - 自行整理、仅参考其他项目部分信息形成的 `Rules/` 规则，默认不在 README 中增加致谢；仅在完整引用外部规则库或明确要求时标注来源。
 - `Yaml/rules.yaml` 是默认的**基础分流源（Source of Truth）**。除非明确要求重新编写，所有其他规则 YAML 都以它为基础派生。
 - 当 `Yaml/rules.yaml` 的策略组、规则提供者或 `rules` 发生基础修改时，应立即同步到 `Yaml/rules_full.yaml`、`Yaml/rules_smart.yaml` 及后续新增的其他派生规则 YAML；各文件只保留自身用途所需的专属差异。
+- 仓库内部 `Rules/` 引用必须与当前配置所在分支一致：`dev` 配置引用 `dev`，同步到 `main` 时内部 URL 必须一并切换到 `main`；外部仓库 URL 在可正常访问时保持不变。
 - `Yaml/rules_smart.yaml` 仅维护 Smart 内核专属能力，例如 `type: smart`、LightGBM 等，不单独改变基础分流意图。
 
 ## 🌐 GEO 数据源
@@ -97,4 +98,4 @@ Sub-Store 项目：[sub-store-org/Sub-Store](https://github.com/sub-store-org/Su
 ## 📝 更新日志
 
 2026-10-6：  
-增加了 `Yaml/rules_full.yaml`、`Yaml/rules_smart.yaml` 和 `Rules/Microsoft_Designer.yaml`，更新了 Microsoft Designer 分流规则。
+增加了 `Yaml/rules_full.yaml`、`Yaml/rules_smart.yaml` 和 `Rules/Microsoft_Designer.yaml`，更新了 Microsoft Designer 分流规则和仓库内部规则引用分支。
