@@ -13,6 +13,7 @@ PersonalClashRuleSet/
 │   └── rules_smart.yaml
 └── Rules/
     ├── Edge_Copilot.yaml
+    ├── Microsoft_Designer.yaml
     └── Microsoft_Edge_NewTab.yaml
 ```
 
@@ -90,10 +91,11 @@ Sub-Store 项目：[sub-store-org/Sub-Store](https://github.com/sub-store-org/Su
 ## 🙏 鸣谢
 
 - [Aethersailor/Custom_OpenClash_Rules](https://github.com/Aethersailor/Custom_OpenClash_Rules)
-- [Accademia/Additional_Rule_For_Clash](https://github.com/Accademia/Additional_Rule_For_Clash) — Microsoft Copilot / Designer 域名规则来源
+- [Accademia/Additional_Rule_For_Clash](https://github.com/Accademia/Additional_Rule_For_Clash) — Microsoft Designer 域名整理参考
+- [pagestech/go-proxy-bingai](https://github.com/pagestech/go-proxy-bingai) — Microsoft Designer Web/CDN 端点整理参考
 - [Sub-Store](https://github.com/sub-store-org/Sub-Store)
 
 ## 📝 更新日志
 
 2026-10-6：  
-更新了 README 的结构、使用说明、规则同步规范、Smart 配置说明和 Microsoft Designer/Copilot 分流，增加了 `Yaml/rules_full.yaml` 完整配置模板并完善了 `Yaml/rules_smart.yaml` Smart 内核专用配置。
+更新了 README 的结构、使用说明、规则同步规范、Smart 配置说明和 Microsoft Designer 分流，增加了 `Yaml/rules_full.yaml` 完整配置模板与 `Rules/Microsoft_Designer.yaml` 专用规则，并完善了 `Yaml/rules_smart.yaml` Smart 内核专用配置。
