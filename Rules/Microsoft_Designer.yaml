@@ -1,0 +1,9 @@
+payload:
+  # Microsoft Designer 主站及其子域
+  - "+.designer.microsoft.com"
+
+  # Microsoft Designer 静态资源 / CDN
+  - "+.designerapp.osi.office.net"
+
+  # Microsoft Designer Web 应用 / 图片与文档资源
+  - "+.designerapp.officeapps.live.com"
