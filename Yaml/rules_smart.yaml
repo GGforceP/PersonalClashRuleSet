@@ -432,11 +432,11 @@ rule-providers:
     url: "https://cdn.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Steam_CDN_IP.mrs"
     format: mrs  # 二进制格式
 
-  Microsoft_Copilot_Designer:
-    behavior: domain  # Microsoft Copilot / Designer 域名规则
+  Microsoft_Designer:
+    behavior: domain  # Microsoft Designer 专用域名规则
     interval: 10800  # 3小时
     type: http
-    url: "https://raw.githubusercontent.com/Accademia/Additional_Rule_For_Clash/main/Copilot/Copilot_Domain.yaml"
+    url: "https://raw.githubusercontent.com/GGforceP/PersonalClashRuleSet/dev/Rules/Microsoft_Designer.yaml"
     format: yaml
 
 
@@ -473,7 +473,7 @@ rules:
   - "GEOSITE,category-social-media-!cn,国外社交媒体"
   - "GEOSITE,openai,常用AI"
   - "RULE-SET,Edge_Copilot,常用AI"
-  - "RULE-SET,Microsoft_Copilot_Designer,常用AI"
+  - "RULE-SET,Microsoft_Designer,常用AI"
   - "GEOSITE,category-porn,成人网站"
   - "GEOSITE,category-ai-!cn,常用AI"
   - "GEOSITE,github,常用AI"
