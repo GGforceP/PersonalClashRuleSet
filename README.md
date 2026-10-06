@@ -98,4 +98,4 @@ Sub-Store 项目：[sub-store-org/Sub-Store](https://github.com/sub-store-org/Su
 ## 📝 更新日志
 
 2026-10-6：  
-增加了 `Yaml/rules_full.yaml`、`Yaml/rules_smart.yaml` 和 `Rules/Microsoft_Designer.yaml`，更新了 Microsoft Designer 分流规则和仓库内部规则引用分支。
+增加了 `Yaml/rules_full.yaml`、`Yaml/rules_smart.yaml`、`Rules/Microsoft_Designer.yaml` 以及 Microsoft Designer 认证与静态资源域名规则，更新了 Microsoft Designer 分流规则和仓库内部规则引用分支。
