@@ -24,3 +24,5 @@ payload:
   - "res.public.onecdn.static.microsoft"
   - "createcatalog.public.onecdn.static.microsoft"
 
+  # Microsoft Designer / Office 配置服务（精确域名）
+  - "ecs.office.com"
