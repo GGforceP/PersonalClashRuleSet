@@ -5,5 +5,14 @@ payload:
   # Microsoft Designer 静态资源 / CDN
   - "+.designerapp.osi.office.net"
 
-  # Microsoft Designer Web 应用 / 图片与文档资源
+  # Microsoft Designer Web 应用 / 图片、文档、媒体、RTC 等资源
   - "+.designerapp.officeapps.live.com"
+
+  # Microsoft Designer EDOG / 预发布应用域
+  - "+.designerapp.edog.officeapps.live.com"
+
+  # Microsoft Designer 服务资源 / 授权资源标识
+  - "+.designerappservice.officeapps.live.com"
+
+  # Microsoft 365 / Copilot 内嵌的 Designer 页面
+  - "+.designer.svc.cloud.microsoft"
