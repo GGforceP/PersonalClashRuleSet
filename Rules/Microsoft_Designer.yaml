@@ -14,5 +14,5 @@ payload:
   # Microsoft Designer 服务资源 / 授权资源标识
   - "+.designerappservice.officeapps.live.com"
 
-  # Microsoft 365 / Copilot 内嵌的 Designer 页面
+  # Microsoft 365 内嵌的 Designer 页面
   - "+.designer.svc.cloud.microsoft"
