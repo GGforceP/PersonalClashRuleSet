@@ -407,14 +407,14 @@ rule-providers:
     behavior: classical  # Edge新标签页 / MSN主页核心服务
     interval: 10800  # 3小时
     type: http
-    url: "https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/Rules/Microsoft_Edge_NewTab.yaml"
+    url: "https://raw.githubusercontent.com/GGforceP/PersonalClashRuleSet/dev/Rules/Microsoft_Edge_NewTab.yaml"
     format: yaml
 
   Edge_Copilot:
     behavior: classical  #edge copilot 侧边栏
     interval: 10800
     type: http
-    url: "https://github.com/GGforceP/PersonalClashRuleSet/raw/refs/heads/main/Rules/Edge_Copilot.yaml"
+    url: "https://raw.githubusercontent.com/GGforceP/PersonalClashRuleSet/dev/Rules/Edge_Copilot.yaml"
     format: yaml
 
 rules:
