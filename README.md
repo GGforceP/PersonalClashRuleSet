@@ -71,6 +71,7 @@ Sub-Store 项目：[sub-store-org/Sub-Store](https://github.com/sub-store-org/Su
 - `Rules/` 用于保存个人单独整理的规则。
 - 新增规则前需要先检查是否已被现有 `rule-providers`、`GEOSITE`、`GEOIP` 或其他已引用规则覆盖，避免无意义重复。
 - 如发现重复或包含关系，先说明重复来源与范围，再决定是否仍保留独立规则。
+- 自行整理、仅参考其他项目部分信息形成的 `Rules/` 规则，默认不在 README 中增加致谢；仅在完整引用外部规则库或明确要求时标注来源。
 - `Yaml/rules.yaml` 是默认的**基础分流源（Source of Truth）**。除非明确要求重新编写，所有其他规则 YAML 都以它为基础派生。
 - 当 `Yaml/rules.yaml` 的策略组、规则提供者或 `rules` 发生基础修改时，应立即同步到 `Yaml/rules_full.yaml`、`Yaml/rules_smart.yaml` 及后续新增的其他派生规则 YAML；各文件只保留自身用途所需的专属差异。
 - `Yaml/rules_smart.yaml` 仅维护 Smart 内核专属能力，例如 `type: smart`、LightGBM 等，不单独改变基础分流意图。
@@ -91,11 +92,9 @@ Sub-Store 项目：[sub-store-org/Sub-Store](https://github.com/sub-store-org/Su
 ## 🙏 鸣谢
 
 - [Aethersailor/Custom_OpenClash_Rules](https://github.com/Aethersailor/Custom_OpenClash_Rules)
-- [Accademia/Additional_Rule_For_Clash](https://github.com/Accademia/Additional_Rule_For_Clash) — Microsoft Designer 域名整理参考
-- [pagestech/go-proxy-bingai](https://github.com/pagestech/go-proxy-bingai) — Microsoft Designer Web/CDN 端点整理参考
 - [Sub-Store](https://github.com/sub-store-org/Sub-Store)
 
 ## 📝 更新日志
 
 2026-10-6：  
-更新了 README 的结构、使用说明、规则同步规范、Smart 配置说明和 Microsoft Designer 分流，增加了 `Yaml/rules_full.yaml` 完整配置模板与 `Rules/Microsoft_Designer.yaml` 专用规则，并完善了 `Yaml/rules_smart.yaml` Smart 内核专用配置。
+增加了 `Yaml/rules_full.yaml`、`Yaml/rules_smart.yaml` 和 `Rules/Microsoft_Designer.yaml`，更新了 Microsoft Designer 分流规则。
