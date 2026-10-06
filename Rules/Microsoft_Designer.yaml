@@ -16,3 +16,13 @@ payload:
 
   # Microsoft 365 内嵌的 Designer 页面
   - "+.designer.svc.cloud.microsoft"
+
+  # Microsoft Designer 认证资源（精确域名，避免扩大 Microsoft 登录流量范围）
+  - "aadcdn.msftauth.net"
+
+  # Microsoft Designer 使用的 Microsoft OneCDN 精确资源域名
+  - "res.public.onecdn.static.microsoft"
+  - "createcatalog.public.onecdn.static.microsoft"
+
+  # Microsoft Designer / Office 配置服务（精确域名）
+  - "ecs.office.com"
