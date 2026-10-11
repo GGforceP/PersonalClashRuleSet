@@ -1,0 +1,13 @@
+payload:
+  # AdGuard VPN 官方主站及其子域
+  - "+.adguard-vpn.com"
+
+  # AdGuard VPN 备用 API / PAC 服务
+  - "+.adguard-vpn.online"
+
+  # AdGuard VPN 兼容域名
+  - "+.adguardvpn.com"
+
+  # AdGuard VPN 官方镜像站
+  - "+.adguard-vpn.cc"
+  - "+.adguardvpn-help.info"
