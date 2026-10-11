@@ -15,6 +15,8 @@ PersonalClashRuleSet/
     ├── AI-Spc.yaml
     ├── AdGuard-!cn.yaml
     ├── Edge_Copilot.yaml
+    ├── Linux-Project@!cn.yaml
+    ├── Linux-Project@cn.yaml
     ├── Microsoft_Designer.yaml
     ├── Microsoft_Edge_NewTab.yaml
     └── Yandex.yaml
@@ -73,6 +75,7 @@ Sub-Store 项目：[sub-store-org/Sub-Store](https://github.com/sub-store-org/Su
 
 - `Rules/` 用于保存个人单独整理的规则。
 - `Rules/AI-Spc.yaml` 专门长期维护未被现有 `GEOSITE` / `rule-providers` 稳定收录的小众 AI 网站；新增域名前同样执行重复与包含关系检查。
+- `Rules/Linux-Project@cn.yaml` / `Linux-Project@!cn.yaml` 长期维护 Linux 发行版及其官网、仓库、下载/CDN 域名；共享 GitHub/GitLab/SourceForge 等托管域名不做整域接管，避免误伤非 Linux 流量。
 - 新增规则前需要先检查是否已被现有 `rule-providers`、`GEOSITE`、`GEOIP` 或其他已引用规则覆盖，避免无意义重复。
 - 如发现重复或包含关系，先说明重复来源与范围，再决定是否仍保留独立规则。
 - 自行整理、仅参考其他项目部分信息形成的 `Rules/` 规则，默认不在 README 中增加致谢；仅在完整引用外部规则库或明确要求时标注来源。
@@ -100,6 +103,9 @@ Sub-Store 项目：[sub-store-org/Sub-Store](https://github.com/sub-store-org/Su
 - [Sub-Store](https://github.com/sub-store-org/Sub-Store)
 
 ## 📝 更新日志
+
+2026-10-12：  
+新增 `Rules/Linux-Project@cn.yaml`、`Rules/Linux-Project@!cn.yaml` 与 `Linux代理` 策略组，将 Linux 发行版官网、仓库及下载/CDN 按大陆直连可用性拆分分流，并同步三份 YAML 配置。
 
 2026-10-11：  
 新增 `Rules/AdGuard-!cn.yaml`、`Rules/Yandex.yaml`、`Rules/AI-Spc.yaml` 和 `Yandex` 策略组；`AI-Spc` 收录 `hotaifree.com`、`tujie.ai`、`codexradar.com`、`codex-resets.com`，并将 AdGuard VPN 与 Yandex 专用域名提前分流，同步三份 YAML 配置。
