@@ -164,6 +164,21 @@ proxy-groups:
       - 手动选择
       - 自动选择
       - DIRECT
+  - name: Yandex
+    type: select
+    proxies:
+      - 美国节点
+      - 土耳其节点
+      - 俄罗斯节点
+      - 德国节点
+      - 法国节点
+      - 英国节点
+      - 新加坡节点
+      - 日本节点
+      - 韩国节点
+      - 台湾节点
+      - 澳呆利亚
+      - 手动选择
   - name: 国外流媒体
     type: select
     proxies:
@@ -439,6 +454,13 @@ rule-providers:
     url: "https://raw.githubusercontent.com/GGforceP/PersonalClashRuleSet/main/Rules/AdGuard-!cn.yaml"
     format: yaml
 
+  Yandex:
+    behavior: domain  # Yandex 核心服务与基础设施域名
+    interval: 10800  # 3小时
+    type: http
+    url: "https://raw.githubusercontent.com/GGforceP/PersonalClashRuleSet/main/Rules/Yandex.yaml"
+    format: yaml
+
   Microsoft_Designer:
     behavior: domain  # Microsoft Designer 专用域名规则
     interval: 10800  # 3小时
@@ -465,6 +487,7 @@ rules:
   - "GEOSITE,private,全球直连"
   - "GEOIP,private,全球直连,no-resolve"
   - "RULE-SET,AdGuard-!cn,区域选择"
+  - "RULE-SET,Yandex,Yandex"
   - "RULE-SET,Custom_Direct_Domain,全球直连"
   - "RULE-SET,Custom_Direct_IP,全球直连,no-resolve"
   - "RULE-SET,Custom_Direct_Port,全球直连"
