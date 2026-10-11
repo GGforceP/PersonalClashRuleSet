@@ -102,7 +102,7 @@ Sub-Store 项目：[sub-store-org/Sub-Store](https://github.com/sub-store-org/Su
 ## 📝 更新日志
 
 2026-10-11：  
-新增 `Rules/AdGuard-!cn.yaml`、`Rules/Yandex.yaml`、`Rules/AI-Spc.yaml` 和 `Yandex` 策略组；新增小众 AI 专用规则入口，并将 AdGuard VPN 与 Yandex 专用域名提前分流，同步三份 YAML 配置。
+新增 `Rules/AdGuard-!cn.yaml`、`Rules/Yandex.yaml`、`Rules/AI-Spc.yaml` 和 `Yandex` 策略组；`AI-Spc` 初始收录 `hotaifree.com`、`tujie.ai`，并将 AdGuard VPN 与 Yandex 专用域名提前分流，同步三份 YAML 配置。
 
 2026-10-6：  
 增加了 `Yaml/rules_full.yaml`、`Yaml/rules_smart.yaml`、`Rules/Microsoft_Designer.yaml` 以及 Microsoft Designer 认证、静态资源与 Office 配置服务域名规则，更新了 Microsoft Designer 分流规则和仓库内部规则引用分支。
