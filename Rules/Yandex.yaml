@@ -45,6 +45,7 @@ payload:
   - "+.xn--d1acpjx3f.xn--p1ai"
 
   # Yandex 短链、云、CDN、静态资源与缓存基础设施
+  - "+.clck.ru"
   - "+.ya.cc"
   - "+.ya.ru"
   - "+.yadi.sk"
