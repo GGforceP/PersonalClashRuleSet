@@ -461,6 +461,13 @@ rule-providers:
     url: "https://raw.githubusercontent.com/GGforceP/PersonalClashRuleSet/main/Rules/Yandex.yaml"
     format: yaml
 
+  AI-Spc:
+    behavior: domain  # 小众 / 未被现有规则收录的 AI 网站
+    interval: 10800  # 3小时
+    type: http
+    url: "https://raw.githubusercontent.com/GGforceP/PersonalClashRuleSet/main/Rules/AI-Spc.yaml"
+    format: yaml
+
   Microsoft_Designer:
     behavior: domain  # Microsoft Designer 专用域名规则
     interval: 10800  # 3小时
@@ -502,6 +509,7 @@ rules:
   - "GEOSITE,adguard,全球直连"
   - "GEOSITE,category-communication,即时通讯"
   - "GEOSITE,category-social-media-!cn,国外社交媒体"
+  - "RULE-SET,AI-Spc,常用AI"
   - "GEOSITE,openai,常用AI"
   - "RULE-SET,Edge_Copilot,常用AI"
   - "RULE-SET,Microsoft_Designer,常用AI"
