@@ -10,4 +10,6 @@ payload:
 
   # AdGuard VPN 官方镜像站
   - "+.adguard-vpn.cc"
+
+  # AdGuard VPN 兼容 / 历史帮助镜像
   - "+.adguardvpn-help.info"
