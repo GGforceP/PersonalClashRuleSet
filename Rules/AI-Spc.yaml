@@ -4,3 +4,7 @@ payload:
   # 小众 AI 服务
   - "+.hotaifree.com"
   - "+.tujie.ai"
+
+  # Codex 使用监控 / 重置状态服务
+  - "+.codexradar.com"
+  - "+.codex-resets.com"
