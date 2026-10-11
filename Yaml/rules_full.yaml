@@ -521,6 +521,13 @@ rule-providers:
     url: "https://cdn.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Steam_CDN_IP.mrs"
     format: mrs  # 二进制格式
 
+  AdGuard-!cn:
+    behavior: domain  # AdGuard VPN 专用域名规则
+    interval: 10800  # 3小时
+    type: http
+    url: "https://raw.githubusercontent.com/GGforceP/PersonalClashRuleSet/main/Rules/AdGuard-!cn.yaml"
+    format: yaml
+
   Microsoft_Designer:
     behavior: domain  # Microsoft Designer 专用域名规则
     interval: 10800  # 3小时
@@ -546,6 +553,7 @@ rule-providers:
 rules:
   - "GEOSITE,private,全球直连"
   - "GEOIP,private,全球直连,no-resolve"
+  - "RULE-SET,AdGuard-!cn,区域选择"
   - "RULE-SET,Custom_Direct_Domain,全球直连"
   - "RULE-SET,Custom_Direct_IP,全球直连,no-resolve"
   - "RULE-SET,Custom_Direct_Port,全球直连"
