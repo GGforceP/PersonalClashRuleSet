@@ -15,7 +15,8 @@ PersonalClashRuleSet/
     ├── AdGuard-!cn.yaml
     ├── Edge_Copilot.yaml
     ├── Microsoft_Designer.yaml
-    └── Microsoft_Edge_NewTab.yaml
+    ├── Microsoft_Edge_NewTab.yaml
+    └── Yandex.yaml
 ```
 
 | 路径 | 用途 | 链接 |
@@ -99,7 +100,7 @@ Sub-Store 项目：[sub-store-org/Sub-Store](https://github.com/sub-store-org/Su
 ## 📝 更新日志
 
 2026-10-11：  
-新增 `Rules/AdGuard-!cn.yaml`，将 AdGuard VPN 专用域名从 `GEOSITE,adguard` 直连规则中提前分流至代理，并同步三份 YAML 配置。
+新增 `Rules/AdGuard-!cn.yaml`、`Rules/Yandex.yaml` 和 `Yandex` 策略组，将 AdGuard VPN 与 Yandex 专用域名从通用规则/漏网之鱼中提前分流，并同步三份 YAML 配置。
 
 2026-10-6：  
 增加了 `Yaml/rules_full.yaml`、`Yaml/rules_smart.yaml`、`Rules/Microsoft_Designer.yaml` 以及 Microsoft Designer 认证、静态资源与 Office 配置服务域名规则，更新了 Microsoft Designer 分流规则和仓库内部规则引用分支。
