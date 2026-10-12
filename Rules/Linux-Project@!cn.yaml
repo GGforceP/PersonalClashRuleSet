@@ -1,0 +1,43 @@
+# Linux 发行版 / 项目：大陆受阻或长期跨境访问明显偏慢的专用域名。
+# 本规则必须排在 Linux-Project@cn 前面，用于覆盖父域的直连规则。
+# GitHub、GitLab、SourceForge 等共享托管域名不做整域接管，避免误伤非 Linux 流量。
+payload:
+  # Ubuntu / Canonical 海外软件源、镜像与大文件分发
+  - "archive.ubuntu.com"
+  - "security.ubuntu.com"
+  - "ports.ubuntu.com"
+  - "old-releases.ubuntu.com"
+  - "releases.ubuntu.com"
+  - "cdimage.ubuntu.com"
+  - "+.launchpadcontent.net"
+  - "+.launchpadlibrarian.com"
+  - "+.launchpadlibrarian.net"
+  - "+.launchpadlibrarian.org"
+  - "+.snapcraftcontent.com"
+
+  # Debian 官方海外仓库 / 镜像入口
+  - "deb.debian.org"
+  - "security.debian.org"
+  - "ftp.debian.org"
+  - "cdimage.debian.org"
+  - "snapshot.debian.org"
+
+  # Linux Mint 官方软件仓库
+  - "packages.linuxmint.com"
+
+  # Alpine 官方全球 CDN
+  - "dl-cdn.alpinelinux.org"
+
+  # NixOS 二进制缓存 / Channel
+  - "cache.nixos.org"
+  - "channels.nixos.org"
+
+  # Deepin 国际域名（上游规则明确区分为 !cn）
+  - "+.deepin.io"
+  - "+.deepin.org"
+
+  # Tails：主站在公开 GFW 规则中有明确命中
+  - "+.tails.net"
+
+  # Puppy Linux 官方 GitHub Pages 站点（仅精确项目域名，不接管 github.io）
+  - "puppylinux-woof-ce.github.io"
