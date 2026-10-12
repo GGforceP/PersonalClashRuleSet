@@ -71,19 +71,6 @@ Sub-Store 项目：[sub-store-org/Sub-Store](https://github.com/sub-store-org/Su
 
 - 部分客户端不支持远程覆写或外部配置引用，兼容性取决于客户端实现。
 
-## 🧩 自定义规则维护
-
-- `Rules/` 用于保存个人单独整理的规则。
-- `Rules/AI-Spc.yaml` 专门长期维护未被现有 `GEOSITE` / `rule-providers` 稳定收录的小众 AI 网站；新增域名前同样执行重复与包含关系检查。
-- `Rules/Linux-Project@cn.yaml` / `Linux-Project@!cn.yaml` 长期维护 Linux 发行版及其官网、仓库、下载/CDN 域名；共享 GitHub/GitLab/SourceForge 等托管域名不做整域接管，避免误伤非 Linux 流量。
-- 新增规则前需要先检查是否已被现有 `rule-providers`、`GEOSITE`、`GEOIP` 或其他已引用规则覆盖，避免无意义重复。
-- 如发现重复或包含关系，先说明重复来源与范围，再决定是否仍保留独立规则。
-- 自行整理、仅参考其他项目部分信息形成的 `Rules/` 规则，默认不在 README 中增加致谢；仅在完整引用外部规则库或明确要求时标注来源。
-- `Yaml/rules.yaml` 是默认的**基础分流源（Source of Truth）**。除非明确要求重新编写，所有其他规则 YAML 都以它为基础派生。
-- 当 `Yaml/rules.yaml` 的策略组、规则提供者或 `rules` 发生基础修改时，应立即同步到 `Yaml/rules_full.yaml`、`Yaml/rules_smart.yaml` 及后续新增的其他派生规则 YAML；各文件只保留自身用途所需的专属差异。
-- 仓库内部 `Rules/` 引用以及 README 中本仓库 Raw 链接必须与当前分支一致：`dev` 使用 `dev`，同步到 `main` 时相关 URL 必须一并切换到 `main`；外部仓库 URL 在可正常访问时保持不变。
-- `Yaml/rules_smart.yaml` 仅维护 Smart 内核专属能力，例如 `type: smart`、LightGBM 等，不单独改变基础分流意图。
-
 ## 🌐 GEO 数据源
 
 本仓库主要面向 OpenClash 使用，当前规则依赖的数据库来源如下：
