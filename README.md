@@ -19,6 +19,7 @@ PersonalClashRuleSet/
     ├── Linux-Project@cn.yaml
     ├── Microsoft_Designer.yaml
     ├── Microsoft_Edge_NewTab.yaml
+    ├── Proxy_Domain.yaml
     └── Yandex.yaml
 ```
 
@@ -90,6 +91,9 @@ Sub-Store 项目：[sub-store-org/Sub-Store](https://github.com/sub-store-org/Su
 - [Sub-Store](https://github.com/sub-store-org/Sub-Store)
 
 ## 📝 更新日志
+
+2026-10-17：  
+新增 `Rules/Proxy_Domain.yaml`，收录 `hongxingdl.com`、`xn--9kqz23b19z.com`，优先于 `Custom_Direct_Domain` 分流至 `区域选择`，同步三份 YAML 配置。
 
 2026-10-12：  
 新增 `Rules/Linux-Project@cn.yaml`、`Rules/Linux-Project@!cn.yaml` 与 `Linux代理` 策略组，将 Linux 发行版官网、仓库及下载/CDN 按大陆直连可用性拆分分流，并同步三份 YAML 配置。
