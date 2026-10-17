@@ -450,6 +450,13 @@ rule-providers:
     url: "https://cdn.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Proxy_IP.mrs"
     format: mrs  # 二进制格式
 
+  Proxy_Domain:
+    behavior: domain  # 自定义指定走代理的域名
+    interval: 10800  # 3小时
+    type: http
+    url: "https://raw.githubusercontent.com/GGforceP/PersonalClashRuleSet/dev/Rules/Proxy_Domain.yaml"
+    format: yaml
+
   Steam_CDN_Domain:
     behavior: domain  # Steam CDN下载服务器（直连获得更快速度）
     interval: 10800  # 3小时
@@ -528,6 +535,7 @@ rules:
   - "RULE-SET,Yandex,Yandex"
   - "RULE-SET,Linux-Project@!cn,Linux代理"
   - "RULE-SET,Linux-Project@cn,全球直连"
+  - "RULE-SET,Proxy_Domain,区域选择"
   - "RULE-SET,Custom_Direct_Domain,全球直连"
   - "RULE-SET,Custom_Direct_IP,全球直连,no-resolve"
   - "RULE-SET,Custom_Direct_Port,全球直连"
