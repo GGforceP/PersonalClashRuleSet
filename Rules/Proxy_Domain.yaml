@@ -1,0 +1,4 @@
+payload:
+  # 单独指定走代理的域名（含主域名及子域名）
+  - "+.hongxingdl.com"
+  - "+.xn--9kqz23b19z.com"
