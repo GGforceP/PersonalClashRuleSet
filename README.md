@@ -92,6 +92,9 @@ Sub-Store 项目：[sub-store-org/Sub-Store](https://github.com/sub-store-org/Su
 
 ## 📝 更新日志
 
+2026-10-19：  
+`Rules/Proxy_Domain.yaml` 增加 SheerID 核心验证、托管验证、优惠入口及管理门户的精确域名代理规则。
+
 2026-10-17：  
 新增 `Rules/Proxy_Domain.yaml`，收录 `hongxingdl.com`、`xn--9kqz23b19z.com`，优先于 `Custom_Direct_Domain` 分流至 `区域选择`，同步三份 YAML 配置。
 
