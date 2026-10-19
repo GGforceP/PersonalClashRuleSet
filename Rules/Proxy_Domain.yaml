@@ -2,3 +2,9 @@ payload:
   # 单独指定走代理的域名（含主域名及子域名）
   - "+.hongxingdl.com"
   - "+.xn--9kqz23b19z.com"
+
+  # SheerID 身份和优惠资格验证
+  - "services.sheerid.com"  # 验证表单和 API
+  - "verify.sheerid.com"    # 旧版/托管验证入口
+  - "offers.sheerid.com"    # 优惠活动入口
+  - "my.sheerid.com"        # SheerID 管理门户
