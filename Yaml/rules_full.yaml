@@ -173,11 +173,10 @@ proxy-groups:
   - name: 常用AI
     type: select
     proxies:
-      - 区域选择
       - 美国节点
-      - 香港节点
       - 新加坡节点
       - 台湾节点
+      - 香港节点
       - 日本节点
       - 韩国节点
       - 俄罗斯节点
@@ -189,6 +188,7 @@ proxy-groups:
       - 手动选择
       - 自动选择
       - DIRECT
+      - 区域选择
   - name: 测速工具
     type: select
     proxies:
@@ -410,6 +410,7 @@ proxy-groups:
   - name: 漏网之鱼
     type: select
     proxies:
+      - DIRECT
       - 区域选择
       - 香港节点
       - 美国节点
@@ -425,7 +426,6 @@ proxy-groups:
       - 澳呆利亚
       - 手动选择
       - 自动选择
-      - DIRECT
   - name: 香港节点
     include-all: true
     filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong
