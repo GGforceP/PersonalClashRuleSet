@@ -92,6 +92,9 @@ Sub-Store 项目：[sub-store-org/Sub-Store](https://github.com/sub-store-org/Su
 
 ## 📝 更新日志
 
+2026-11-13：  
+扩展 `Rules/AI-Spc.yaml`：新增 35 条海外 AI 专属域名，并补充 Gemini、Grok、Copilot Studio、Azure OpenAI / Foundry、Google Vertex AI 等 16 条专用域名；同步三份 YAML，将全部 6 条 `常用AI` 分流规则提前到 `GEOIP,private` 规则之后。
+
 2026-11-07：  
 调整 `常用AI` 节点顺序为美国、新加坡、台湾、香港优先，`区域选择` 移至末位；`漏网之鱼` 将 `DIRECT` 移至首位，同步三份 YAML 配置。
 
