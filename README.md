@@ -92,6 +92,9 @@ Sub-Store 项目：[sub-store-org/Sub-Store](https://github.com/sub-store-org/Su
 
 ## 📝 更新日志
 
+2026-11-13：  
+扩展 `Rules/AI-Spc.yaml`：新增 35 条尚未纳入既有 AI 分流的海外 AI 专属域名，涵盖 OpenAI / Grok 独立资源、推理 API、模型输出 CDN，以及图像、视频、音频、编程和办公 AI 服务；未改变规则顺序。
+
 2026-11-07：  
 调整 `常用AI` 节点顺序为美国、新加坡、台湾、香港优先，`区域选择` 移至末位；`漏网之鱼` 将 `DIRECT` 移至首位，同步三份 YAML 配置。
 
