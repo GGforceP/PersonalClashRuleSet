@@ -93,6 +93,8 @@ Sub-Store 项目：[sub-store-org/Sub-Store](https://github.com/sub-store-org/Su
 ## 📝 更新日志
 
 2026-11-13：  
+`Rules/Proxy_Domain.yaml` 新增 `+.sufe.us`，将网站及其子域名匹配至 `区域选择`，避免落入 `MATCH` 保底规则。
+
 扩展 `Rules/AI-Spc.yaml`：新增 35 条海外 AI 专属域名，并补充 Gemini、Grok、Copilot Studio、Azure OpenAI / Foundry、Google Vertex AI 等 16 条专用域名；同步三份 YAML，将全部 6 条 `常用AI` 分流规则提前到 `GEOIP,private` 规则之后。
 
 2026-11-07：  
