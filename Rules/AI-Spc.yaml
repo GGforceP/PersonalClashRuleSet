@@ -1,6 +1,7 @@
-# 长期维护：补充现有 GEOSITE / rule-providers 未稳定覆盖的 AI 专用域名。
-# 核心 OpenAI、Claude、Grok、Gemini、Hugging Face 等已被 GEO 收录的域名不重复添加。
-# 对共享 CDN、身份验证和第三方云平台仅收录可明确归属于 AI 服务的主机名。
+# AI 专属域名补充与路由优先级覆盖。
+# 已命中「常用AI」的域名不重复收录；已被 GEOSITE / 外部规则收录、但会先命中其他策略组的 AI 域名仍需收录。
+# 当前 AI-Spc 位于外部 Custom_Direct / Custom_Proxy 规则之后；优先级需在后续单独调整，不能仅凭添加域名解决截获。
+# 对共享 CDN、认证平台、Microsoft 365 和通用云服务只收录明确归属于 AI 的主机名。
 payload:
   # 小众 AI 服务
   - "+.hotaifree.com"
@@ -58,3 +59,29 @@ payload:
   # AI 文档及营销创作
   - "+.gamma.app"
   - "+.copy.ai"
+
+  # Gemini 专用静态资源：被 A 大 +.gstatic.com 提前匹配到 区域选择
+  - "gemini.gstatic.com"
+
+  # Grok / xAI：grok.x.com 被社交媒体 X/Twitter 通用规则提前匹配
+  - "grok.x.com"
+
+  # Microsoft Copilot / Copilot Studio：未被现有常用AI规则稳定覆盖的专用入口与服务
+  - "sydney.bing.com"
+  - "copilotstudio.microsoft.com"
+  - "copilotstudio.preview.microsoft.com"
+  - "api.powerva.microsoft.com"
+  - "augloop.svc.cloud.microsoft"
+  - "augloop.office.com"
+  - "copilot.cloud.microsoft.com"
+
+  # Azure OpenAI / Microsoft Foundry：专用模型服务与推理端点
+  - "ai.azure.com"
+  - "+.openai.azure.com"
+  - "+.services.ai.azure.com"
+  - "+.inference.ai.azure.com"
+
+  # Google Vertex AI / Gemini Enterprise API：非 Google DeepMind 分类的专用端点
+  - "aiplatform.googleapis.com"
+  - "aiplatform.mtls.googleapis.com"
+  - "content-aiplatform.googleapis.com"
