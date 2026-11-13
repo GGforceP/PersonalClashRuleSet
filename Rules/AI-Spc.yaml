@@ -1,5 +1,6 @@
-# 长期维护：仅收录未被现有 GEOSITE / rule-providers 稳定覆盖的小众 AI 网站。
-# 新增域名前先检查与现有规则的重复或包含关系，避免无意义重复。
+# 长期维护：补充现有 GEOSITE / rule-providers 未稳定覆盖的 AI 专用域名。
+# 核心 OpenAI、Claude、Grok、Gemini、Hugging Face 等已被 GEO 收录的域名不重复添加。
+# 对共享 CDN、身份验证和第三方云平台仅收录可明确归属于 AI 服务的主机名。
 payload:
   # 小众 AI 服务
   - "+.hotaifree.com"
@@ -8,3 +9,52 @@ payload:
   # Codex 使用监控 / 重置状态服务
   - "+.codexradar.com"
   - "+.codex-resets.com"
+
+  # OpenAI 官方独立 CDN（核心 openai.com / chatgpt.com 等已由 GEOSITE 覆盖）
+  - "cdn.openaimerge.com"
+
+  # Grok / xAI 独立用户资源（x.ai / grok.com 已由 GEOSITE 覆盖）
+  - "+.grokusercontent.com"
+
+  # 海外 AI 模型接口、推理及文件输出
+  - "+.replicate.com"
+  - "+.replicate.delivery"
+  - "+.fireworks.ai"
+  - "+.together.ai"
+  - "+.together.xyz"
+  - "+.fal.ai"
+  - "+.fal.run"
+  - "+.fal.media"
+  - "+.deepinfra.com"
+  - "+.stability.ai"
+
+  # AI 图像、视频生成及模型社区
+  - "+.runwayml.com"
+  - "dev.runway.com"
+  - "+.leonardo.ai"
+  - "+.ideogram.ai"
+  - "+.recraft.ai"
+  - "+.krea.ai"
+  - "+.pika.art"
+  - "+.lumalabs.ai"
+  - "+.hedra.com"
+  - "+.civitai.com"
+  - "+.pollinations.ai"
+
+  # AI 音频及数字人
+  - "+.suno.com"
+  - "+.udio.com"
+  - "+.heygen.com"
+  - "+.synthesia.io"
+
+  # AI 编程、搜索及应用生成
+  - "+.phind.com"
+  - "+.blackbox.ai"
+  - "+.lovable.dev"
+  - "+.bolt.new"
+  - "+.v0.dev"
+  - "+.you.com"
+
+  # AI 文档及营销创作
+  - "+.gamma.app"
+  - "+.copy.ai"
