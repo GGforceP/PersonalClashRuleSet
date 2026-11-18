@@ -92,6 +92,9 @@ Sub-Store 项目：[sub-store-org/Sub-Store](https://github.com/sub-store-org/Su
 
 ## 📝 更新日志
 
+2026-11-18：  
+`Rules/Proxy_Domain.yaml` 新增 `+.uhdpaper.com`，覆盖网站主域名及 `img`、`www` 等子域名，指定走 `区域选择`。
+
 2026-11-17：  
 `Rules/Proxy_Domain.yaml` 新增 `+.stand.sh`，将 `stand.sh` 及其子域名指定走 `区域选择`，避免匹配 `MATCH` 保底规则。
 
