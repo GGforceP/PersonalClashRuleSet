@@ -4,6 +4,7 @@ payload:
   - "+.xn--9kqz23b19z.com"
   - "+.sufe.us"  # sufe.us 及其子域名
   - "+.stand.sh"  # stand.sh 及其子域名
+  - "+.uhdpaper.com"  # uhdpaper.com 及其子域名
 
   # SheerID 身份和优惠资格验证
   - "services.sheerid.com"  # 验证表单和 API
